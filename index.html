@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Kamus Jepang Welding</title>
+<title>Manabu Mantappu | Kamus Jepang Welding</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -34,21 +34,22 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 header h1 {
   margin: 0;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
 }
 
 header p {
-  margin: 6px 0 0;
+  margin-top: 6px;
   color: var(--muted);
+  font-size: 15px;
 }
 
-input {
+#search {
   width: 100%;
   padding: 14px 18px;
   border-radius: 999px;
@@ -58,7 +59,7 @@ input {
   margin-bottom: 16px;
 }
 
-input:focus {
+#search:focus {
   border-color: var(--secondary);
 }
 
@@ -94,24 +95,26 @@ button:hover {
   box-shadow: 0 10px 25px rgba(15,23,42,0.06);
 }
 
-.card strong {
-  font-size: 20px;
+.card .jp {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .card .romaji {
   color: var(--muted);
   font-size: 14px;
+  margin-top: 2px;
 }
 
 .card .arti {
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 15px;
 }
 
-.card .badge {
+.badge {
   display: inline-block;
-  margin-top: 8px;
-  padding: 4px 10px;
+  margin-top: 10px;
+  padding: 4px 12px;
   border-radius: 999px;
   font-size: 12px;
   background: #e0e7ff;
@@ -125,37 +128,91 @@ footer {
   color: var(--muted);
 }
 </style>
-
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
 
-    <header>
-      <h1>Kamus Jepang Welding</h1>
-      <p>Manabu Mantappu</p>
-    </header>
+  <header>
+    <h1>Manabu Mantappu</h1>
+    <p>Kamus Jepang Welding & Manufaktur</p>
+  </header>
 
-    <input
-      type="text"
-      id="search"
-      placeholder="🔍 Cari Jepang / Romaji / Indonesia"
-    >
+  <input
+    type="text"
+    id="search"
+    placeholder="🔍 Cari Jepang / Romaji / Indonesia"
+  >
 
-    <div class="buttons">
-      <button onclick="filterData('all')">Semua</button>
-      <button onclick="filterData('welding')">Welding</button>
-      <button onclick="filterData('qc')">QC</button>
-      <button onclick="filterData('safety')">Safety</button>
-    </div>
-
-    <div id="list"></div>
-
-    <footer>
-      © Manabu Mantappu
-    </footer>
-
+  <div class="buttons">
+    <button onclick="filterData('all')">Semua</button>
+    <button onclick="filterData('welding')">Welding</button>
+    <button onclick="filterData('qc')">QC</button>
+    <button onclick="filterData('safety')">Safety</button>
   </div>
-</body>
 
+  <div id="list"></div>
+
+  <footer>
+    © Manabu Mantappu
+  </footer>
+
+</div>
+
+<script>
+let kamus = [];
+
+fetch('data/kamus.json')
+  .then(res => res.json())
+  .then(data => {
+    kamus = data;
+    tampilkan(data);
+  });
+
+function tampilkan(data) {
+  const list = document.getElementById('list');
+  list.innerHTML = '';
+
+  if (data.length === 0) {
+    list.innerHTML = '<p style="text-align:center;color:#666;">Data tidak ditemukan</p>';
+    return;
+  }
+
+  data.forEach(item => {
+    list.innerHTML += `
+      <div class="card">
+        <div class="jp">${item.jp}</div>
+        <div class="romaji">${item.romaji}</div>
+        <div class="arti">${item.idn}</div>
+        <div class="badge">${item.kategori}</div>
+      </div>
+    `;
+  });
+}
+
+function filterData(kategori) {
+  const keyword = document.getElementById('search').value.toLowerCase();
+  let hasil = kamus;
+
+  if (kategori !== 'all') {
+    hasil = hasil.filter(item => item.kategori === kategori);
+  }
+
+  if (keyword) {
+    hasil = hasil.filter(item =>
+      item.jp.includes(keyword) ||
+      item.romaji.toLowerCase().includes(keyword) ||
+      item.idn.toLowerCase().includes(keyword)
+    );
+  }
+
+  tampilkan(hasil);
+}
+
+document.getElementById('search').addEventListener('input', () => {
+  filterData('all');
+});
+</script>
+
+</body>
 </html>
