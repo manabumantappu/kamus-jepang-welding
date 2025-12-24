@@ -7,10 +7,31 @@
     "level": "dasar"
   },
   {
+    "jp": "半自動溶接",
+    "romaji": "hanjidou yousetsu",
+    "idn": "las semi otomatis",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
     "jp": "水没検査",
     "romaji": "suibotsu kensa",
     "idn": "tes rendam",
     "kategori": "qc",
     "level": "industri"
+  },
+  {
+    "jp": "外観検査",
+    "romaji": "gaikan kensa",
+    "idn": "inspeksi visual",
+    "kategori": "qc",
+    "level": "dasar"
+  },
+  {
+    "jp": "保護具",
+    "romaji": "hogogu",
+    "idn": "alat pelindung diri",
+    "kategori": "safety",
+    "level": "dasar"
   }
 ]
