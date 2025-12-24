@@ -1,5 +1,5 @@
 [
-  {
+   {
     "jp": "溶接",
     "romaji": "yousetsu",
     "idn": "pengelasan",
@@ -9,6 +9,126 @@
     "jp": "半自動溶接",
     "romaji": "hanjidou yousetsu",
     "idn": "las semi otomatis",
+        "level": "industri"
+  },
+  {
+    "jp": "アーク溶接",
+    "romaji": "aaku yousetsu",
+    "idn": "las listrik",
+     "level": "dasar"
+  },
+  {
+    "jp": "手溶接",
+    "romaji": "te yousetsu",
+    "idn": "las manual",
+    "level": "dasar"
+  },
+  {
+    "jp": "半自動溶接",
+    "romaji": "hanjidou yousetsu",
+    "idn": "las semi otomatis",
     "level": "industri"
-  }
+  },
+  {
+    "jp": "ロボット溶接",
+    "romaji": "robotto yousetsu",
+    "idn": "las robot",
+    "level": "industri"
+  },
+  {
+    "jp": "溶接機",
+    "romaji": "yousetsuki",
+    "idn": "mesin las",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶接棒",
+    "romaji": "yousetsubou",
+    "idn": "elektroda las",
+    "level": "dasar"
+  },
+  {
+    "jp": "母材",
+    "romaji": "bozai",
+    "idn": "material induk",
+    "level": "industri"
+  },
+  {
+    "jp": "溶加材",
+    "romaji": "youkazai",
+    "idn": "material tambah",
+    "level": "industri"
+  },
+  {
+    "jp": "電流",
+    "romaji": "denryuu",
+    "idn": "arus listrik",
+    "level": "dasar"
+  },
+  {
+    "jp": "電圧",
+    "romaji": "denatsu",
+    "idn": "tegangan",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶接姿勢",
+    "romaji": "yousetsu shisei",
+    "idn": "posisi pengelasan",
+    "level": "industri"
+  },
+  {
+    "jp": "下向き",
+    "romaji": "shitamuki",
+    "idn": "posisi bawah",
+    "level": "industri"
+  },
+  {
+    "jp": "立向き",
+    "romaji": "tatemuki",
+    "idn": "posisi vertikal",
+    "level": "industri"
+  },
+  {
+    "jp": "上向き",
+    "romaji": "uwamuki",
+    "idn": "posisi atas",
+    "level": "industri"
+  },
+  {
+    "jp": "ビード",
+    "romaji": "biido",
+    "idn": "bead las",
+    "level": "dasar"
+  },
+  {
+    "jp": "スパッタ",
+    "romaji": "supatta",
+    "idn": "percikan las",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶け込み",
+    "romaji": "tokekomi",
+    "idn": "penetrasi",
+        "level": "industri"
+  },
+  {
+    "jp": "溶接不良",
+    "romaji": "yousetsu furyou",
+    "idn": "cacat las",
+     "level": "industri"
+  },
+  {
+    "jp": "溶接条件",
+    "romaji": "yousetsu jouken",
+    "idn": "parameter las",
+     "level": "industri"
+  },
+  {
+    "jp": "仮付け",
+    "romaji": "karizuke",
+    "idn": "tack weld",
+        "level": "industri"
+  },
 ]
