@@ -1,0 +1,14 @@
+[
+  {
+    "jp": "溶接",
+    "romaji": "yousetsu",
+    "idn": "pengelasan",
+    "level": "dasar"
+  },
+  {
+    "jp": "半自動溶接",
+    "romaji": "hanjidou yousetsu",
+    "idn": "las semi otomatis",
+    "level": "industri"
+  }
+]
