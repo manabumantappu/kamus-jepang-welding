@@ -1,8 +1,80 @@
 [
+ {
+    "jp": "水没検査",
+    "romaji": "suibotsu kensa",
+    "idn": "tes rendam",
+    "level": "industri"
+  },
   {
+    "jp": "外観検査",
+    "romaji": "gaikan kensa",
+    "idn": "inspeksi visual",
+    "level": "dasar"
+  },
+{
     "jp": "検査",
     "romaji": "kensa",
     "idn": "inspeksi",
+    "level": "dasar"
+  },
+  {
+    "jp": "外観検査",
+    "romaji": "gaikan kensa",
+    "idn": "inspeksi visual",
+    "level": "dasar"
+  },
+  {
+    "jp": "寸法検査",
+    "romaji": "sunpou kensa",
+    "idn": "inspeksi dimensi",
+    "level": "industri"
+  },
+  {
+    "jp": "品質確認",
+    "romaji": "hinshitsu kakunin",
+    "idn": "pengecekan kualitas",
+    "level": "dasar"
+  },
+  {
+    "jp": "判定",
+    "romaji": "hantei",
+    "idn": "penilaian",
+    "level": "dasar"
+  },
+  {
+    "jp": "合格",
+    "romaji": "goukaku",
+    "idn": "lulus",
+    "level": "dasar"
+  },
+  {
+    "jp": "不合格",
+    "romaji": "fugoukaku",
+    "idn": "tidak lulus",
+    "level": "dasar"
+  },
+  {
+    "jp": "手直し",
+    "romaji": "tenaoshi",
+    "idn": "perbaikan ulang",
+    "level": "industri"
+  },
+  {
+    "jp": "再検査",
+    "romaji": "sai kensa",
+    "idn": "inspeksi ulang",
+    "level": "dasar"
+  },
+  {
+    "jp": "不良",
+    "romaji": "furyou",
+    "idn": "cacat",
+    "level": "dasar"
+  },
+  {
+    "jp": "漏れ",
+    "romaji": "more",
+    "idn": "kebocoran",
     "level": "dasar"
   },
   {
@@ -10,5 +82,53 @@
     "romaji": "suibotsu kensa",
     "idn": "tes rendam",
     "level": "industri"
-  }
+  },
+  {
+    "jp": "石鹸テスト",
+    "romaji": "sekken tesuto",
+    "idn": "tes sabun",
+    "level": "industri"
+  },
+  {
+    "jp": "圧力検査",
+    "romaji": "atsuryoku kensa",
+    "idn": "tes tekanan",
+    "level": "industri"
+  },
+  {
+    "jp": "記録",
+    "romaji": "kiroku",
+    "idn": "pencatatan",
+    "level": "dasar"
+  },
+  {
+    "jp": "検査結果",
+    "romaji": "kensa kekka",
+    "idn": "hasil inspeksi",
+    "level": "dasar"
+  },
+  {
+    "jp": "基準",
+    "romaji": "kijun",
+    "idn": "standar",
+    "level": "dasar"
+  },
+  {
+    "jp": "規格",
+    "romaji": "kikaku",
+    "idn": "spesifikasi",
+    "level": "industri"
+  },
+  {
+    "jp": "測定",
+    "romaji": "sokutei",
+    "idn": "pengukuran",
+    "level": "dasar"
+  },
+  {
+    "jp": "検査表",
+    "romaji": "kensahyou",
+    "idn": "lembar inspeksi",
+    "level": "industri"
+  },
 ]
