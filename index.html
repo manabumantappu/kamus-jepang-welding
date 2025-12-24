@@ -43,6 +43,18 @@ button {
 <body>
 
 <h1>📘 Kamus Jepang Welding</h1>
+<input
+  type="text"
+  id="search"
+  placeholder="Cari Jepang / Romaji / Indonesia"
+  style="
+    width:100%;
+    padding:10px;
+    margin:15px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+  "
+>
 
 <div class="buttons">
   <button onclick="filterData('all')">Semua</button>
@@ -78,13 +90,30 @@ function tampilkan(data) {
 }
 
 function filterData(kategori) {
-  if (kategori === 'all') {
-    tampilkan(kamus);
-  } else {
-    tampilkan(kamus.filter(item => item.kategori === kategori));
+  const keyword = document.getElementById('search').value.toLowerCase();
+
+  let hasil = kamus;
+
+  if (kategori !== 'all') {
+    hasil = hasil.filter(item => item.kategori === kategori);
   }
+
+  if (keyword) {
+    hasil = hasil.filter(item =>
+      item.jp.includes(keyword) ||
+      item.romaji.toLowerCase().includes(keyword) ||
+      item.idn.toLowerCase().includes(keyword)
+    );
+  }
+
+  tampilkan(hasil);
 }
+
+document.getElementById('search').addEventListener('input', () => {
+  filterData('all');
+});
 </script>
+
 
 </body>
 </html>
