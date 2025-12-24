@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Kamus Jepang Welding</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #1976d2;
+  color: white;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📘 Kamus Jepang Welding</h1>
+
+<div class="buttons">
+  <button onclick="filterData('all')">Semua</button>
+  <button onclick="filterData('welding')">Welding</button>
+  <button onclick="filterData('qc')">QC</button>
+  <button onclick="filterData('safety')">Safety</button>
+</div>
+
+<div id="list"></div>
+
+<script>
+let kamus = [];
+
+fetch('data/kamus.json')
+  .then(response => response.json())
+  .then(data => {
+    kamus = data;
+    tampilkan(data);
+  });
+
+function tampilkan(data) {
+  const list = document.getElementById('list');
+  list.innerHTML = '';
+  data.forEach(item => {
+    list.innerHTML += `
+      <div class="card">
+        <strong>${item.jp}</strong> (${item.romaji})<br>
+        <span>${item.idn}</span><br>
+        <small>Kategori: ${item.kategori}</small>
+      </div>
+    `;
+  });
+}
+
+function filterData(kategori) {
+  if (kategori === 'all') {
+    tampilkan(kamus);
+  } else {
+    tampilkan(kamus.filter(item => item.kategori === kategori));
+  }
+}
+</script>
+
+</body>
+</html>
