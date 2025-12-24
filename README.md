@@ -22,3 +22,31 @@ Proyek ini dibuat untuk membantu:
 ---
 
 ## 📂 Struktur Repository
+
+
+---
+
+## 🌐 Demo Online
+Akses kamus di:
+👉 https://USERNAME.github.io/kamus-jepang-welding/
+
+*(ganti USERNAME dengan username GitHub kamu)*
+
+---
+
+## 🚀 Rencana Pengembangan
+- [ ] Aplikasi Android (offline)
+- [ ] Penambahan kosakata Assembly & Machining
+- [ ] Contoh kalimat per istilah
+- [ ] Audio pelafalan
+- [ ] Mode belajar & kuis
+
+---
+
+## 📌 Catatan
+Proyek ini dikembangkan secara bertahap
+sebagai media belajar dan latihan pengembangan aplikasi.
+
+---
+
+© Manabu Mantappu
