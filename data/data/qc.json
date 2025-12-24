@@ -1,0 +1,14 @@
+[
+  {
+    "jp": "検査",
+    "romaji": "kensa",
+    "idn": "inspeksi",
+    "level": "dasar"
+  },
+  {
+    "jp": "水没検査",
+    "romaji": "suibotsu kensa",
+    "idn": "tes rendam",
+    "level": "industri"
+  }
+]
