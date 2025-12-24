@@ -313,5 +313,145 @@
     "idn": "lembar inspeksi",
     "kategori": "qc",
     "level": "industri"
+  },
+  {
+    "jp": "安全",
+    "romaji": "anzen",
+    "idn": "keselamatan",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "安全第一",
+    "romaji": "anzen daiichi",
+    "idn": "keselamatan nomor satu",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "保護具",
+    "romaji": "hogogu",
+    "idn": "alat pelindung diri",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "安全帽",
+    "romaji": "anzenbou",
+    "idn": "helm keselamatan",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "保護メガネ",
+    "romaji": "hogo megane",
+    "idn": "kacamata pelindung",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶接面",
+    "romaji": "yousetsumen",
+    "idn": "topeng las",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "手袋",
+    "romaji": "tebukuro",
+    "idn": "sarung tangan",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "保護服",
+    "romaji": "hogofuku",
+    "idn": "pakaian pelindung",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "安全靴",
+    "romaji": "anzen kutsu",
+    "idn": "sepatu keselamatan",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "火花",
+    "romaji": "hibana",
+    "idn": "percikan api",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "感電",
+    "romaji": "kanden",
+    "idn": "tersengat listrik",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "火傷",
+    "romaji": "yakedo",
+    "idn": "luka bakar",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "危険",
+    "romaji": "kiken",
+    "idn": "bahaya",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "注意",
+    "romaji": "chuui",
+    "idn": "perhatian",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "立入禁止",
+    "romaji": "tachiiri kinshi",
+    "idn": "dilarang masuk",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "消火器",
+    "romaji": "shoukaki",
+    "idn": "alat pemadam api",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "換気",
+    "romaji": "kanki",
+    "idn": "ventilasi",
+    "kategori": "safety",
+    "level": "industri"
+  },
+  {
+    "jp": "作業手順",
+    "romaji": "sagyou tejun",
+    "idn": "prosedur kerja",
+    "kategori": "safety",
+    "level": "dasar"
+  },
+  {
+    "jp": "指差呼称",
+    "romaji": "shisa koshou",
+    "idn": "tunjuk dan sebut",
+    "kategori": "safety",
+    "level": "industri"
+  },
+  {
+    "jp": "安全確認",
+    "romaji": "anzen kakunin",
+    "idn": "konfirmasi keselamatan",
+    "kategori": "safety",
+    "level": "dasar"
   }
 ]
