@@ -1,0 +1,16 @@
+[
+  {
+    "jp": "溶接",
+    "romaji": "yousetsu",
+    "idn": "pengelasan",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "水没検査",
+    "romaji": "suibotsu kensa",
+    "idn": "tes rendam",
+    "kategori": "qc",
+    "level": "industri"
+  }
+]
