@@ -33,5 +33,145 @@
     "idn": "alat pelindung diri",
     "kategori": "safety",
     "level": "dasar"
+  },
+  {
+    "jp": "アーク溶接",
+    "romaji": "aaku yousetsu",
+    "idn": "las listrik",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "手溶接",
+    "romaji": "te yousetsu",
+    "idn": "las manual",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "半自動溶接",
+    "romaji": "hanjidou yousetsu",
+    "idn": "las semi otomatis",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "ロボット溶接",
+    "romaji": "robotto yousetsu",
+    "idn": "las robot",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "溶接機",
+    "romaji": "yousetsuki",
+    "idn": "mesin las",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶接棒",
+    "romaji": "yousetsubou",
+    "idn": "elektroda las",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "母材",
+    "romaji": "bozai",
+    "idn": "material induk",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "溶加材",
+    "romaji": "youkazai",
+    "idn": "material tambah",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "電流",
+    "romaji": "denryuu",
+    "idn": "arus listrik",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "電圧",
+    "romaji": "denatsu",
+    "idn": "tegangan",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶接姿勢",
+    "romaji": "yousetsu shisei",
+    "idn": "posisi pengelasan",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "下向き",
+    "romaji": "shitamuki",
+    "idn": "posisi bawah",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "立向き",
+    "romaji": "tatemuki",
+    "idn": "posisi vertikal",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "上向き",
+    "romaji": "uwamuki",
+    "idn": "posisi atas",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "ビード",
+    "romaji": "biido",
+    "idn": "bead las",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "スパッタ",
+    "romaji": "supatta",
+    "idn": "percikan las",
+    "kategori": "welding",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶け込み",
+    "romaji": "tokekomi",
+    "idn": "penetrasi",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "溶接不良",
+    "romaji": "yousetsu furyou",
+    "idn": "cacat las",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "溶接条件",
+    "romaji": "yousetsu jouken",
+    "idn": "parameter las",
+    "kategori": "welding",
+    "level": "industri"
+  },
+  {
+    "jp": "仮付け",
+    "romaji": "karizuke",
+    "idn": "tack weld",
+    "kategori": "welding",
+    "level": "industri"
   }
 ]
