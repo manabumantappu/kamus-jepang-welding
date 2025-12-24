@@ -1,4 +1,11 @@
 [
+    {
+    "jp": "保護具",
+    "romaji": "hogogu",
+    "idn": "alat pelindung diri",
+    "level": "dasar"
+  },
+   
   {
     "jp": "安全",
     "romaji": "anzen",
@@ -6,9 +13,118 @@
     "level": "dasar"
   },
   {
+    "jp": "安全第一",
+    "romaji": "anzen daiichi",
+    "idn": "keselamatan nomor satu",
+    "level": "dasar"
+  },
+  {
     "jp": "保護具",
     "romaji": "hogogu",
     "idn": "alat pelindung diri",
     "level": "dasar"
+  },
+  {
+    "jp": "安全帽",
+    "romaji": "anzenbou",
+    "idn": "helm keselamatan",
+    "level": "dasar"
+  },
+  {
+    "jp": "保護メガネ",
+    "romaji": "hogo megane",
+    "idn": "kacamata pelindung",
+    "level": "dasar"
+  },
+  {
+    "jp": "溶接面",
+    "romaji": "yousetsumen",
+    "idn": "topeng las",
+    "level": "dasar"
+  },
+  {
+    "jp": "手袋",
+    "romaji": "tebukuro",
+    "idn": "sarung tangan",
+    "level": "dasar"
+  },
+  {
+    "jp": "保護服",
+    "romaji": "hogofuku",
+    "idn": "pakaian pelindung",
+    "level": "dasar"
+  },
+  {
+    "jp": "安全靴",
+    "romaji": "anzen kutsu",
+    "idn": "sepatu keselamatan",
+    "level": "dasar"
+  },
+  {
+    "jp": "火花",
+    "romaji": "hibana",
+    "idn": "percikan api",
+    "level": "dasar"
+  },
+  {
+    "jp": "感電",
+    "romaji": "kanden",
+    "idn": "tersengat listrik",
+    "level": "dasar"
+  },
+  {
+    "jp": "火傷",
+    "romaji": "yakedo",
+    "idn": "luka bakar",
+    "level": "dasar"
+  },
+  {
+    "jp": "危険",
+    "romaji": "kiken",
+    "idn": "bahaya",
+    "level": "dasar"
+  },
+  {
+    "jp": "注意",
+    "romaji": "chuui",
+    "idn": "perhatian",
+    "level": "dasar"
+  },
+  {
+    "jp": "立入禁止",
+    "romaji": "tachiiri kinshi",
+    "idn": "dilarang masuk",
+    "level": "dasar"
+  },
+  {
+    "jp": "消火器",
+    "romaji": "shoukaki",
+    "idn": "alat pemadam api",
+    "level": "dasar"
+  },
+  {
+    "jp": "換気",
+    "romaji": "kanki",
+    "idn": "ventilasi",
+    "level": "industri"
+  },
+  {
+    "jp": "作業手順",
+    "romaji": "sagyou tejun",
+    "idn": "prosedur kerja",
+     "level": "dasar"
+  },
+  {
+    "jp": "指差呼称",
+    "romaji": "shisa koshou",
+    "idn": "tunjuk dan sebut",
+    "level": "industri"
+  },
+  {
+    "jp": "安全確認",
+    "romaji": "anzen kakunin",
+    "idn": "konfirmasi keselamatan",
+    "level": "dasar"
   }
+
 ]
