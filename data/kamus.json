@@ -1,457 +1,3601 @@
 [
+ [
   {
     "jp": "溶接",
     "romaji": "yousetsu",
     "idn": "pengelasan",
-    "kategori": "welding",
-    "level": "dasar"
+    "": "",
+    "__1": ""
   },
   {
     "jp": "半自動溶接",
     "romaji": "hanjidou yousetsu",
     "idn": "las semi otomatis",
-    "kategori": "welding",
-    "level": "industri"
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "水没検査",
-    "romaji": "suibotsu kensa",
-    "idn": "tes rendam",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "外観検査",
-    "romaji": "gaikan kensa",
-    "idn": "inspeksi visual",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "保護具",
-    "romaji": "hogogu",
-    "idn": "alat pelindung diri",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "アーク溶接",
-    "romaji": "aaku yousetsu",
-    "idn": "las listrik",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "手溶接",
-    "romaji": "te yousetsu",
-    "idn": "las manual",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "半自動溶接",
-    "romaji": "hanjidou yousetsu",
-    "idn": "las semi otomatis",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "ロボット溶接",
-    "romaji": "robotto yousetsu",
-    "idn": "las robot",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "溶接機",
-    "romaji": "yousetsuki",
-    "idn": "mesin las",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "溶接棒",
-    "romaji": "yousetsubou",
-    "idn": "elektroda las",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "母材",
-    "romaji": "bozai",
-    "idn": "material induk",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "溶加材",
-    "romaji": "youkazai",
-    "idn": "material tambah",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "電流",
-    "romaji": "denryuu",
-    "idn": "arus listrik",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "電圧",
-    "romaji": "denatsu",
-    "idn": "tegangan",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "溶接姿勢",
-    "romaji": "yousetsu shisei",
-    "idn": "posisi pengelasan",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "下向き",
-    "romaji": "shitamuki",
-    "idn": "posisi bawah",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "立向き",
-    "romaji": "tatemuki",
-    "idn": "posisi vertikal",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "上向き",
-    "romaji": "uwamuki",
-    "idn": "posisi atas",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "ビード",
-    "romaji": "biido",
-    "idn": "bead las",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "スパッタ",
-    "romaji": "supatta",
-    "idn": "percikan las",
-    "kategori": "welding",
-    "level": "dasar"
-  },
-  {
-    "jp": "溶け込み",
-    "romaji": "tokekomi",
-    "idn": "penetrasi",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "溶接不良",
-    "romaji": "yousetsu furyou",
-    "idn": "cacat las",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "溶接条件",
-    "romaji": "yousetsu jouken",
-    "idn": "parameter las",
-    "kategori": "welding",
-    "level": "industri"
-  },
-  {
-    "jp": "仮付け",
-    "romaji": "karizuke",
-    "idn": "tack weld",
-    "kategori": "welding",
-    "level": "industri"
-  },
-   {
     "jp": "検査",
     "romaji": "kensa",
     "idn": "inspeksi",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "外観検査",
-    "romaji": "gaikan kensa",
-    "idn": "inspeksi visual",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "寸法検査",
-    "romaji": "sunpou kensa",
-    "idn": "inspeksi dimensi",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "品質確認",
-    "romaji": "hinshitsu kakunin",
-    "idn": "pengecekan kualitas",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "判定",
-    "romaji": "hantei",
-    "idn": "penilaian",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "合格",
-    "romaji": "goukaku",
-    "idn": "lulus",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "不合格",
-    "romaji": "fugoukaku",
-    "idn": "tidak lulus",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "手直し",
-    "romaji": "tenaoshi",
-    "idn": "perbaikan ulang",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "再検査",
-    "romaji": "sai kensa",
-    "idn": "inspeksi ulang",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "不良",
-    "romaji": "furyou",
-    "idn": "cacat",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "漏れ",
-    "romaji": "more",
-    "idn": "kebocoran",
-    "kategori": "qc",
-    "level": "dasar"
+    "": "",
+    "__1": ""
   },
   {
     "jp": "水没検査",
     "romaji": "suibotsu kensa",
     "idn": "tes rendam",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "石鹸テスト",
-    "romaji": "sekken tesuto",
-    "idn": "tes sabun",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "圧力検査",
-    "romaji": "atsuryoku kensa",
-    "idn": "tes tekanan",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "記録",
-    "romaji": "kiroku",
-    "idn": "pencatatan",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "検査結果",
-    "romaji": "kensa kekka",
-    "idn": "hasil inspeksi",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "基準",
-    "romaji": "kijun",
-    "idn": "standar",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "規格",
-    "romaji": "kikaku",
-    "idn": "spesifikasi",
-    "kategori": "qc",
-    "level": "industri"
-  },
-  {
-    "jp": "測定",
-    "romaji": "sokutei",
-    "idn": "pengukuran",
-    "kategori": "qc",
-    "level": "dasar"
-  },
-  {
-    "jp": "検査表",
-    "romaji": "kensahyou",
-    "idn": "lembar inspeksi",
-    "kategori": "qc",
-    "level": "industri"
+    "": "",
+    "__1": ""
   },
   {
     "jp": "安全",
     "romaji": "anzen",
     "idn": "keselamatan",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "安全第一",
-    "romaji": "anzen daiichi",
-    "idn": "keselamatan nomor satu",
-    "kategori": "safety",
-    "level": "dasar"
+    "": "",
+    "__1": ""
   },
   {
     "jp": "保護具",
     "romaji": "hogogu",
     "idn": "alat pelindung diri",
-    "kategori": "safety",
-    "level": "dasar"
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "安全帽",
-    "romaji": "anzenbou",
-    "idn": "helm keselamatan",
-    "kategori": "safety",
-    "level": "dasar"
+    "jp": "中圧式安全器",
+    "romaji": "chuuatsushiki anzenki",
+    "idn": "alat pengaman antara",
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "保護メガネ",
-    "romaji": "hogo megane",
-    "idn": "kacamata pelindung",
-    "kategori": "safety",
-    "level": "dasar"
+    "jp": "乾式安全器",
+    "romaji": "kanshiki anzenki",
+    "idn": "alat pengaman kering",
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "溶接面",
-    "romaji": "yousetsumen",
-    "idn": "topeng las",
-    "kategori": "safety",
-    "level": "dasar"
+    "jp": "混合ガス",
+    "romaji": "kongoogasu",
+    "idn": "alat pengukur tekanan rekanan rendah gas campuran",
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "手袋",
-    "romaji": "tebukuro",
-    "idn": "sarung tangan",
-    "kategori": "safety",
-    "level": "dasar"
+    "jp": "低圧圧力計 (ゲージ)",
+    "romaji": "teiatsu atsuryokukei (geeji)",
+    "idn": "alat pengukur tekanan rendah",
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "保護服",
-    "romaji": "hogofuku",
-    "idn": "pakaian pelindung",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "安全靴",
-    "romaji": "anzen kutsu",
-    "idn": "sepatu keselamatan",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "火花",
-    "romaji": "hibana",
-    "idn": "percikan api",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "感電",
-    "romaji": "kanden",
-    "idn": "tersengat listrik",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "火傷",
-    "romaji": "yakedo",
-    "idn": "luka bakar",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "危険",
-    "romaji": "kiken",
-    "idn": "bahaya",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "注意",
-    "romaji": "chuui",
-    "idn": "perhatian",
-    "kategori": "safety",
-    "level": "dasar"
-  },
-  {
-    "jp": "立入禁止",
-    "romaji": "tachiiri kinshi",
-    "idn": "dilarang masuk",
-    "kategori": "safety",
-    "level": "dasar"
+    "jp": "高圧圧力計 (ゲージ)",
+    "romaji": "kouatsu atsuryokukei (geeji)",
+    "idn": "alat pengukur tekanan tinggi",
+    "": "",
+    "__1": ""
   },
   {
     "jp": "消火器",
     "romaji": "shoukaki",
-    "idn": "alat pemadam api",
-    "kategori": "safety",
-    "level": "dasar"
+    "idn": "alat-alat pemadam kebakaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アルミニウム",
+    "romaji": "aruminiumu",
+    "idn": "aluminium",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "電流計 (クランプメータ)",
+    "romaji": "denryuukei (kurampumeeta)",
+    "idn": "ammeter",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ワイヤ送給装置",
+    "romaji": "waiya soukyuu souchi",
+    "idn": "aparatus pengisian kawat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アセチレン圧力調整器",
+    "romaji": "asechiren atsuryoku chouseiki",
+    "idn": "aparatus penyetel tekanan asetilin",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "前掛け",
+    "romaji": "maekake",
+    "idn": "apron",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "短絡電流",
+    "romaji": "tanraku denryuu",
+    "idn": "arus hubungan pendek",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接電流",
+    "romaji": "yousetsu denryuu",
+    "idn": "arus listrik las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "フラックス",
+    "romaji": "furakkusu",
+    "idn": "bahan pelumer",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "H形鋼 (H鋼)",
+    "romaji": "ecchigata kou (ecchikou)",
+    "idn": "baja berbentuk H",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "C形鋼 (Cチャン)",
+    "romaji": "C-gata kou (C-chan)",
+    "idn": "baja kanal C",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "高炭素鋼",
+    "romaji": "koutansokou",
+    "idn": "baja karbon tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "低合金鋼",
+    "romaji": "teigou kinkou",
+    "idn": "baja paduan rendah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ステンレス鋼",
+    "romaji": "sutenresukou",
+    "idn": "baja tahan karat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "高張力鋼",
+    "romaji": "kouchouryokukou",
+    "idn": "baja tegangan tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "多層盛り",
+    "romaji": "tasoumori",
+    "idn": "barang isi lapisan ganda",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "丸鋼 (丸棒)",
+    "romaji": "marukou (marubou)",
+    "idn": "batang bulat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶加棒",
+    "romaji": "youkabou",
+    "idn": "batang pengisi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "可燃性物質",
+    "romaji": "kanensei busshitsu",
+    "idn": "benda yang dapat dibakar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "オーバーラップ",
+    "romaji": "oobaarappu",
+    "idn": "berimpitan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "鋳鉄",
+    "romaji": "chuutetsu",
+    "idn": "besi cor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "平鋼 (フラットバー)",
+    "romaji": "hirakou (furattobaa)",
+    "idn": "besi picak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "山形鋼 (アングル)",
+    "romaji": "yamagatakou (anguru)",
+    "idn": "besi siku",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アーク",
+    "romaji": "aaku",
+    "idn": "busur lingkaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アーク光",
+    "romaji": "aakukou",
+    "idn": "cahaya busur api",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "C形鋼 (C チャン)",
+    "romaji": "C-gata kou (C chan)",
+    "idn": "baja kanal C",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "低合金鋼",
+    "romaji": "teigoukinkou",
+    "idn": "baja paduan rendah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "可燃性物質",
+    "romaji": "kanenseibushitsu",
+    "idn": "benda yang dapat dibakar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビードの重ね方",
+    "romaji": "biido no kasanekata",
+    "idn": "cara sambung manik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "コンタクトチップ",
+    "romaji": "kontakuto chippu",
+    "idn": "chip kontak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接棒",
+    "romaji": "yousetsubou",
+    "idn": "elektroda",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "タングステン電極",
+    "romaji": "tangusuten denkyoku",
+    "idn": "elektroda tungsten",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "バルブハンドル",
+    "romaji": "barubu handoru",
+    "idn": "gagang katup",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "電流調整ハンドル",
+    "romaji": "denryuu chousei handoru",
+    "idn": "gagang penyetel arus listrik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "圧力調整ハンドル",
+    "romaji": "atsuryoku chousei handoru",
+    "idn": "gagang penyetel tekanan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ヒューム障害",
+    "romaji": "hyuumu shougai",
+    "idn": "gangguan pipa beton",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アルゴンガス",
+    "romaji": "arugon gasu",
+    "idn": "gas argon",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アセチレンガス",
+    "romaji": "asechiren gasu",
+    "idn": "gas asetilin",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "有害ガス",
+    "romaji": "yuugai gasu",
+    "idn": "gas beracun",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "炭酸ガス",
+    "romaji": "tansan gasu",
+    "idn": "gas karbon dioksida",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "バックシールドガス",
+    "romaji": "bakkushiirudo gasu",
+    "idn": "gas kena angin sebelah belakang",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "可燃性ガス",
+    "romaji": "kanensei gasu",
+    "idn": "gas mudah nyala",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "窒素ガス",
+    "romaji": "chisso gasu",
+    "idn": "gas nitrogen",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "シールドガス",
+    "romaji": "shiirudogasu",
+    "idn": "gas pelindung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "裏当金",
+    "romaji": "uraategane",
+    "idn": "gelang belakang",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ブローホール",
+    "romaji": "buroo hooru",
+    "idn": "gelembung buih",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "波形",
+    "romaji": "hakei",
+    "idn": "gelombang",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ヘルメット",
+    "romaji": "herumetto",
+    "idn": "helm",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "接地 (アース)",
+    "romaji": "secchi (aasu)",
+    "idn": "hubungan ke bumi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "点検",
+    "romaji": "tenken",
+    "idn": "inspeksi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "保護具の点検",
+    "romaji": "hogogu no tenken",
+    "idn": "inspeksi alat pelindung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "接続部の点検",
+    "romaji": "setsuzokubu no tenken",
+    "idn": "inspeksi bagian sambungan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス漏れ点検",
+    "romaji": "gasumore tenken",
+    "idn": "inspeksi kebocoran gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "水位の点検",
+    "romaji": "suii no tenken",
+    "idn": "inspeksi permukaan air",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "自動電撃防止装置",
+    "romaji": "jidou dengeki boushi souchi",
+    "idn": "instalasi pencegah kejutan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス集合装置",
+    "romaji": "gasu shuugou souchi",
+    "idn": "instalasi pengumpul gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "酸素圧力調整器",
+    "romaji": "sanso atsuryoku chouseiki",
+    "idn": "instalasi penyetel tekanan oksigen",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "掃除針",
+    "romaji": "soujibari",
+    "idn": "jarum pembersih",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "墜落",
+    "romaji": "tsuiraku",
+    "idn": "jatuh",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "検水窓",
+    "romaji": "kensuimado",
+    "idn": "jendela pemeriksaan air",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "一次側ケーブル",
+    "romaji": "ichijigawa keeburu",
+    "idn": "kabel primer",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "二次側ケーブル",
+    "romaji": "nijigawa keeburu",
+    "idn": "kabel sekunder",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "遮光ガラス",
+    "romaji": "shakou garasu",
+    "idn": "kaca penghalang sinar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "保護めがね (遮光めがね)",
+    "romaji": "hogomegane (shakoumegane)",
+    "idn": "kacamata pelindung mata",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガスバルブ",
+    "romaji": "gasu barubu",
+    "idn": "katup gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "酸素バルブ",
+    "romaji": "sanso barubu",
+    "idn": "katup oksigen",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "切断酸素バルブ",
+    "romaji": "setsudan sanso barubu",
+    "idn": "katup oksigen potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "予熱酸素バルブ",
+    "romaji": "yonetsu sanso barubu",
+    "idn": "katup oksigen prapemanasan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全弁",
+    "romaji": "anzenben",
+    "idn": "katup pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アセチレン調整バルブ",
+    "romaji": "asechiren chousei barubu",
+    "idn": "katup penyetel asetilin",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "心線",
+    "romaji": "shinsen",
+    "idn": "kawat inti",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接ワイヤ",
+    "romaji": "yousetsu waiya",
+    "idn": "kawat las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "火災",
+    "romaji": "kasai",
+    "idn": "kebakaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス漏れ",
+    "romaji": "gasu more",
+    "idn": "kebocoran gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶け込み不良",
+    "romaji": "tokekomi furyou",
+    "idn": "keburukan peleburan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "融合不良",
+    "romaji": "yuugou furyou",
+    "idn": "keburukan pemaduan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "運棒速度",
+    "romaji": "unbou sokudo",
+    "idn": "kecepatan manipulasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接速度",
+    "romaji": "yousetsu sokudo",
+    "idn": "kecepatan mengelas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "切断速度",
+    "romaji": "setsudan sokudo",
+    "idn": "kecepatan potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "失明",
+    "romaji": "shitsumei",
+    "idn": "kehilangan penglihatan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "欠陥",
+    "romaji": "kekkan",
+    "idn": "kekurangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "のど厚不足",
+    "romaji": "nodoatsu busoku",
+    "idn": "kekurangan tebal sempitan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ピッチ",
+    "romaji": "picchi",
+    "idn": "kemiringan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "感電",
+    "romaji": "kanden",
+    "idn": "kena listrik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "トーチヘッド",
+    "romaji": "toochi heddo",
+    "idn": "kepala obor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "中毒",
+    "romaji": "chuudoku",
+    "idn": "keracunan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "乾燥",
+    "romaji": "kansou",
+    "idn": "kering",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アースクランプ",
+    "romaji": "aasu kuranpu",
+    "idn": "klem-tanah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶融池 (プール)",
+    "romaji": "youyuuchi (puuru)",
+    "idn": "kubangan lelah (kolam)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス溶接",
+    "romaji": "gasu yousetsu",
+    "idn": "las gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "仮付け",
+    "romaji": "karitsuke",
+    "idn": "las sementara (tack welding)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビード幅",
+    "romaji": "biido haba",
+    "idn": "lebar manik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "爆発",
+    "romaji": "bakuhatsu",
+    "idn": "ledakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "脚長",
+    "romaji": "kyachou",
+    "idn": "leg",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "母材",
+    "romaji": "bozai",
+    "idn": "logam dasar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ピット",
+    "romaji": "pitto",
+    "idn": "lubang",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "火傷",
+    "romaji": "yakedo",
+    "idn": "luka terbakar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "裏波ビード",
+    "romaji": "uranami biido",
+    "idn": "manik-balik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビード外観",
+    "romaji": "biido gaikan",
+    "idn": "manik-las luar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ウィービングビード",
+    "romaji": "wiibingu biido",
+    "idn": "manik manipulasi elektroda",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストリンガビード",
+    "romaji": "sutoringabiido",
+    "idn": "manik urat las deret",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "交流溶接機",
+    "romaji": "kouryuu yousetsuki",
+    "idn": "mesin las arus bolak balik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "直流溶接機",
+    "romaji": "chokuryuu yousetsuki",
+    "idn": "mesin las arus langsung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "自動溶接機",
+    "romaji": "jidou yousetsuki",
+    "idn": "mesin las otomatik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "半自動溶接機",
+    "romaji": "hanjidou yousetsuki",
+    "idn": "mesin las semi-otomatik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "面取機",
+    "romaji": "mentoriki",
+    "idn": "mesin pembuangan segi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "自動ガス切断機",
+    "romaji": "jidou gasu setsudanki",
+    "idn": "mesin pemotong gas otomatis",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接棒乾燥機",
+    "romaji": "yousetsubou kansouki",
+    "idn": "mesin pengering elektroda",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ブラッシング法",
+    "romaji": "burasshingu hou",
+    "idn": "metode menyikat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "タッピング法",
+    "romaji": "tappingu hou",
+    "idn": "metode tapping",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "被破壊試験",
+    "romaji": "hihakai shiken",
+    "idn": "metode uji tanpa merusak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス運搬車",
+    "romaji": "gasu unpansha",
+    "idn": "mobil pengangkut gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "火口 (ノズル)",
+    "romaji": "higuchi (nozuru)",
+    "idn": "nosel",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "標準炎",
+    "romaji": "hyoujun-en",
+    "idn": "nyala api standar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "逆火",
+    "romaji": "gyakka",
+    "idn": "nyala-balik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "酸化炎",
+    "romaji": "sanka-en",
+    "idn": "nyala pengoksidasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "酸素",
+    "romaji": "sanso",
+    "idn": "oksigen",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "チッピングハンマ (スラグハンマ)",
+    "romaji": "chippingu hanma (suragu hanma)",
+    "idn": "palu pengikis (palu terak)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アークの長さ",
+    "romaji": "aaku no nagasa",
+    "idn": "panjangnya busur api",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "パス",
+    "romaji": "pasu",
+    "idn": "pass, run",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "運棒",
+    "romaji": "unbou",
+    "idn": "pegangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "軟鋼板",
+    "romaji": "nankouban",
+    "idn": "pelat baja lunak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶け落ち",
+    "romaji": "tokeochi",
+    "idn": "peleburan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "足カバー",
+    "romaji": "ashikabaa",
+    "idn": "pelindung kaki",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ハンドシールド",
+    "romaji": "handoshiirudo",
+    "idn": "pelindung kemudi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "腕カバー",
+    "romaji": "udekabaa",
+    "idn": "pelindung lengan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "保護面",
+    "romaji": "hogomen",
+    "idn": "pelindung muka",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "点火ライタ",
+    "romaji": "tenka raita",
+    "idn": "pemantik api penyalaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ルート間隔",
+    "romaji": "ruuto kankaku",
+    "idn": "pembukaan akar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接棒ホルダ",
+    "romaji": "yousetsubou horuda",
+    "idn": "pemegang batang las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "職業病検診",
+    "romaji": "shokugyoubyou kenshin",
+    "idn": "pemeriksaan penyakit akibat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "外観検査",
+    "romaji": "gaikankensa",
+    "idn": "pemeriksaan visual",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アンダーカット",
+    "romaji": "andaakatto",
+    "idn": "pemotongan bawah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス切断",
+    "romaji": "gasu setsudan",
+    "idn": "pemotongan gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "電撃防止",
+    "romaji": "dengeki boushi",
+    "idn": "pencegahan kejutan listrik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "冷却",
+    "romaji": "reikyaku",
+    "idn": "pendinginan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "確認",
+    "romaji": "kakunin",
+    "idn": "penegasan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "カラーチェック",
+    "romaji": "karaa chekku",
+    "idn": "pengecekan warna",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "半自動アーク溶接",
+    "romaji": "hanjidou aaku yousetsu",
+    "idn": "pengelasan busur api semi-otomatis",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "被覆アーク溶接",
+    "romaji": "hifuku aaku yousetsu",
+    "idn": "pengelasan busur api terbungkus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ティグ溶接",
+    "romaji": "tigu yousetsu",
+    "idn": "pengelasan busur wolfram",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "水平スミ肉溶接",
+    "romaji": "suihei suminiku yousetsu",
+    "idn": "pengelasan sudut horizontal",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "突き合わせ溶接",
+    "romaji": "tsukiawase yousetsu",
+    "idn": "pengelasan temu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "開先加工",
+    "romaji": "kaisaki kakou",
+    "idn": "pengerjaan pinggir",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "スラグ巻き込み",
+    "romaji": "suragu makikomi",
+    "idn": "pengotoran terak-logam",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス流量調整器",
+    "romaji": "gasu ryuuryou chouseiki",
+    "idn": "pengukur aliran gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すきまゲージ",
+    "romaji": "sukima geeji",
+    "idn": "pengukur celah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "引火",
+    "romaji": "inka",
+    "idn": "penyalaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビード継ぎ",
+    "romaji": "biidotsugi",
+    "idn": "penyambungan manik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "火炎調整",
+    "romaji": "kaenchousei",
+    "idn": "penyesuaian nyala api",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "圧力調整",
+    "romaji": "atsuryokuchousei",
+    "idn": "penyesuaian tekanan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "じん肺",
+    "romaji": "jinpai",
+    "idn": "peradangan kronis dari paru-paru",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "切断面",
+    "romaji": "setsudanmen",
+    "idn": "permukaan potongan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "鋼管 (パイプ)",
+    "romaji": "koukan (paipu)",
+    "idn": "pipa baja (pipa)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "導管",
+    "romaji": "doukan",
+    "idn": "pipa saluran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "吹管 (トーチ)",
+    "romaji": "suikan (toochi)",
+    "idn": "pipa-hembus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接吹管 (トーチ)",
+    "romaji": "yousetsusuikan (toochi)",
+    "idn": "pipa-hembus las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "切断吹管 (トーチ)",
+    "romaji": "setsudansuikan (toochi)",
+    "idn": "pipa-hembus potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "縞鋼板 (チェッカープレート)",
+    "romaji": "shimakouhan (chekkaapureeto)",
+    "idn": "plat baja barik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビード置き",
+    "romaji": "biidooki",
+    "idn": "posisi manik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ねらい位置",
+    "romaji": "neraiichi",
+    "idn": "posisi sasaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "クレーター処理",
+    "romaji": "kureetaashori",
+    "idn": "proses crater",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "逆ひずみ",
+    "romaji": "gyaku hizumi",
+    "idn": "regandan-balik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接歪み (変形)",
+    "romaji": "yousetsu hizumi (henkei)",
+    "idn": "regangan las (deformasi)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビード割れ",
+    "romaji": "biido ware",
+    "idn": "retak urat-las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "電源スイッチ",
+    "romaji": "dengen suicchi",
+    "idn": "sakelar sumber listrik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アース接続",
+    "romaji": "aasu setsuzoku",
+    "idn": "sambungan alat listrik dengan bumi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ホース継手",
+    "romaji": "hoosu tsugite",
+    "idn": "sambungan slang",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "革手袋",
+    "romaji": "kawatebukuro",
+    "idn": "sarung tangan kulit",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全靴",
+    "romaji": "anzen-gutsu",
+    "idn": "sepatu pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ワイヤブラシ",
+    "romaji": "waiya burashi",
+    "idn": "sikat kawat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "容器弁",
+    "romaji": "youkiben",
+    "idn": "silinder gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "赤外線",
+    "romaji": "sekigaisen",
+    "idn": "sinar infra-merah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "紫外線",
+    "romaji": "shigaisen",
+    "idn": "sinar ultra-ungu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "バリ",
+    "romaji": "bari",
+    "idn": "sirip",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アセチレン用ゴムホース (赤)",
+    "romaji": "asechiren-you gomu hoosu (aka)",
+    "idn": "slang karet asetilin (merah)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "酸素用ゴムホース (黒)",
+    "romaji": "sanso-you gomu hoosu (kuro)",
+    "idn": "slang karet oksigen (hitam)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "トーチ角度",
+    "romaji": "toochi kakudo",
+    "idn": "sudut obor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "保持角度",
+    "romaji": "hoji kakudo",
+    "idn": "sudut penahan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "開先角度",
+    "romaji": "kaisaki kakudo",
+    "idn": "sudut pinggiran miring",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "点火源",
+    "romaji": "tenkagen",
+    "idn": "sumber penyalaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アセチレン容器 (ボンベ)",
+    "romaji": "asechiren youki (bonbe)",
+    "idn": "tabung asetilin",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "酸素容器 (ボンベ)",
+    "romaji": "sanso youki (bonbe)",
+    "idn": "tabung oksigen",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "残留応力",
+    "romaji": "zanryuu ouryoku",
+    "idn": "tekanan sisa",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "スラグ",
+    "romaji": "suragu",
+    "idn": "terak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "超音波探傷試験 (UT)",
+    "romaji": "chouonba tanshou shiken",
+    "idn": "tes deteksi patah ultrasonik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "磁粉探傷試験 (MT)",
+    "romaji": "jifun tanshou shiken",
+    "idn": "tes partikel magnetis",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "浸透探傷試験 (PT)",
+    "romaji": "shintou tanshou shiken",
+    "idn": "tes penetrasi zat cair",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "放射線透過試験 (RT)",
+    "romaji": "houshasen touka shiken",
+    "idn": "tes radiografik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "余盛り高さ",
+    "romaji": "yamori takasa",
+    "idn": "tinggi logam lebih",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "曲げ試験",
+    "romaji": "mage shiken",
+    "idn": "uji bengkok",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "漏れ試験",
+    "romaji": "more shiken",
+    "idn": "uji kebocoran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "硬さ試験",
+    "romaji": "katasa shiken",
+    "idn": "uji kekerasan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "耐圧試験",
+    "romaji": "taiatsu shiken",
+    "idn": "uji ketahanan tekan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "破壊試験",
+    "romaji": "hakai shiken",
+    "idn": "uji merusak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "引っ張り試験",
+    "romaji": "hippari shiken",
+    "idn": "uji tarik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "サイズ",
+    "romaji": "saizu",
+    "idn": "ukuran",
+    "": "",
+    "__1": ""
   },
   {
     "jp": "換気",
     "romaji": "kanki",
     "idn": "ventilasi",
-    "kategori": "safety",
-    "level": "industri"
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "作業手順",
-    "romaji": "sagyou tejun",
-    "idn": "prosedur kerja",
-    "kategori": "safety",
-    "level": "dasar"
+    "jp": "圧力調整",
+    "romaji": "atsuryoku chousei",
+    "idn": "penyesuaian tekanan",
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "指差呼称",
-    "romaji": "shisa koshou",
-    "idn": "tunjuk dan sebut",
-    "kategori": "safety",
-    "level": "industri"
+    "jp": "バックシールドガス",
+    "romaji": "bakku shiirudo gasu",
+    "idn": "gas kena angin sebelah belakang",
+    "": "",
+    "__1": ""
   },
   {
-    "jp": "安全確認",
-    "romaji": "anzen kakunin",
-    "idn": "konfirmasi keselamatan",
-    "kategori": "safety",
-    "level": "dasar"
-  }
+    "jp": "ビード置き",
+    "romaji": "biido oki",
+    "idn": "posisi manik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ビード継ぎ",
+    "romaji": "biido tsugi",
+    "idn": "penyambungan manik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "電流計 (クランプメータ)",
+    "romaji": "denryuukei (kurampu meeta)",
+    "idn": "ammeter",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガス漏れ点検",
+    "romaji": "gasu more tenken",
+    "idn": "inspeksi kebocoran gas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "へるめっと (ヘルメット)",
+    "romaji": "herumetto",
+    "idn": "helm",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひぐち (のずる)",
+    "romaji": "higuchi (nozuru)",
+    "idn": "nosel",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひはかいしけん",
+    "romaji": "hihakai shiken",
+    "idn": "metode uji tanpa merusak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひふくあーくようせつ",
+    "romaji": "hifuku aaku yousetsu",
+    "idn": "pengelasan busur api terbungkus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひっぱりしけん",
+    "romaji": "hippari shiken",
+    "idn": "uji tarik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひらこう (ふらっとばー)",
+    "romaji": "hirakou (furattobaa)",
+    "idn": "besi picak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ほーすつぎて",
+    "romaji": "hoosu tsugite",
+    "idn": "sambungan slang",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ほごぐのてんけん",
+    "romaji": "hogogu no tenken",
+    "idn": "inspeksi alat pelindung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ほごめがね (しゃこうめがね)",
+    "romaji": "hogomegane (shakoumegane)",
+    "idn": "kacamata pelindung mata",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ほごめん",
+    "romaji": "hogomen",
+    "idn": "pelindung muka",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ほじかくど",
+    "romaji": "hojikakudo",
+    "idn": "sudut penahan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ほうしゃせんとうかしけん (あーるてい)",
+    "romaji": "houshasen touka shiken (aarutei)",
+    "idn": "tes radiografik (RT)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ふらっくす",
+    "romaji": "furakkusu",
+    "idn": "bahan pelumer",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひょうじゅんえん",
+    "romaji": "hyoujun-en",
+    "idn": "nyala api standar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひゅーむしょうがい",
+    "romaji": "hyuumu shougai",
+    "idn": "gangguan asap las (fume)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "いちじがわけーぶる",
+    "romaji": "ichijigawa keeburu",
+    "idn": "kabel primer",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "いんか",
+    "romaji": "inka",
+    "idn": "penyalaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "じどうでんげきぼうしそうち",
+    "romaji": "jidou dengeki boushi souchi",
+    "idn": "instalasi pencegah kejutan listrik otomatis",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "じどうがすせつだんき",
+    "romaji": "jidou gasu setsudanki",
+    "idn": "mesin pemotong gas otomatis",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "じどうようせつき",
+    "romaji": "jidou yousetsuki",
+    "idn": "mesin las otomatik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "じふんたんしょうしけん (えむてい)",
+    "romaji": "jifun tanshou shiken (emutei)",
+    "idn": "tes partikel magnetis (MT)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "じんぱい",
+    "romaji": "jinpai",
+    "idn": "peradangan kronis dari paru-paru",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かえんちょうせい",
+    "romaji": "kaen chousei",
+    "idn": "penyesuaian nyala api",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かいさきかこう",
+    "romaji": "kaisaki kakou",
+    "idn": "pengerjaan pinggir",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かいさきかくど",
+    "romaji": "kaisaki kakudo",
+    "idn": "sudut pinggiran miring",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かくにん",
+    "romaji": "kakunin",
+    "idn": "penegasan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かんでん",
+    "romaji": "kanden",
+    "idn": "kena listrik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かねんせいぶっしつ",
+    "romaji": "kanensei busshitsu",
+    "idn": "benda yang dapat dibakar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かねんせいがす",
+    "romaji": "kanensei gasu",
+    "idn": "gas mudah nyala",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かんき",
+    "romaji": "kanki",
+    "idn": "ventilasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かんしきあんぜんき",
+    "romaji": "kanshiki anzenki",
+    "idn": "alat pengaman kering",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かんそう",
+    "romaji": "kansou",
+    "idn": "kering",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "からーちぇっく",
+    "romaji": "karaa chekku",
+    "idn": "pengecekan warna",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かりつけ",
+    "romaji": "karitsuke",
+    "idn": "las sementara (tack welding)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かさい",
+    "romaji": "kasai",
+    "idn": "kebakaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かたさしけん",
+    "romaji": "katasa shiken",
+    "idn": "uji kekerasan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かわてぶくろ",
+    "romaji": "kawatebukuro",
+    "idn": "sarung tangan kulit",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "けっかん",
+    "romaji": "kekkan",
+    "idn": "kekurangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "けんすいまど",
+    "romaji": "kensuimado",
+    "idn": "jendela pemeriksaan air",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こんごうがす",
+    "romaji": "kongou gasu",
+    "idn": "alat pengukur tekanan rekanan rendah gas campuran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こんたくとちっぷ",
+    "romaji": "kontakuto chippu",
+    "idn": "chip kontak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こうあつあつりょくけい (げーじ)",
+    "romaji": "kouatsu atsuryokukei (geeji)",
+    "idn": "alat pengukur tekanan tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こうちょうりょくこう",
+    "romaji": "kouchouryokukou",
+    "idn": "baja tegangan tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こうかん (ぱいぷ)",
+    "romaji": "koukan (paipu)",
+    "idn": "pipa baja (pipa)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こうりゅうようせつき",
+    "romaji": "kouryuu yousetsuki",
+    "idn": "mesin las arus bolak balik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "こうたんそこう",
+    "romaji": "koutansokou",
+    "idn": "baja karbon tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "くれーたーしょり",
+    "romaji": "kureetaa shori",
+    "idn": "proses crater",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "きゃくちょう",
+    "romaji": "kyachou",
+    "idn": "leg",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "せつだんめん (切断面)",
+    "romaji": "setsudanmen",
+    "idn": "permukaan potongan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "せつだんさんそばるぶ (切断酸素バルブ)",
+    "romaji": "setsudan sanso barubu",
+    "idn": "katup oksigen potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "せつだんそくど (切断速度)",
+    "romaji": "setsudan sokudo",
+    "idn": "kecepatan potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "せつだんすいかん (とーち) (切断吹管 (トーチ))",
+    "romaji": "setsudan suikan (toochi)",
+    "idn": "pipa-hembus potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "せつぞくぶのてんけん (接続部の点検)",
+    "romaji": "setsuzokubu no tenken",
+    "idn": "inspeksi bagian sambungan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しゃこうがらす (遮光ガラス)",
+    "romaji": "shakou garasu",
+    "idn": "kaca penghalang sinar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しーがたこう (しーちゃん) (C形鋼 (Cチャン))",
+    "romaji": "shiigata kou (shii-chan)",
+    "idn": "baja kanal C",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しーるどがす (シールドガス)",
+    "romaji": "shiirudo gasu",
+    "idn": "gas pelindung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しがいせん (紫外線)",
+    "romaji": "shigaisen",
+    "idn": "sinar ultra-ungu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しまこうはん (ちぇっかーぷれーと) (縞鋼板 (チェッカープレート))",
+    "romaji": "shimakouhan (chekkaapureeto)",
+    "idn": "plat baja barik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しんせん (心線)",
+    "romaji": "shinsen",
+    "idn": "kawat inti",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しんとうたんしょうしけん (ぴーてい) (浸透探傷試験 (PT))",
+    "romaji": "shintou tanshou shiken (piitei)",
+    "idn": "tes penetrasi zat cair (PT)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しつめい (失明)",
+    "romaji": "shitsumei",
+    "idn": "kehilangan penglihatan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しょくぎょうびょうけんしん (職業病検診)",
+    "romaji": "shokugyoubyou kenshin",
+    "idn": "pemeriksaan penyakit akibat kerja",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "そうじぼう (掃除針)",
+    "romaji": "soujibau",
+    "idn": "jarum pembersih",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すいへいすみあにようせつ (水平スミ肉溶接)",
+    "romaji": "suihei suminiku yousetsu",
+    "idn": "pengelasan sudut horizontal",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すいいのてんけん (水位の点検)",
+    "romaji": "suii no tenken",
+    "idn": "inspeksi permukaan air",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すいかん (とーち) (吹管 (トーチ))",
+    "romaji": "suikan (toochi)",
+    "idn": "pipa-hembus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すきまげーじ (すきまゲージ)",
+    "romaji": "sukima geeji",
+    "idn": "pengukur celah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すらぐ (スラグ)",
+    "romaji": "suragu",
+    "idn": "terak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すらぐまきこみ (スラグ巻き込み)",
+    "romaji": "suragu makikomi",
+    "idn": "pengotoran terak-logam",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すてんれすこう (ステンレス鋼)",
+    "romaji": "sutenresukou",
+    "idn": "baja tahan karat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "すとりんぐびーと (ストリングビート)",
+    "romaji": "sutoringu biito",
+    "idn": "manik urat las deret",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "しょうかき (消火器)",
+    "romaji": "shoukaki",
+    "idn": "alat-alat pemadam kebakaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ワイヤブラシ",
+    "romaji": "waiyaburashi",
+    "idn": "sikat kawat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接吹管 (トーチ)",
+    "romaji": "yousetsu suikan (toochi)",
+    "idn": "pipa-hembus las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "摩耗",
+    "romaji": "mamou",
+    "idn": "abrasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "切断吹管",
+    "romaji": "setsudan suikan",
+    "idn": "pipa hembus potong (torch)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶接歪み",
+    "romaji": "yousetsu hizumi",
+    "idn": "deformasi / distorsi las",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全靴",
+    "romaji": "anzen gutsu",
+    "idn": "sepatu pengaman (safety shoes)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "溶融池",
+    "romaji": "youyuuchi",
+    "idn": "kubangan las (molten pool)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ブランク",
+    "romaji": "buranku",
+    "idn": "bahan asal",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "コイル材",
+    "romaji": "koiruzai",
+    "idn": "bahan kumparan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "加工材料",
+    "romaji": "kakou zairyou",
+    "idn": "bahan olahan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "シート材",
+    "romaji": "shiitozai",
+    "idn": "bahan pelat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストリップ材",
+    "romaji": "sutorippuzai",
+    "idn": "bahan stripper",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ステンレス鋼板",
+    "romaji": "sutenresu kouhan",
+    "idn": "baja tahan karat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "スクラップ",
+    "romaji": "sukurappu",
+    "idn": "besi tua",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "危険限界",
+    "romaji": "kiken genkai",
+    "idn": "batas bahaya",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ボルト",
+    "romaji": "boruto",
+    "idn": "baut",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "荷重",
+    "romaji": "kajuu",
+    "idn": "beban",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "位置ずれ",
+    "romaji": "ichizure",
+    "idn": "bergesernya posisi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "心ずれ",
+    "romaji": "shinzure",
+    "idn": "bergesernya sumbu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "有効",
+    "romaji": "yuukou",
+    "idn": "berlaku",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "スライド",
+    "romaji": "suraido",
+    "idn": "blok luncur",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全ブロック",
+    "romaji": "anzen burokku",
+    "idn": "blok pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "傷",
+    "romaji": "kizu",
+    "idn": "cacat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "取り扱い方法",
+    "romaji": "toriatsukai houhou",
+    "idn": "cara perlakuan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "金型",
+    "romaji": "kanagata",
+    "idn": "cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイ",
+    "romaji": "dai",
+    "idn": "cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "上型",
+    "romaji": "uwagata",
+    "idn": "cetakan atas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "下型",
+    "romaji": "shitagata",
+    "idn": "cetakan bawah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "曲げ型",
+    "romaji": "magegata",
+    "idn": "cetakan bengkok",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "打ち抜き型",
+    "romaji": "uchinukigata",
+    "idn": "cetakan bor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "絞り型",
+    "romaji": "shiborigata",
+    "idn": "cetakan cekik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "塑性加工",
+    "romaji": "sosei kakou",
+    "idn": "cetakan plastik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ワッシャー",
+    "romaji": "wasshaa",
+    "idn": "cincin tutup",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "作業能率",
+    "romaji": "sagyou nouritsu",
+    "idn": "efisiensi kerja",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "排出",
+    "romaji": "haishutsu",
+    "idn": "emisi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "四面",
+    "romaji": "shimen",
+    "idn": "empat sisi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "フランジ",
+    "romaji": "furanji",
+    "idn": "flens",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "金切りばさみ",
+    "romaji": "kanakiribasami",
+    "idn": "gunting memotong logam",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ノギス",
+    "romaji": "nogisu",
+    "idn": "jangka sorong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "転倒",
+    "romaji": "tentou",
+    "idn": "jatuh terempas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ゲージ窓",
+    "romaji": "geejimado",
+    "idn": "jendela alat ukur",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "かぎ棒",
+    "romaji": "kagibou",
+    "idn": "kait",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "真空カップ",
+    "romaji": "shinkuukappu",
+    "idn": "kap vakum",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "プレス能力",
+    "romaji": "puresu nouryoku",
+    "idn": "kapasitas pres",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "錆",
+    "romaji": "sabi",
+    "idn": "karat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "油漏れ",
+    "romaji": "aburamore",
+    "idn": "kebocoran minyak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "エア漏れ",
+    "romaji": "eamore",
+    "idn": "kebocoran udara",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "速度",
+    "romaji": "sokudo",
+    "idn": "kecepatan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "不注意",
+    "romaji": "fuchuui",
+    "idn": "kelalaian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "試し打ち",
+    "romaji": "tameshiuchi",
+    "idn": "kempaan percobaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "上昇",
+    "romaji": "joushou",
+    "idn": "kenaikan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "運搬車",
+    "romaji": "unpansha",
+    "idn": "kendaraan pengangkutan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "緩み",
+    "romaji": "yurumi",
+    "idn": "kendor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "せん断加工",
+    "romaji": "sendankakou",
+    "idn": "kerja geser",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "破損",
+    "romaji": "hason",
+    "idn": "kerusakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "精度",
+    "romaji": "seido",
+    "idn": "ketelitian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ムラ",
+    "romaji": "mura",
+    "idn": "ketidak-merataan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ヤスリ",
+    "romaji": "yasuri",
+    "idn": "kikir",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストローク数調整つまみ",
+    "romaji": "sutorookusuu chousei tsumami",
+    "idn": "knop pengatur langkah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "クラッチ",
+    "romaji": "kuratchi",
+    "idn": "kopeling",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "品質",
+    "romaji": "hinshitsu",
+    "idn": "kualitas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "スパナ",
+    "romaji": "supana",
+    "idn": "kunci mur",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "型囲い",
+    "romaji": "katakakoi",
+    "idn": "kurungan cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全囲い",
+    "romaji": "anzenkakoi",
+    "idn": "kurungan pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "最大停止時間",
+    "romaji": "saidai teishi jikan",
+    "idn": "lamanya perhentian maksimum",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "モニタランプ",
+    "romaji": "monitaranpu",
+    "idn": "lampu monitor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストローク",
+    "romaji": "sutorooku",
+    "idn": "langkah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストローク長さ",
+    "romaji": "sutorooku nagasa",
+    "idn": "langkah slide",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "抜け",
+    "romaji": "nuke",
+    "idn": "melepaskan cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "掃除",
+    "romaji": "souji",
+    "idn": "membersihkan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "けがく",
+    "romaji": "kegaku",
+    "idn": "menggores",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "後かたづけ",
+    "romaji": "atokataduke",
+    "idn": "menyusun kembali",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "プレス機械",
+    "romaji": "puresu kikai",
+    "idn": "mesin kempa",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "メートル",
+    "romaji": "meetoru",
+    "idn": "meter",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "マイクロメータ",
+    "romaji": "maikuromeeta",
+    "idn": "mikrometer",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ミリメートル",
+    "romaji": "mirimeetoru",
+    "idn": "milimeter",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "油",
+    "romaji": "abura",
+    "idn": "minyak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "モータ",
+    "romaji": "moota",
+    "idn": "motor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ナット",
+    "romaji": "natto",
+    "idn": "mur",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "作動",
+    "romaji": "sadou",
+    "idn": "operasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "自動化",
+    "romaji": "jidouka",
+    "idn": "otomatisasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全柵",
+    "romaji": "anzensaku",
+    "idn": "pagar pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "服装",
+    "romaji": "fukusou",
+    "idn": "pakaian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ハンマ",
+    "romaji": "hanma",
+    "idn": "palu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "表示板",
+    "romaji": "hyoujiban",
+    "idn": "papan petunjuk",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "割れ",
+    "romaji": "ware",
+    "idn": "pecahan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "フートペダル",
+    "romaji": "fuutopedaru",
+    "idn": "pedal kaki",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アルミニウム板",
+    "romaji": "aruminiumu ban",
+    "idn": "pelat aluminium",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "高張力鋼板",
+    "romaji": "kouchouryoku kouhan",
+    "idn": "pelat baja mutu-tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "冷間圧延鋼板 (SPCC)",
+    "romaji": "reikan atsue kouhan (SPCC)",
+    "idn": "pelat baja pengerolan dingin (SPCC)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "熱間圧延鋼板 (SPHC)",
+    "romaji": "netsukan atsue kouhan (SPHC)",
+    "idn": "pelat baja pengerolan panas (SPHC)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "表面処理鋼板",
+    "romaji": "hyoumenshori kouhan",
+    "idn": "pelat baja perlakuan permukaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "けい素鋼板",
+    "romaji": "keiso kouhan",
+    "idn": "pelat baja silikon",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "パンチプレート",
+    "romaji": "panchpureeto",
+    "idn": "pelat penembus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "銅板",
+    "romaji": "douban",
+    "idn": "pelat tembaga",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "位置決めプレート",
+    "romaji": "ichizime pureeto",
+    "idn": "pelat untuk menentukan posisi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "取り外し",
+    "romaji": "torihazushi",
+    "idn": "pelepasan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "取り付け",
+    "romaji": "toritsuke",
+    "idn": "pemasangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "停止",
+    "romaji": "teishi",
+    "idn": "pemberhentian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイホルダ",
+    "romaji": "dai horuda",
+    "idn": "pemegang cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "パンチホルダ",
+    "romaji": "panchi horuda",
+    "idn": "pemegang penembus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "裁断",
+    "romaji": "saidan",
+    "idn": "pemotongan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダウェルピン",
+    "romaji": "daweru pin",
+    "idn": "pena kayu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "責任者",
+    "romaji": "sekininsha",
+    "idn": "penanggung-jawab",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "災害防止",
+    "romaji": "saigai boushi",
+    "idn": "pencegahan kecelakaan kerja",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "パンチ",
+    "romaji": "panchi",
+    "idn": "penembus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "設定",
+    "romaji": "settei",
+    "idn": "penetapan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "位置決め",
+    "romaji": "ichizime",
+    "idn": "penetapan posisi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "板取り",
+    "romaji": "itadori",
+    "idn": "pengambilan pelat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "塗装",
+    "romaji": "tosou",
+    "idn": "pengecatan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "始業前点検",
+    "romaji": "shigyou mae tenken",
+    "idn": "pengecekan sebelum kerja",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "日常点検",
+    "romaji": "nichijou tenken",
+    "idn": "pengecekan sehari-hari",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "油量点検",
+    "romaji": "yuryou tenken",
+    "idn": "pengecekan volume minyak",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "加工硬化",
+    "romaji": "kakou kouka",
+    "idn": "pengerasan pengolahan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "自動停止",
+    "romaji": "jidou teishi",
+    "idn": "penghentian otomatis",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "送給",
+    "romaji": "soukyuu",
+    "idn": "pengisian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "曲げ加工",
+    "romaji": "mage kakou",
+    "idn": "pengolahan bengkok",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ノーハンドインダイ加工",
+    "romaji": "noo hando in dai kakou",
+    "idn": "pengolahan cetakan dengan tangan (tanpa tangan masuk)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ハンドインダイ加工",
+    "romaji": "hando in dai kakou",
+    "idn": "pengolahan cetakan dengan tangan (tangan masuk)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "切り落とし加工",
+    "romaji": "kiriotoshi kakou",
+    "idn": "pengolahan potong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "圧縮加工",
+    "romaji": "asshuku kakou",
+    "idn": "pengolahan tekan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "操作",
+    "romaji": "sousa",
+    "idn": "pengoperasian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "寸動運転（インチング）",
+    "romaji": "sundou unten (inching)",
+    "idn": "pengoperasian (inching)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "連続運転",
+    "romaji": "renzoku unten",
+    "idn": "pengoperasian kontinu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "始動",
+    "romaji": "shidou",
+    "idn": "pengstarteran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイヤルゲージ",
+    "romaji": "daiyaru geeji",
+    "idn": "pengukur jarum",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "空気圧計",
+    "romaji": "kuukiatsukei",
+    "idn": "pengukur tekanan udara",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ハイトゲージ",
+    "romaji": "haito geeji",
+    "idn": "pengukur tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "下降",
+    "romaji": "kakou",
+    "idn": "penurunan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "締め付け",
+    "romaji": "shimetsuke",
+    "idn": "penyekerupan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "絞り",
+    "romaji": "shibori",
+    "idn": "penyempitan luas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "老化",
+    "romaji": "rouka",
+    "idn": "penyepuhan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "調整",
+    "romaji": "chousei",
+    "idn": "penyetelan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "耳栓",
+    "romaji": "mimisen",
+    "idn": "penyumbat telinga",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "保守",
+    "romaji": "hoshu",
+    "idn": "perawatan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "修理",
+    "romaji": "shuuri",
+    "idn": "perbaikan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "マグネット工具",
+    "romaji": "magunetto kougu",
+    "idn": "perkakas magnet",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "手工具",
+    "romaji": "shukougu",
+    "idn": "perkakas tangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "熱処理",
+    "romaji": "netsu shori",
+    "idn": "perlakuan panas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "交換",
+    "romaji": "koukan",
+    "idn": "pertukaran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ベルトコンベア",
+    "romaji": "beruto konbea",
+    "idn": "pita transpor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "シャフト",
+    "romaji": "shafuto",
+    "idn": "poros",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "作業姿勢",
+    "romaji": "sagyou shisei",
+    "idn": "posisi kerja",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "クランクプレス",
+    "romaji": "kuranku puresu",
+    "idn": "pres engkol",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "油圧式プレス",
+    "romaji": "yuatsushiki puresu",
+    "idn": "pres sistem hidrolik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "機械式プレス",
+    "romaji": "kikaishiki puresu",
+    "idn": "pres sistem mekanik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "密着",
+    "romaji": "micchaku",
+    "idn": "rapat melekat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "歪み",
+    "romaji": "hizumi",
+    "idn": "regangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ブレーキ",
+    "romaji": "bureeki",
+    "idn": "rem",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ひび",
+    "romaji": "hibi",
+    "idn": "retakan",
+    "": "",
+    "__1": 1
+  },
+  {
+    "jp": "ロボット",
+    "romaji": "robotto",
+    "idn": "robot",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "フライホイール",
+    "romaji": "furai hoiiru",
+    "idn": "rodagaya",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "メインギヤ",
+    "romaji": "mein giya",
+    "idn": "rodagigi utama",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "クリアランス",
+    "romaji": "kuriaransu",
+    "idn": "ruang-rugi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "操作切り替えスイッチ",
+    "romaji": "sousa kirikae suicchi",
+    "idn": "sakelar pilih operasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全装置スイッチ",
+    "romaji": "anzen souchi suicchi",
+    "idn": "sakelar untuk aparatus pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "供給装置（フィーダ）",
+    "romaji": "kyoukyuu souchi (fiida)",
+    "idn": "saluran pengisian (alat pegisian)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ウエス",
+    "romaji": "uesu",
+    "idn": "sampah, kain bekas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "手袋",
+    "romaji": "tebukuro",
+    "idn": "sarung tangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全一工程",
+    "romaji": "anzen ichi koutei",
+    "idn": "satu proses keselamatan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "コネクティングスクリュー",
+    "romaji": "konekutingu sukuryuu",
+    "idn": "sekerup hubung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "センチメートル",
+    "romaji": "senchimeetoru",
+    "idn": "sentimeter",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "スケール",
+    "romaji": "sukeeru",
+    "idn": "skala",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "作業基準",
+    "romaji": "sagyou kijun",
+    "idn": "standar kerja",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストリッパ",
+    "romaji": "sutorippa",
+    "idn": "stripper",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "異常音",
+    "romaji": "ijouon",
+    "idn": "suara abnormal",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "騒音",
+    "romaji": "souon",
+    "idn": "suara bising",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "角度",
+    "romaji": "kakudo",
+    "idn": "sudut",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "クランク角度",
+    "romaji": "kuranku kakudo",
+    "idn": "sudut engkol",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全プラグ",
+    "romaji": "anzen puragu",
+    "idn": "sumbat pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "電源",
+    "romaji": "dengen",
+    "idn": "sumber tenaga listrik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "プライヤ",
+    "romaji": "puraiya",
+    "idn": "tang pembengkok",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ペンチ",
+    "romaji": "penchi",
+    "idn": "tang pemotong",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "シャンク",
+    "romaji": "shanku",
+    "idn": "tangkai",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "整理整頓",
+    "romaji": "seiri seiton",
+    "idn": "teratur",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガイドポスト",
+    "romaji": "gaido posuto",
+    "idn": "tiang-antar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "無効",
+    "romaji": "mukou",
+    "idn": "tidak berlaku",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイハイト",
+    "romaji": "dai haito",
+    "idn": "tingginya die",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "上死点",
+    "romaji": "joushiten",
+    "idn": "titik mati atas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "下死点",
+    "romaji": "kashiten",
+    "idn": "titik mati bawah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "非常停止ボタン",
+    "romaji": "hijou teishi botan",
+    "idn": "tombol penghentian darurat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "モータ停止ボタン",
+    "romaji": "moota teishi botan",
+    "idn": "tombol penghentian motor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "両手操作式押しボタン",
+    "romaji": "ryoute sousashiki oshibotan",
+    "idn": "tombol tekan dioperasikan kedua tangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "運転押しボタン",
+    "romaji": "unten oshibotan",
+    "idn": "tombol tekan operasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ペンダント操作盤",
+    "romaji": "pendanto sousaban",
+    "idn": "tombol tekan senur gantungan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "モータ起動ボタン",
+    "romaji": "moota kidou botan",
+    "idn": "tombol-penjalan motor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "寸法",
+    "romaji": "sunpou",
+    "idn": "ukuran",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アンコイラ",
+    "romaji": "ankoira",
+    "idn": "alat melepas gulungan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全囲い",
+    "romaji": "anzen kakoi",
+    "idn": "kurungan pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "安全柵",
+    "romaji": "anzen saku",
+    "idn": "pagar pengaman",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "アルミニウム板",
+    "romaji": "aruminiumuban",
+    "idn": "pelat aluminium",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ベルトコンベア",
+    "romaji": "berutokonbea",
+    "idn": "pita transpor",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ボルスタ",
+    "romaji": "borusuta",
+    "idn": "bantalan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイハイト",
+    "romaji": "daihaito",
+    "idn": "tingginya die",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイホルダ",
+    "romaji": "daihoruda",
+    "idn": "pemegang cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイクッション",
+    "romaji": "daikusshon",
+    "idn": "bantalan cetakan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダイヤルゲージ",
+    "romaji": "daiyarugeeji",
+    "idn": "pengukur jarum",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ダウェルピン",
+    "romaji": "dawerupin",
+    "idn": "pena kayu",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガード式安全装置",
+    "romaji": "gaadoshiki anzensouchi",
+    "idn": "aparat pengaman sistem penjagaan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ガイドポスト",
+    "romaji": "gaidoposuto",
+    "idn": "tiang-antar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ハイトゲージ",
+    "romaji": "haitogeeji",
+    "idn": "pengukur tinggi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ハンドインダイ加工",
+    "romaji": "handoindaikakou",
+    "idn": "pengolahan cetakan dengan tangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "保護具（安全具）",
+    "romaji": "hogogu (anzengu)",
+    "idn": "alat pelindung (alat pengaman)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "フライホイール",
+    "romaji": "furaihoiiru",
+    "idn": "rodagaya",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "過負荷安全装置",
+    "romaji": "kafuka anzen souchi",
+    "idn": "aparat pengaman beban lebih",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "荷重",
+    "romaji": "kajyuu",
+    "idn": "beban",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "危険限界",
+    "romaji": "kigen genkai",
+    "idn": "batas bahaya",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "コンロッド",
+    "romaji": "konroddo",
+    "idn": "batang hubung",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "光線式安全装置",
+    "romaji": "kousenshiki anzen souchi",
+    "idn": "aparat pengaman sistem sinar",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "駆動軸",
+    "romaji": "kudoujiku",
+    "idn": "aksel poros",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "クラッチ",
+    "romaji": "kuracchi",
+    "idn": "kopeling",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "曲げ加工",
+    "romaji": "magekakou",
+    "idn": "pengolahan bengkok",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "摩擦",
+    "romaji": "mamou",
+    "idn": "abrasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ノックアウト装置",
+    "romaji": "nokkuauto souchi",
+    "idn": "aparat untuk memukul sampai lepas",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "送り装置",
+    "romaji": "okuri souchi",
+    "idn": "aparat pengisian",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "パンチプレート",
+    "romaji": "panchi pureeto",
+    "idn": "pelat penembus",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "プレス作業主任者",
+    "romaji": "puresu sagyou shuuninsha",
+    "idn": "ahli teknik pekerjaan pres",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ロールフィーダ",
+    "romaji": "rooru fiida",
+    "idn": "alat pengisian rol",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "両手操作式安全装置",
+    "romaji": "ryoute sousashiki anzen souchi",
+    "idn": "alat pengaman operasi kedua tangan",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "塑性加工",
+    "romaji": "soseikakou",
+    "idn": "cetakan plastik",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "操作切り替えスイッチ",
+    "romaji": "sousakirikaesuicchi",
+    "idn": "sakelar pilih operasi",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "寸動運転（インチング）",
+    "romaji": "sundouunten (inchingu)",
+    "idn": "pengoperasian (inching)",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ステンレス鋼板",
+    "romaji": "sutenrensukouhan",
+    "idn": "baja tahan karat",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストローク長さ",
+    "romaji": "sutorookunagasa",
+    "idn": "langkah slide",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストローク数",
+    "romaji": "sutorookusuu",
+    "idn": "banyaknya langkah per menit",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "ストローク数調整つまみ",
+    "romaji": "sutorookusuuchouseitsumami",
+    "idn": "knop pengatur langkah",
+    "": "",
+    "__1": ""
+  },
+  {
+    "jp": "トランスファーフィーダ",
+    "romaji": "toransufaa fiida",
+    "idn": "alat pengisian transfer",
+    "": "",
+    "__1": ""
+  },
 ]
