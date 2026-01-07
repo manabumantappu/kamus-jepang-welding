@@ -6,114 +6,130 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-:root {
-  --primary: #1e3a8a;
-  --secondary: #2563eb;
-  --bg: #f8fafc;
-  --card: #ffffff;
-  --text: #0f172a;
-  --muted: #64748b;
+:root{
+  --primary:#1e3a8a;
+  --accent:#2563eb;
+  --bg:#f1f5f9;
+  --card:#ffffff;
+  --text:#0f172a;
+  --muted:#64748b;
+  --border:#e2e8f0;
 }
 
-* { box-sizing: border-box; }
+*{box-sizing:border-box}
 
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: linear-gradient(180deg, #e0e7ff, #f8fafc);
-  color: var(--text);
-  padding: 16px;
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:linear-gradient(180deg,#e0e7ff,#f8fafc);
+  color:var(--text);
 }
 
-.container {
-  max-width: 760px;
-  margin: auto;
+/* ===== LAYOUT ===== */
+.container{
+  max-width:860px;
+  margin:auto;
+  padding:24px 16px 40px;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 22px;
+/* ===== HEADER ===== */
+header{
+  text-align:center;
+  margin-bottom:26px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 800;
+header h1{
+  margin:0;
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:.5px;
 }
 
-header p {
-  margin-top: 6px;
-  color: var(--muted);
-  font-size: 15px;
+header p{
+  margin-top:8px;
+  font-size:15px;
+  color:var(--muted);
 }
 
-#search {
-  width: 100%;
-  padding: 14px 18px;
-  border-radius: 999px;
-  border: 1px solid #c7d2fe;
-  font-size: 16px;
-  margin-bottom: 16px;
+/* ===== SEARCH ===== */
+.search-box{
+  position:relative;
+  margin-bottom:22px;
 }
 
-.buttons {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 18px;
+.search-box input{
+  width:100%;
+  padding:16px 18px 16px 46px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  font-size:16px;
+  outline:none;
+  background:#fff;
 }
 
-button {
-  padding: 10px 18px;
-  border-radius: 999px;
-  border: none;
-  background: var(--secondary);
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
+.search-box span{
+  position:absolute;
+  top:50%;
+  left:16px;
+  transform:translateY(-50%);
+  font-size:18px;
+  color:var(--muted);
 }
 
-.card {
-  background: var(--card);
-  border-radius: 16px;
-  padding: 16px;
-  margin-bottom: 14px;
-  box-shadow: 0 10px 25px rgba(15,23,42,0.06);
+.search-box input:focus{
+  border-color:var(--accent);
 }
 
-.card .jp {
-  font-size: 22px;
-  font-weight: 700;
+/* ===== LIST ===== */
+#list{
+  display:grid;
+  gap:14px;
 }
 
-.card .romaji {
-  color: var(--muted);
-  font-size: 14px;
+/* ===== CARD ===== */
+.card{
+  background:var(--card);
+  border-radius:18px;
+  padding:16px 18px;
+  box-shadow:0 10px 25px rgba(15,23,42,.08);
+  transition:.2s ease;
 }
 
-.card .arti {
-  margin-top: 8px;
-  font-size: 15px;
+.card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 16px 32px rgba(15,23,42,.12);
 }
 
-.badge {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 4px 12px;
-  border-radius: 999px;
-  font-size: 12px;
+.jp{
+  font-size:22px;
+  font-weight:800;
 }
 
-.badge.welding { background:#e0e7ff; color:#1e3a8a; }
-.badge.qc { background:#dcfce7; color:#166534; }
-.badge.safety { background:#ffedd5; color:#9a3412; }
+.romaji{
+  margin-top:2px;
+  font-size:14px;
+  color:var(--muted);
+}
 
-footer {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 13px;
-  color: var(--muted);
+.idn{
+  margin-top:10px;
+  font-size:15px;
+  line-height:1.6;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  margin-top:40px;
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+}
+
+/* ===== EMPTY ===== */
+.empty{
+  text-align:center;
+  padding:40px;
+  color:var(--muted);
 }
 </style>
 </head>
@@ -126,76 +142,63 @@ footer {
   <p>Kamus Jepang Welding & Manufaktur</p>
 </header>
 
-<input id="search" placeholder="🔍 Cari Jepang / Romaji / Indonesia">
-
-<div class="buttons">
-  <button onclick="loadKategori('welding')">Welding</button>
-  <button onclick="loadKategori('qc')">QC</button>
-  <button onclick="loadKategori('safety')">Safety</button>
+<div class="search-box">
+  <span>🔍</span>
+  <input id="search" placeholder="Cari Jepang / Romaji / Indonesia">
 </div>
 
 <div id="list"></div>
 
-<footer>© Manabu Mantappu</footer>
+<footer>
+  © Manabu Mantappu
+</footer>
+
 </div>
 
 <script>
-function capitalize(text) {
-  if (!text) return '';
-  if (text === 'qc') return 'QC';
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
 let kamus = [];
-let indexData = {};
 
-// load index.json
-fetch('data/index.json')
+/* ===== LOAD DATA ===== */
+fetch('data/kamus.json')
   .then(res => res.json())
   .then(data => {
-    indexData = data;
-    loadKategori('welding');
+    kamus = data;
+    render(data);
+  })
+  .catch(()=>{
+    document.getElementById('list').innerHTML =
+      '<div class="empty">Gagal memuat data</div>';
   });
 
-function loadKategori(kategori) {
-  fetch(indexData[kategori])
-    .then(res => res.json())
-    .then(data => {
-      kamus = data;
-      tampilkan(data);
-    });
-}
-
-function tampilkan(data) {
+/* ===== RENDER ===== */
+function render(data){
   const list = document.getElementById('list');
   list.innerHTML = '';
 
-  if (data.length === 0) {
-    list.innerHTML = '<p style="text-align:center">Data tidak ditemukan</p>';
+  if(!data.length){
+    list.innerHTML = '<div class="empty">Data tidak ditemukan</div>';
     return;
   }
 
-  data.forEach(item => {
+  data.forEach(item=>{
     list.innerHTML += `
       <div class="card">
         <div class="jp">${item.jp}</div>
         <div class="romaji">${item.romaji}</div>
-        <div class="arti">${item.idn}</div>
-        <div class="badge ${item.kategori}">
-          ${capitalize(item.kategori)}
-        </div>
+        <div class="idn">${item.idn}</div>
       </div>
     `;
   });
 }
 
-document.getElementById('search').addEventListener('input', e => {
-  const key = e.target.value.toLowerCase();
-  tampilkan(
+/* ===== SEARCH ===== */
+document.getElementById('search').addEventListener('input', e=>{
+  const q = e.target.value.toLowerCase();
+  render(
     kamus.filter(item =>
-      item.jp.includes(key) ||
-      item.romaji.toLowerCase().includes(key) ||
-      item.idn.toLowerCase().includes(key)
+      item.jp.includes(q) ||
+      item.romaji.toLowerCase().includes(q) ||
+      item.idn.toLowerCase().includes(q)
     )
   );
 });
