@@ -7,13 +7,13 @@
 
 <style>
 :root{
-  --primary:#1e3a8a;
-  --accent:#2563eb;
-  --bg:#f1f5f9;
+  --bg:#f4f5f7;
   --card:#ffffff;
-  --text:#0f172a;
-  --muted:#64748b;
-  --border:#e2e8f0;
+  --primary:#111827;
+  --accent:#2563eb;
+  --muted:#6b7280;
+  --border:#e5e7eb;
+  --highlight:#fde68a;
 }
 
 *{box-sizing:border-box}
@@ -21,13 +21,12 @@
 body{
   margin:0;
   font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-  background:linear-gradient(180deg,#e0e7ff,#f8fafc);
-  color:var(--text);
+  background:var(--bg);
+  color:var(--primary);
 }
 
-/* ===== LAYOUT ===== */
 .container{
-  max-width:860px;
+  max-width:820px;
   margin:auto;
   padding:24px 16px 40px;
 }
@@ -35,100 +34,96 @@ body{
 /* ===== HEADER ===== */
 header{
   text-align:center;
-  margin-bottom:26px;
+  margin-bottom:24px;
 }
 
 header h1{
   margin:0;
-  font-size:30px;
+  font-size:28px;
   font-weight:800;
-  letter-spacing:.5px;
 }
 
 header p{
-  margin-top:8px;
-  font-size:15px;
+  margin-top:6px;
   color:var(--muted);
+  font-size:14px;
 }
 
 /* ===== SEARCH ===== */
-.search-box{
-  position:relative;
-  margin-bottom:22px;
-}
-
-.search-box input{
+#search{
   width:100%;
-  padding:16px 18px 16px 46px;
-  border-radius:999px;
+  padding:14px 18px;
+  border-radius:14px;
   border:1px solid var(--border);
   font-size:16px;
   outline:none;
-  background:#fff;
+  margin-bottom:14px;
 }
 
-.search-box span{
-  position:absolute;
-  top:50%;
-  left:16px;
-  transform:translateY(-50%);
-  font-size:18px;
-  color:var(--muted);
-}
-
-.search-box input:focus{
+#search:focus{
   border-color:var(--accent);
 }
 
-/* ===== LIST ===== */
-#list{
-  display:grid;
-  gap:14px;
+/* ===== CONTROLS ===== */
+.controls{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-bottom:18px;
+}
+
+button{
+  padding:8px 16px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:#fff;
+  color:#111;
+  font-weight:600;
+  cursor:pointer;
+}
+
+button.active{
+  background:var(--accent);
+  color:#fff;
+  border-color:var(--accent);
 }
 
 /* ===== CARD ===== */
 .card{
   background:var(--card);
-  border-radius:18px;
-  padding:16px 18px;
-  box-shadow:0 10px 25px rgba(15,23,42,.08);
-  transition:.2s ease;
-}
-
-.card:hover{
-  transform:translateY(-2px);
-  box-shadow:0 16px 32px rgba(15,23,42,.12);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:16px;
+  margin-bottom:12px;
 }
 
 .jp{
   font-size:22px;
-  font-weight:800;
+  font-weight:700;
 }
 
 .romaji{
-  margin-top:2px;
-  font-size:14px;
+  font-size:13px;
   color:var(--muted);
+  margin-top:2px;
 }
 
 .idn{
-  margin-top:10px;
+  margin-top:8px;
   font-size:15px;
-  line-height:1.6;
+}
+
+mark{
+  background:var(--highlight);
+  padding:0 2px;
 }
 
 /* ===== FOOTER ===== */
 footer{
-  margin-top:40px;
   text-align:center;
+  margin-top:32px;
   font-size:13px;
-  color:var(--muted);
-}
-
-/* ===== EMPTY ===== */
-.empty{
-  text-align:center;
-  padding:40px;
   color:var(--muted);
 }
 </style>
@@ -142,66 +137,99 @@ footer{
   <p>Kamus Jepang Welding & Manufaktur</p>
 </header>
 
-<div class="search-box">
-  <span>🔍</span>
-  <input id="search" placeholder="Cari Jepang / Romaji / Indonesia">
+<input id="search" type="text" placeholder="🔍 Cari Jepang / Romaji / Indonesia">
+
+<div class="controls">
+  <button id="sortAZ" class="active">A–Z</button>
+  <button id="sortJP">JP</button>
 </div>
 
 <div id="list"></div>
 
-<footer>
-  © Manabu Mantappu
-</footer>
+<footer>© Manabu Mantappu</footer>
 
 </div>
 
 <script>
 let kamus = [];
+let currentSort = 'az';
 
-/* ===== LOAD DATA ===== */
+/* ===== FETCH DATA ===== */
 fetch('data/kamus.json')
-  .then(res => res.json())
+  .then(r => r.json())
   .then(data => {
     kamus = data;
-    render(data);
+    render();
   })
-  .catch(()=>{
+  .catch(() => {
     document.getElementById('list').innerHTML =
-      '<div class="empty">Gagal memuat data</div>';
+      '<p style="text-align:center;color:#999">Gagal memuat data</p>';
   });
 
+/* ===== SORTING ===== */
+function sortData(data){
+  if(currentSort === 'jp'){
+    return [...data].sort((a,b)=>a.jp.localeCompare(b.jp,'ja'));
+  }
+  return [...data].sort((a,b)=>a.romaji.localeCompare(b.romaji,'en',{sensitivity:'base'}));
+}
+
+/* ===== HIGHLIGHT ===== */
+function highlight(text, keyword){
+  if(!keyword) return text;
+  const reg = new RegExp(`(${keyword})`,'gi');
+  return text.replace(reg,'<mark>$1</mark>');
+}
+
 /* ===== RENDER ===== */
-function render(data){
+function render(){
   const list = document.getElementById('list');
+  const q = document.getElementById('search').value.toLowerCase();
+
+  let hasil = kamus.filter(item =>
+    item.jp.includes(q) ||
+    item.romaji.toLowerCase().includes(q) ||
+    item.idn.toLowerCase().includes(q)
+  );
+
+  hasil = sortData(hasil);
   list.innerHTML = '';
 
-  if(!data.length){
-    list.innerHTML = '<div class="empty">Data tidak ditemukan</div>';
+  if(hasil.length === 0){
+    list.innerHTML = '<p style="text-align:center;color:#999">Data tidak ditemukan</p>';
     return;
   }
 
-  data.forEach(item=>{
+  hasil.forEach(item=>{
     list.innerHTML += `
       <div class="card">
-        <div class="jp">${item.jp}</div>
-        <div class="romaji">${item.romaji}</div>
-        <div class="idn">${item.idn}</div>
+        <div class="jp">${highlight(item.jp,q)}</div>
+        <div class="romaji">${highlight(item.romaji,q)}</div>
+        <div class="idn">${highlight(item.idn,q)}</div>
       </div>
     `;
   });
 }
 
-/* ===== SEARCH ===== */
-document.getElementById('search').addEventListener('input', e=>{
-  const q = e.target.value.toLowerCase();
-  render(
-    kamus.filter(item =>
-      item.jp.includes(q) ||
-      item.romaji.toLowerCase().includes(q) ||
-      item.idn.toLowerCase().includes(q)
-    )
-  );
-});
+/* ===== EVENTS ===== */
+document.getElementById('search').addEventListener('input',render);
+
+document.getElementById('sortAZ').onclick = ()=>{
+  currentSort='az';
+  setActive('sortAZ');
+  render();
+};
+
+document.getElementById('sortJP').onclick = ()=>{
+  currentSort='jp';
+  setActive('sortJP');
+  render();
+};
+
+function setActive(id){
+  document.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
 </script>
 
 </body>
