@@ -15,9 +15,7 @@
   --muted: #64748b;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -55,12 +53,7 @@ header p {
   border-radius: 999px;
   border: 1px solid #c7d2fe;
   font-size: 16px;
-  outline: none;
   margin-bottom: 16px;
-}
-
-#search:focus {
-  border-color: var(--secondary);
 }
 
 .buttons {
@@ -79,12 +72,6 @@ button {
   color: white;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 12px rgba(37,99,235,0.3);
 }
 
 .card {
@@ -103,7 +90,6 @@ button:hover {
 .card .romaji {
   color: var(--muted);
   font-size: 14px;
-  margin-top: 2px;
 }
 
 .card .arti {
@@ -117,9 +103,11 @@ button:hover {
   padding: 4px 12px;
   border-radius: 999px;
   font-size: 12px;
-  background: #e0e7ff;
-  color: var(--primary);
 }
+
+.badge.welding { background:#e0e7ff; color:#1e3a8a; }
+.badge.qc { background:#dcfce7; color:#166534; }
+.badge.safety { background:#ffedd5; color:#9a3412; }
 
 footer {
   text-align: center;
@@ -127,70 +115,63 @@ footer {
   font-size: 13px;
   color: var(--muted);
 }
- /* Badge warna per kategori */
-.badge.welding {
-  background: #e0e7ff;
-  color: #1e3a8a;
-}
-
-.badge.qc {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.badge.safety {
-  background: #ffedd5;
-  color: #9a3412;
-}
- 
 </style>
 </head>
 
 <body>
 <div class="container">
 
-  <header>
-    <h1>Manabu Mantappu</h1>
-    <p>Kamus Jepang Welding & Manufaktur</p>
-  </header>
+<header>
+  <h1>Manabu Mantappu</h1>
+  <p>Kamus Jepang Welding & Manufaktur</p>
+</header>
 
-  <input
-    type="text"
-    id="search"
-    placeholder="🔍 Cari Jepang / Romaji / Indonesia"
-  >
+<input id="search" placeholder="🔍 Cari Jepang / Romaji / Indonesia">
 
-  <div class="buttons">
-    <button onclick="filterData('all')">Semua</button>
-    <button onclick="filterData('welding')">Welding</button>
-    <button onclick="filterData('qc')">QC</button>
-    <button onclick="filterData('safety')">Safety</button>
-  </div>
+<div class="buttons">
+  <button onclick="loadKategori('welding')">Welding</button>
+  <button onclick="loadKategori('qc')">QC</button>
+  <button onclick="loadKategori('safety')">Safety</button>
+</div>
 
-  <div id="list"></div>
+<div id="list"></div>
 
-  <footer>
-    © Manabu Mantappu
-  </footer>
-
+<footer>© Manabu Mantappu</footer>
 </div>
 
 <script>
-let kamus = [];
+function capitalize(text) {
+  if (!text) return '';
+  if (text === 'qc') return 'QC';
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
 
-fetch('data/kamus.json')
+let kamus = [];
+let indexData = {};
+
+// load index.json
+fetch('data/index.json')
   .then(res => res.json())
   .then(data => {
-    kamus = data;
-    tampilkan(data);
+    indexData = data;
+    loadKategori('welding');
   });
+
+function loadKategori(kategori) {
+  fetch(indexData[kategori])
+    .then(res => res.json())
+    .then(data => {
+      kamus = data;
+      tampilkan(data);
+    });
+}
 
 function tampilkan(data) {
   const list = document.getElementById('list');
   list.innerHTML = '';
 
   if (data.length === 0) {
-    list.innerHTML = '<p style="text-align:center;color:#666;">Data tidak ditemukan</p>';
+    list.innerHTML = '<p style="text-align:center">Data tidak ditemukan</p>';
     return;
   }
 
@@ -201,44 +182,23 @@ function tampilkan(data) {
         <div class="romaji">${item.romaji}</div>
         <div class="arti">${item.idn}</div>
         <div class="badge ${item.kategori}">
-  ${capitalize(item.kategori)}
-</div>
+          ${capitalize(item.kategori)}
+        </div>
+      </div>
     `;
   });
 }
 
-function filterData(kategori) {
-  const keyword = document.getElementById('search').value.toLowerCase();
-  let hasil = kamus;
-
-  if (kategori !== 'all') {
-    hasil = hasil.filter(item => item.kategori === kategori);
-  }
-
-  if (keyword) {
-    hasil = hasil.filter(item =>
-      item.jp.includes(keyword) ||
-      item.romaji.toLowerCase().includes(keyword) ||
-      item.idn.toLowerCase().includes(keyword)
-    );
-  }
-
-  tampilkan(hasil);
-}
-
-document.getElementById('search').addEventListener('input', () => {
-  filterData('all');
+document.getElementById('search').addEventListener('input', e => {
+  const key = e.target.value.toLowerCase();
+  tampilkan(
+    kamus.filter(item =>
+      item.jp.includes(key) ||
+      item.romaji.toLowerCase().includes(key) ||
+      item.idn.toLowerCase().includes(key)
+    )
+  );
 });
-function capitalize(text) {
-  if (!text) return '';
-
-  // khusus singkatan
-  if (text.toLowerCase() === 'qc') return 'QC';
-
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
-let kamus = [];  
 </script>
 
 </body>
