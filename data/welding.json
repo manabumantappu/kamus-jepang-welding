@@ -1,143 +1,8 @@
 [
-   {
-    "jp": "溶接",
-    "romaji": "yousetsu",
-    "idn": "pengelasan",
-    "level": "dasar"
-  },
-  {
-    "jp": "半自動溶接",
-    "romaji": "hanjidou yousetsu",
-    "idn": "las semi otomatis",
-        "level": "industri"
-  },
-  {
-    "jp": "アーク溶接",
-    "romaji": "aaku yousetsu",
-    "idn": "las listrik",
-     "level": "dasar"
-  },
-  {
-    "jp": "手溶接",
-    "romaji": "te yousetsu",
-    "idn": "las manual",
-    "level": "dasar"
-  },
-  {
-    "jp": "半自動溶接",
-    "romaji": "hanjidou yousetsu",
-    "idn": "las semi otomatis",
-    "level": "industri"
-  },
-  {
-    "jp": "ロボット溶接",
-    "romaji": "robotto yousetsu",
-    "idn": "las robot",
-    "level": "industri"
-  },
-  {
-    "jp": "溶接機",
-    "romaji": "yousetsuki",
-    "idn": "mesin las",
-    "level": "dasar"
-  },
-  {
-    "jp": "溶接棒",
-    "romaji": "yousetsubou",
-    "idn": "elektroda las",
-    "level": "dasar"
-  },
-  {
-    "jp": "母材",
-    "romaji": "bozai",
-    "idn": "material induk",
-    "level": "industri"
-  },
-  {
-    "jp": "溶加材",
-    "romaji": "youkazai",
-    "idn": "material tambah",
-    "level": "industri"
-  },
-  {
-    "jp": "電流",
-    "romaji": "denryuu",
-    "idn": "arus listrik",
-    "level": "dasar"
-  },
-  {
-    "jp": "電圧",
-    "romaji": "denatsu",
-    "idn": "tegangan",
-    "level": "dasar"
-  },
-  {
-    "jp": "溶接姿勢",
-    "romaji": "yousetsu shisei",
-    "idn": "posisi pengelasan",
-    "level": "industri"
-  },
-  {
-    "jp": "下向き",
-    "romaji": "shitamuki",
-    "idn": "posisi bawah",
-    "level": "industri"
-  },
-  {
-    "jp": "立向き",
-    "romaji": "tatemuki",
-    "idn": "posisi vertikal",
-    "level": "industri"
-  },
-  {
-    "jp": "上向き",
-    "romaji": "uwamuki",
-    "idn": "posisi atas",
-    "level": "industri"
-  },
-  {
-    "jp": "ビード",
-    "romaji": "biido",
-    "idn": "bead las",
-    "level": "dasar"
-  },
-  {
-    "jp": "スパッタ",
-    "romaji": "supatta",
-    "idn": "percikan las",
-    "level": "dasar"
-  },
-  {
-    "jp": "溶け込み",
-    "romaji": "tokekomi",
-    "idn": "penetrasi",
-        "level": "industri"
-  },
-  {
-    "jp": "溶接不良",
-    "romaji": "yousetsu furyou",
-    "idn": "cacat las",
-     "level": "industri"
-  },
-  {
-    "jp": "溶接条件",
-    "romaji": "yousetsu jouken",
-    "idn": "parameter las",
-     "level": "industri"
-  },
-  {
-    "jp": "仮付け",
-    "romaji": "karizuke",
-    "idn": "tack weld",
-        "level": "industri"
-  },
-   [
   {
     "jp": "溶接",
     "romaji": "yousetsu",
     "idn": "pengelasan",
-    "kategori": "Welding",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -145,8 +10,6 @@
     "jp": "半自動溶接",
     "romaji": "hanjidou yousetsu",
     "idn": "las semi otomatis",
-    "kategori": "Welding",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -154,8 +17,6 @@
     "jp": "検査",
     "romaji": "kensa",
     "idn": "inspeksi",
-    "kategori": "Qc",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -163,8 +24,6 @@
     "jp": "水没検査",
     "romaji": "suibotsu kensa",
     "idn": "tes rendam",
-    "kategori": "Qc",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -172,8 +31,6 @@
     "jp": "安全",
     "romaji": "anzen",
     "idn": "keselamatan",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -181,8 +38,6 @@
     "jp": "保護具",
     "romaji": "hogogu",
     "idn": "alat pelindung diri",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -190,8 +45,6 @@
     "jp": "中圧式安全器",
     "romaji": "chuuatsushiki anzenki",
     "idn": "alat pengaman antara",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -199,8 +52,6 @@
     "jp": "乾式安全器",
     "romaji": "kanshiki anzenki",
     "idn": "alat pengaman kering",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -208,8 +59,6 @@
     "jp": "混合ガス",
     "romaji": "kongoogasu",
     "idn": "alat pengukur tekanan rekanan rendah gas campuran",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -217,8 +66,6 @@
     "jp": "低圧圧力計 (ゲージ)",
     "romaji": "teiatsu atsuryokukei (geeji)",
     "idn": "alat pengukur tekanan rendah",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -226,8 +73,6 @@
     "jp": "高圧圧力計 (ゲージ)",
     "romaji": "kouatsu atsuryokukei (geeji)",
     "idn": "alat pengukur tekanan tinggi",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -235,8 +80,6 @@
     "jp": "消火器",
     "romaji": "shoukaki",
     "idn": "alat-alat pemadam kebakaran",
-    "kategori": "Umum/Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -244,8 +87,6 @@
     "jp": "アルミニウム",
     "romaji": "aruminiumu",
     "idn": "aluminium",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -253,8 +94,6 @@
     "jp": "電流計 (クランプメータ)",
     "romaji": "denryuukei (kurampumeeta)",
     "idn": "ammeter",
-    "kategori": "Teknik Listrik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -262,8 +101,6 @@
     "jp": "ワイヤ送給装置",
     "romaji": "waiya soukyuu souchi",
     "idn": "aparatus pengisian kawat",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -271,8 +108,6 @@
     "jp": "アセチレン圧力調整器",
     "romaji": "asechiren atsuryoku chouseiki",
     "idn": "aparatus penyetel tekanan asetilin",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -280,8 +115,6 @@
     "jp": "前掛け",
     "romaji": "maekake",
     "idn": "apron",
-    "kategori": "Safety/Apd",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -289,8 +122,6 @@
     "jp": "短絡電流",
     "romaji": "tanraku denryuu",
     "idn": "arus hubungan pendek",
-    "kategori": "Teknik Listrik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -298,8 +129,6 @@
     "jp": "溶接電流",
     "romaji": "yousetsu denryuu",
     "idn": "arus listrik las",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -307,8 +136,6 @@
     "jp": "フラックス",
     "romaji": "furakkusu",
     "idn": "bahan pelumer",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -316,8 +143,6 @@
     "jp": "H形鋼 (H鋼)",
     "romaji": "ecchigata kou (ecchikou)",
     "idn": "baja berbentuk H",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -325,8 +150,6 @@
     "jp": "C形鋼 (Cチャン)",
     "romaji": "C-gata kou (C-chan)",
     "idn": "baja kanal C",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -334,8 +157,6 @@
     "jp": "高炭素鋼",
     "romaji": "koutansokou",
     "idn": "baja karbon tinggi",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -343,8 +164,6 @@
     "jp": "低合金鋼",
     "romaji": "teigou kinkou",
     "idn": "baja paduan rendah",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -352,8 +171,6 @@
     "jp": "ステンレス鋼",
     "romaji": "sutenresukou",
     "idn": "baja tahan karat",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -361,8 +178,6 @@
     "jp": "高張力鋼",
     "romaji": "kouchouryokukou",
     "idn": "baja tegangan tinggi",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -370,8 +185,6 @@
     "jp": "多層盛り",
     "romaji": "tasoumori",
     "idn": "barang isi lapisan ganda",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -379,8 +192,6 @@
     "jp": "丸鋼 (丸棒)",
     "romaji": "marukou (marubou)",
     "idn": "batang bulat",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -388,8 +199,6 @@
     "jp": "溶加棒",
     "romaji": "youkabou",
     "idn": "batang pengisi",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -397,8 +206,6 @@
     "jp": "可燃性物質",
     "romaji": "kanensei busshitsu",
     "idn": "benda yang dapat dibakar",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -406,8 +213,6 @@
     "jp": "オーバーラップ",
     "romaji": "oobaarappu",
     "idn": "berimpitan",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -415,8 +220,6 @@
     "jp": "鋳鉄",
     "romaji": "chuutetsu",
     "idn": "besi cor",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -424,8 +227,6 @@
     "jp": "平鋼 (フラットバー)",
     "romaji": "hirakou (furattobaa)",
     "idn": "besi picak",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -433,8 +234,6 @@
     "jp": "山形鋼 (アングル)",
     "romaji": "yamagatakou (anguru)",
     "idn": "besi siku",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -442,8 +241,6 @@
     "jp": "アーク",
     "romaji": "aaku",
     "idn": "busur lingkaran",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -451,8 +248,6 @@
     "jp": "アーク光",
     "romaji": "aakukou",
     "idn": "cahaya busur api",
-    "kategori": "Teknik/Las",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -460,8 +255,6 @@
     "jp": "C形鋼 (C チャン)",
     "romaji": "C-gata kou (C chan)",
     "idn": "baja kanal C",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -469,8 +262,6 @@
     "jp": "低合金鋼",
     "romaji": "teigoukinkou",
     "idn": "baja paduan rendah",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -478,8 +269,6 @@
     "jp": "可燃性物質",
     "romaji": "kanenseibushitsu",
     "idn": "benda yang dapat dibakar",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -487,8 +276,6 @@
     "jp": "ビードの重ね方",
     "romaji": "biido no kasanekata",
     "idn": "cara sambung manik",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -496,8 +283,6 @@
     "jp": "コンタクトチップ",
     "romaji": "kontakuto chippu",
     "idn": "chip kontak",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -505,8 +290,6 @@
     "jp": "溶接棒",
     "romaji": "yousetsubou",
     "idn": "elektroda",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -514,8 +297,6 @@
     "jp": "タングステン電極",
     "romaji": "tangusuten denkyoku",
     "idn": "elektroda tungsten",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -523,8 +304,6 @@
     "jp": "バルブハンドル",
     "romaji": "barubu handoru",
     "idn": "gagang katup",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -532,8 +311,6 @@
     "jp": "電流調整ハンドル",
     "romaji": "denryuu chousei handoru",
     "idn": "gagang penyetel arus listrik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -541,8 +318,6 @@
     "jp": "圧力調整ハンドル",
     "romaji": "atsuryoku chousei handoru",
     "idn": "gagang penyetel tekanan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -550,8 +325,6 @@
     "jp": "ヒューム障害",
     "romaji": "hyuumu shougai",
     "idn": "gangguan pipa beton",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -559,8 +332,6 @@
     "jp": "アルゴンガス",
     "romaji": "arugon gasu",
     "idn": "gas argon",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -568,8 +339,6 @@
     "jp": "アセチレンガス",
     "romaji": "asechiren gasu",
     "idn": "gas asetilin",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -577,8 +346,6 @@
     "jp": "有害ガス",
     "romaji": "yuugai gasu",
     "idn": "gas beracun",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -586,8 +353,6 @@
     "jp": "炭酸ガス",
     "romaji": "tansan gasu",
     "idn": "gas karbon dioksida",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -595,8 +360,6 @@
     "jp": "バックシールドガス",
     "romaji": "bakkushiirudo gasu",
     "idn": "gas kena angin sebelah belakang",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -604,8 +367,6 @@
     "jp": "可燃性ガス",
     "romaji": "kanensei gasu",
     "idn": "gas mudah nyala",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -613,8 +374,6 @@
     "jp": "窒素ガス",
     "romaji": "chisso gasu",
     "idn": "gas nitrogen",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -622,8 +381,6 @@
     "jp": "シールドガス",
     "romaji": "shiirudogasu",
     "idn": "gas pelindung",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -631,8 +388,6 @@
     "jp": "裏当金",
     "romaji": "uraategane",
     "idn": "gelang belakang",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -640,8 +395,6 @@
     "jp": "ブローホール",
     "romaji": "buroo hooru",
     "idn": "gelembung buih",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -649,8 +402,6 @@
     "jp": "波形",
     "romaji": "hakei",
     "idn": "gelombang",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -658,8 +409,6 @@
     "jp": "ヘルメット",
     "romaji": "herumetto",
     "idn": "helm",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -667,8 +416,6 @@
     "jp": "接地 (アース)",
     "romaji": "secchi (aasu)",
     "idn": "hubungan ke bumi",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -676,8 +423,6 @@
     "jp": "点検",
     "romaji": "tenken",
     "idn": "inspeksi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -685,8 +430,6 @@
     "jp": "保護具の点検",
     "romaji": "hogogu no tenken",
     "idn": "inspeksi alat pelindung",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -694,8 +437,6 @@
     "jp": "接続部の点検",
     "romaji": "setsuzokubu no tenken",
     "idn": "inspeksi bagian sambungan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -703,8 +444,6 @@
     "jp": "ガス漏れ点検",
     "romaji": "gasumore tenken",
     "idn": "inspeksi kebocoran gas",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -712,8 +451,6 @@
     "jp": "水位の点検",
     "romaji": "suii no tenken",
     "idn": "inspeksi permukaan air",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -721,8 +458,6 @@
     "jp": "自動電撃防止装置",
     "romaji": "jidou dengeki boushi souchi",
     "idn": "instalasi pencegah kejutan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -730,8 +465,6 @@
     "jp": "ガス集合装置",
     "romaji": "gasu shuugou souchi",
     "idn": "instalasi pengumpul gas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -739,8 +472,6 @@
     "jp": "酸素圧力調整器",
     "romaji": "sanso atsuryoku chouseiki",
     "idn": "instalasi penyetel tekanan oksigen",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -748,8 +479,6 @@
     "jp": "掃除針",
     "romaji": "soujibari",
     "idn": "jarum pembersih",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -757,8 +486,6 @@
     "jp": "墜落",
     "romaji": "tsuiraku",
     "idn": "jatuh",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -766,8 +493,6 @@
     "jp": "検水窓",
     "romaji": "kensuimado",
     "idn": "jendela pemeriksaan air",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -775,8 +500,6 @@
     "jp": "一次側ケーブル",
     "romaji": "ichijigawa keeburu",
     "idn": "kabel primer",
-    "kategori": "Listrik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -784,8 +507,6 @@
     "jp": "二次側ケーブル",
     "romaji": "nijigawa keeburu",
     "idn": "kabel sekunder",
-    "kategori": "Listrik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -793,8 +514,6 @@
     "jp": "遮光ガラス",
     "romaji": "shakou garasu",
     "idn": "kaca penghalang sinar",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -802,8 +521,6 @@
     "jp": "保護めがね (遮光めがね)",
     "romaji": "hogomegane (shakoumegane)",
     "idn": "kacamata pelindung mata",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -811,8 +528,6 @@
     "jp": "ガスバルブ",
     "romaji": "gasu barubu",
     "idn": "katup gas",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -820,8 +535,6 @@
     "jp": "酸素バルブ",
     "romaji": "sanso barubu",
     "idn": "katup oksigen",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -829,8 +542,6 @@
     "jp": "切断酸素バルブ",
     "romaji": "setsudan sanso barubu",
     "idn": "katup oksigen potong",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -838,8 +549,6 @@
     "jp": "予熱酸素バルブ",
     "romaji": "yonetsu sanso barubu",
     "idn": "katup oksigen prapemanasan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -847,8 +556,6 @@
     "jp": "安全弁",
     "romaji": "anzenben",
     "idn": "katup pengaman",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -856,8 +563,6 @@
     "jp": "アセチレン調整バルブ",
     "romaji": "asechiren chousei barubu",
     "idn": "katup penyetel asetilin",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -865,8 +570,6 @@
     "jp": "心線",
     "romaji": "shinsen",
     "idn": "kawat inti",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -874,8 +577,6 @@
     "jp": "溶接ワイヤ",
     "romaji": "yousetsu waiya",
     "idn": "kawat las",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -883,8 +584,6 @@
     "jp": "火災",
     "romaji": "kasai",
     "idn": "kebakaran",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -892,8 +591,6 @@
     "jp": "ガス漏れ",
     "romaji": "gasu more",
     "idn": "kebocoran gas",
-    "kategori": "K3 / Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -901,8 +598,6 @@
     "jp": "溶け込み不良",
     "romaji": "tokekomi furyou",
     "idn": "keburukan peleburan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -910,8 +605,6 @@
     "jp": "融合不良",
     "romaji": "yuugou furyou",
     "idn": "keburukan pemaduan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -919,8 +612,6 @@
     "jp": "運棒速度",
     "romaji": "unbou sokudo",
     "idn": "kecepatan manipulasi",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -928,8 +619,6 @@
     "jp": "溶接速度",
     "romaji": "yousetsu sokudo",
     "idn": "kecepatan mengelas",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -937,8 +626,6 @@
     "jp": "切断速度",
     "romaji": "setsudan sokudo",
     "idn": "kecepatan potong",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -946,8 +633,6 @@
     "jp": "失明",
     "romaji": "shitsumei",
     "idn": "kehilangan penglihatan",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -955,8 +640,6 @@
     "jp": "欠陥",
     "romaji": "kekkan",
     "idn": "kekurangan",
-    "kategori": "Umum / Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -964,8 +647,6 @@
     "jp": "のど厚不足",
     "romaji": "nodoatsu busoku",
     "idn": "kekurangan tebal sempitan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -973,8 +654,6 @@
     "jp": "ピッチ",
     "romaji": "picchi",
     "idn": "kemiringan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -982,8 +661,6 @@
     "jp": "感電",
     "romaji": "kanden",
     "idn": "kena listrik",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -991,8 +668,6 @@
     "jp": "トーチヘッド",
     "romaji": "toochi heddo",
     "idn": "kepala obor",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1000,8 +675,6 @@
     "jp": "中毒",
     "romaji": "chuudoku",
     "idn": "keracunan",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1009,8 +682,6 @@
     "jp": "乾燥",
     "romaji": "kansou",
     "idn": "kering",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1018,8 +689,6 @@
     "jp": "アースクランプ",
     "romaji": "aasu kuranpu",
     "idn": "klem-tanah",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1027,8 +696,6 @@
     "jp": "溶融池 (プール)",
     "romaji": "youyuuchi (puuru)",
     "idn": "kubangan lelah (kolam)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1036,8 +703,6 @@
     "jp": "ガス溶接",
     "romaji": "gasu yousetsu",
     "idn": "las gas",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1045,8 +710,6 @@
     "jp": "仮付け",
     "romaji": "karitsuke",
     "idn": "las sementara (tack welding)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1054,8 +717,6 @@
     "jp": "ビード幅",
     "romaji": "biido haba",
     "idn": "lebar manik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1063,8 +724,6 @@
     "jp": "爆発",
     "romaji": "bakuhatsu",
     "idn": "ledakan",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1072,8 +731,6 @@
     "jp": "脚長",
     "romaji": "kyachou",
     "idn": "leg",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1081,8 +738,6 @@
     "jp": "母材",
     "romaji": "bozai",
     "idn": "logam dasar",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1090,8 +745,6 @@
     "jp": "ピット",
     "romaji": "pitto",
     "idn": "lubang",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1099,8 +752,6 @@
     "jp": "火傷",
     "romaji": "yakedo",
     "idn": "luka terbakar",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1108,8 +759,6 @@
     "jp": "裏波ビード",
     "romaji": "uranami biido",
     "idn": "manik-balik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1117,8 +766,6 @@
     "jp": "ビード外観",
     "romaji": "biido gaikan",
     "idn": "manik-las luar",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1126,8 +773,6 @@
     "jp": "ウィービングビード",
     "romaji": "wiibingu biido",
     "idn": "manik manipulasi elektroda",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1135,8 +780,6 @@
     "jp": "ストリンガビード",
     "romaji": "sutoringabiido",
     "idn": "manik urat las deret",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1144,8 +787,6 @@
     "jp": "交流溶接機",
     "romaji": "kouryuu yousetsuki",
     "idn": "mesin las arus bolak balik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1153,8 +794,6 @@
     "jp": "直流溶接機",
     "romaji": "chokuryuu yousetsuki",
     "idn": "mesin las arus langsung",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1162,8 +801,6 @@
     "jp": "自動溶接機",
     "romaji": "jidou yousetsuki",
     "idn": "mesin las otomatik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1171,8 +808,6 @@
     "jp": "半自動溶接機",
     "romaji": "hanjidou yousetsuki",
     "idn": "mesin las semi-otomatik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1180,8 +815,6 @@
     "jp": "面取機",
     "romaji": "mentoriki",
     "idn": "mesin pembuangan segi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1189,8 +822,6 @@
     "jp": "自動ガス切断機",
     "romaji": "jidou gasu setsudanki",
     "idn": "mesin pemotong gas otomatis",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1198,8 +829,6 @@
     "jp": "溶接棒乾燥機",
     "romaji": "yousetsubou kansouki",
     "idn": "mesin pengering elektroda",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1207,8 +836,6 @@
     "jp": "ブラッシング法",
     "romaji": "burasshingu hou",
     "idn": "metode menyikat",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1216,8 +843,6 @@
     "jp": "タッピング法",
     "romaji": "tappingu hou",
     "idn": "metode tapping",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1225,8 +850,6 @@
     "jp": "被破壊試験",
     "romaji": "hihakai shiken",
     "idn": "metode uji tanpa merusak",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1234,8 +857,6 @@
     "jp": "ガス運搬車",
     "romaji": "gasu unpansha",
     "idn": "mobil pengangkut gas",
-    "kategori": "Logistik/K3",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1243,8 +864,6 @@
     "jp": "火口 (ノズル)",
     "romaji": "higuchi (nozuru)",
     "idn": "nosel",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1252,8 +871,6 @@
     "jp": "標準炎",
     "romaji": "hyoujun-en",
     "idn": "nyala api standar",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1261,8 +878,6 @@
     "jp": "逆火",
     "romaji": "gyakka",
     "idn": "nyala-balik",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1270,8 +885,6 @@
     "jp": "酸化炎",
     "romaji": "sanka-en",
     "idn": "nyala pengoksidasi",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1279,8 +892,6 @@
     "jp": "酸素",
     "romaji": "sanso",
     "idn": "oksigen",
-    "kategori": "Kimia / Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1288,8 +899,6 @@
     "jp": "チッピングハンマ (スラグハンマ)",
     "romaji": "chippingu hanma (suragu hanma)",
     "idn": "palu pengikis (palu terak)",
-    "kategori": "Pengelasan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1297,8 +906,6 @@
     "jp": "アークの長さ",
     "romaji": "aaku no nagasa",
     "idn": "panjangnya busur api",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1306,8 +913,6 @@
     "jp": "パス",
     "romaji": "pasu",
     "idn": "pass, run",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1315,8 +920,6 @@
     "jp": "運棒",
     "romaji": "unbou",
     "idn": "pegangan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1324,8 +927,6 @@
     "jp": "軟鋼板",
     "romaji": "nankouban",
     "idn": "pelat baja lunak",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1333,8 +934,6 @@
     "jp": "溶け落ち",
     "romaji": "tokeochi",
     "idn": "peleburan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1342,8 +941,6 @@
     "jp": "足カバー",
     "romaji": "ashikabaa",
     "idn": "pelindung kaki",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1351,8 +948,6 @@
     "jp": "ハンドシールド",
     "romaji": "handoshiirudo",
     "idn": "pelindung kemudi",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1360,8 +955,6 @@
     "jp": "腕カバー",
     "romaji": "udekabaa",
     "idn": "pelindung lengan",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1369,8 +962,6 @@
     "jp": "保護面",
     "romaji": "hogomen",
     "idn": "pelindung muka",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1378,8 +969,6 @@
     "jp": "点火ライタ",
     "romaji": "tenka raita",
     "idn": "pemantik api penyalaan",
-    "kategori": "Alat Bantu",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1387,8 +976,6 @@
     "jp": "ルート間隔",
     "romaji": "ruuto kankaku",
     "idn": "pembukaan akar",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1396,8 +983,6 @@
     "jp": "溶接棒ホルダ",
     "romaji": "yousetsubou horuda",
     "idn": "pemegang batang las",
-    "kategori": "Alat Bantu",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1405,8 +990,6 @@
     "jp": "職業病検診",
     "romaji": "shokugyoubyou kenshin",
     "idn": "pemeriksaan penyakit akibat",
-    "kategori": "K3 / Kesehatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1414,8 +997,6 @@
     "jp": "外観検査",
     "romaji": "gaikankensa",
     "idn": "pemeriksaan visual",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1423,8 +1004,6 @@
     "jp": "アンダーカット",
     "romaji": "andaakatto",
     "idn": "pemotongan bawah",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1432,8 +1011,6 @@
     "jp": "ガス切断",
     "romaji": "gasu setsudan",
     "idn": "pemotongan gas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1441,8 +1018,6 @@
     "jp": "電撃防止",
     "romaji": "dengeki boushi",
     "idn": "pencegahan kejutan listrik",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1450,8 +1025,6 @@
     "jp": "冷却",
     "romaji": "reikyaku",
     "idn": "pendinginan",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1459,8 +1032,6 @@
     "jp": "確認",
     "romaji": "kakunin",
     "idn": "penegasan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1468,8 +1039,6 @@
     "jp": "カラーチェック",
     "romaji": "karaa chekku",
     "idn": "pengecekan warna",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1477,8 +1046,6 @@
     "jp": "半自動アーク溶接",
     "romaji": "hanjidou aaku yousetsu",
     "idn": "pengelasan busur api semi-otomatis",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1486,8 +1053,6 @@
     "jp": "被覆アーク溶接",
     "romaji": "hifuku aaku yousetsu",
     "idn": "pengelasan busur api terbungkus",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1495,8 +1060,6 @@
     "jp": "ティグ溶接",
     "romaji": "tigu yousetsu",
     "idn": "pengelasan busur wolfram",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1504,8 +1067,6 @@
     "jp": "水平スミ肉溶接",
     "romaji": "suihei suminiku yousetsu",
     "idn": "pengelasan sudut horizontal",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1513,8 +1074,6 @@
     "jp": "突き合わせ溶接",
     "romaji": "tsukiawase yousetsu",
     "idn": "pengelasan temu",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1522,8 +1081,6 @@
     "jp": "開先加工",
     "romaji": "kaisaki kakou",
     "idn": "pengerjaan pinggir",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1531,8 +1088,6 @@
     "jp": "スラグ巻き込み",
     "romaji": "suragu makikomi",
     "idn": "pengotoran terak-logam",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1540,8 +1095,6 @@
     "jp": "ガス流量調整器",
     "romaji": "gasu ryuuryou chouseiki",
     "idn": "pengukur aliran gas",
-    "kategori": "Alat Ukur",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1549,8 +1102,6 @@
     "jp": "すきまゲージ",
     "romaji": "sukima geeji",
     "idn": "pengukur celah",
-    "kategori": "Alat Ukur",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1558,8 +1109,6 @@
     "jp": "引火",
     "romaji": "inka",
     "idn": "penyalaan",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1567,8 +1116,6 @@
     "jp": "ビード継ぎ",
     "romaji": "biidotsugi",
     "idn": "penyambungan manik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1576,8 +1123,6 @@
     "jp": "火炎調整",
     "romaji": "kaenchousei",
     "idn": "penyesuaian nyala api",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1585,8 +1130,6 @@
     "jp": "圧力調整",
     "romaji": "atsuryokuchousei",
     "idn": "penyesuaian tekanan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1594,8 +1137,6 @@
     "jp": "じん肺",
     "romaji": "jinpai",
     "idn": "peradangan kronis dari paru-paru",
-    "kategori": "K3 / Kesehatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1603,8 +1144,6 @@
     "jp": "切断面",
     "romaji": "setsudanmen",
     "idn": "permukaan potongan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1612,8 +1151,6 @@
     "jp": "鋼管 (パイプ)",
     "romaji": "koukan (paipu)",
     "idn": "pipa baja (pipa)",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1621,8 +1158,6 @@
     "jp": "導管",
     "romaji": "doukan",
     "idn": "pipa saluran",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1630,8 +1165,6 @@
     "jp": "吹管 (トーチ)",
     "romaji": "suikan (toochi)",
     "idn": "pipa-hembus",
-    "kategori": "Alat Bantu",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1639,8 +1172,6 @@
     "jp": "溶接吹管 (トーチ)",
     "romaji": "yousetsusuikan (toochi)",
     "idn": "pipa-hembus las",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1648,8 +1179,6 @@
     "jp": "切断吹管 (トーチ)",
     "romaji": "setsudansuikan (toochi)",
     "idn": "pipa-hembus potong",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1657,8 +1186,6 @@
     "jp": "縞鋼板 (チェッカープレート)",
     "romaji": "shimakouhan (chekkaapureeto)",
     "idn": "plat baja barik",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1666,8 +1193,6 @@
     "jp": "ビード置き",
     "romaji": "biidooki",
     "idn": "posisi manik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1675,8 +1200,6 @@
     "jp": "ねらい位置",
     "romaji": "neraiichi",
     "idn": "posisi sasaran",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1684,8 +1207,6 @@
     "jp": "クレーター処理",
     "romaji": "kureetaashori",
     "idn": "proses crater",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1693,8 +1214,6 @@
     "jp": "逆ひずみ",
     "romaji": "gyaku hizumi",
     "idn": "regandan-balik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1702,8 +1221,6 @@
     "jp": "溶接歪み (変形)",
     "romaji": "yousetsu hizumi (henkei)",
     "idn": "regangan las (deformasi)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1711,8 +1228,6 @@
     "jp": "ビード割れ",
     "romaji": "biido ware",
     "idn": "retak urat-las",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1720,8 +1235,6 @@
     "jp": "電源スイッチ",
     "romaji": "dengen suicchi",
     "idn": "sakelar sumber listrik",
-    "kategori": "Listrik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1729,8 +1242,6 @@
     "jp": "アース接続",
     "romaji": "aasu setsuzoku",
     "idn": "sambungan alat listrik dengan bumi",
-    "kategori": "Listrik / K3",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1738,8 +1249,6 @@
     "jp": "ホース継手",
     "romaji": "hoosu tsugite",
     "idn": "sambungan slang",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1747,8 +1256,6 @@
     "jp": "革手袋",
     "romaji": "kawatebukuro",
     "idn": "sarung tangan kulit",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1756,8 +1263,6 @@
     "jp": "安全靴",
     "romaji": "anzen-gutsu",
     "idn": "sepatu pengaman",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1765,8 +1270,6 @@
     "jp": "ワイヤブラシ",
     "romaji": "waiya burashi",
     "idn": "sikat kawat",
-    "kategori": "Alat Bantu",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1774,8 +1277,6 @@
     "jp": "容器弁",
     "romaji": "youkiben",
     "idn": "silinder gas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1783,8 +1284,6 @@
     "jp": "赤外線",
     "romaji": "sekigaisen",
     "idn": "sinar infra-merah",
-    "kategori": "Fisika / K3",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1792,8 +1291,6 @@
     "jp": "紫外線",
     "romaji": "shigaisen",
     "idn": "sinar ultra-ungu",
-    "kategori": "Fisika / K3",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1801,8 +1298,6 @@
     "jp": "バリ",
     "romaji": "bari",
     "idn": "sirip",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1810,8 +1305,6 @@
     "jp": "アセチレン用ゴムホース (赤)",
     "romaji": "asechiren-you gomu hoosu (aka)",
     "idn": "slang karet asetilin (merah)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1819,8 +1312,6 @@
     "jp": "酸素用ゴムホース (黒)",
     "romaji": "sanso-you gomu hoosu (kuro)",
     "idn": "slang karet oksigen (hitam)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1828,8 +1319,6 @@
     "jp": "トーチ角度",
     "romaji": "toochi kakudo",
     "idn": "sudut obor",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1837,8 +1326,6 @@
     "jp": "保持角度",
     "romaji": "hoji kakudo",
     "idn": "sudut penahan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1846,8 +1333,6 @@
     "jp": "開先角度",
     "romaji": "kaisaki kakudo",
     "idn": "sudut pinggiran miring",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1855,8 +1340,6 @@
     "jp": "点火源",
     "romaji": "tenkagen",
     "idn": "sumber penyalaan",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -1864,8 +1347,6 @@
     "jp": "アセチレン容器 (ボンベ)",
     "romaji": "asechiren youki (bonbe)",
     "idn": "tabung asetilin",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1873,8 +1354,6 @@
     "jp": "酸素容器 (ボンベ)",
     "romaji": "sanso youki (bonbe)",
     "idn": "tabung oksigen",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1882,8 +1361,6 @@
     "jp": "残留応力",
     "romaji": "zanryuu ouryoku",
     "idn": "tekanan sisa",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1891,8 +1368,6 @@
     "jp": "スラグ",
     "romaji": "suragu",
     "idn": "terak",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1900,8 +1375,6 @@
     "jp": "超音波探傷試験 (UT)",
     "romaji": "chouonba tanshou shiken",
     "idn": "tes deteksi patah ultrasonik",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1909,8 +1382,6 @@
     "jp": "磁粉探傷試験 (MT)",
     "romaji": "jifun tanshou shiken",
     "idn": "tes partikel magnetis",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1918,8 +1389,6 @@
     "jp": "浸透探傷試験 (PT)",
     "romaji": "shintou tanshou shiken",
     "idn": "tes penetrasi zat cair",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1927,8 +1396,6 @@
     "jp": "放射線透過試験 (RT)",
     "romaji": "houshasen touka shiken",
     "idn": "tes radiografik",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1936,8 +1403,6 @@
     "jp": "余盛り高さ",
     "romaji": "yamori takasa",
     "idn": "tinggi logam lebih",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1945,8 +1410,6 @@
     "jp": "曲げ試験",
     "romaji": "mage shiken",
     "idn": "uji bengkok",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1954,8 +1417,6 @@
     "jp": "漏れ試験",
     "romaji": "more shiken",
     "idn": "uji kebocoran",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1963,8 +1424,6 @@
     "jp": "硬さ試験",
     "romaji": "katasa shiken",
     "idn": "uji kekerasan",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1972,8 +1431,6 @@
     "jp": "耐圧試験",
     "romaji": "taiatsu shiken",
     "idn": "uji ketahanan tekan",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1981,8 +1438,6 @@
     "jp": "破壊試験",
     "romaji": "hakai shiken",
     "idn": "uji merusak",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1990,8 +1445,6 @@
     "jp": "引っ張り試験",
     "romaji": "hippari shiken",
     "idn": "uji tarik",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -1999,8 +1452,6 @@
     "jp": "サイズ",
     "romaji": "saizu",
     "idn": "ukuran",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2008,8 +1459,6 @@
     "jp": "換気",
     "romaji": "kanki",
     "idn": "ventilasi",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2017,8 +1466,6 @@
     "jp": "圧力調整",
     "romaji": "atsuryoku chousei",
     "idn": "penyesuaian tekanan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2026,8 +1473,6 @@
     "jp": "バックシールドガス",
     "romaji": "bakku shiirudo gasu",
     "idn": "gas kena angin sebelah belakang",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2035,8 +1480,6 @@
     "jp": "ビード置き",
     "romaji": "biido oki",
     "idn": "posisi manik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2044,8 +1487,6 @@
     "jp": "ビード継ぎ",
     "romaji": "biido tsugi",
     "idn": "penyambungan manik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2053,8 +1494,6 @@
     "jp": "電流計 (クランプメータ)",
     "romaji": "denryuukei (kurampu meeta)",
     "idn": "ammeter",
-    "kategori": "Alat Ukur",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2062,8 +1501,6 @@
     "jp": "ガス漏れ点検",
     "romaji": "gasu more tenken",
     "idn": "inspeksi kebocoran gas",
-    "kategori": "K3 / Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2071,8 +1508,6 @@
     "jp": "へるめっと (ヘルメット)",
     "romaji": "herumetto",
     "idn": "helm",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2080,8 +1515,6 @@
     "jp": "ひぐち (のずる)",
     "romaji": "higuchi (nozuru)",
     "idn": "nosel",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2089,8 +1522,6 @@
     "jp": "ひはかいしけん",
     "romaji": "hihakai shiken",
     "idn": "metode uji tanpa merusak",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2098,8 +1529,6 @@
     "jp": "ひふくあーくようせつ",
     "romaji": "hifuku aaku yousetsu",
     "idn": "pengelasan busur api terbungkus",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2107,8 +1536,6 @@
     "jp": "ひっぱりしけん",
     "romaji": "hippari shiken",
     "idn": "uji tarik",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2116,8 +1543,6 @@
     "jp": "ひらこう (ふらっとばー)",
     "romaji": "hirakou (furattobaa)",
     "idn": "besi picak",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2125,8 +1550,6 @@
     "jp": "ほーすつぎて",
     "romaji": "hoosu tsugite",
     "idn": "sambungan slang",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2134,8 +1557,6 @@
     "jp": "ほごぐのてんけん",
     "romaji": "hogogu no tenken",
     "idn": "inspeksi alat pelindung",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2143,8 +1564,6 @@
     "jp": "ほごめがね (しゃこうめがね)",
     "romaji": "hogomegane (shakoumegane)",
     "idn": "kacamata pelindung mata",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2152,8 +1571,6 @@
     "jp": "ほごめん",
     "romaji": "hogomen",
     "idn": "pelindung muka",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2161,8 +1578,6 @@
     "jp": "ほじかくど",
     "romaji": "hojikakudo",
     "idn": "sudut penahan",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2170,8 +1585,6 @@
     "jp": "ほうしゃせんとうかしけん (あーるてい)",
     "romaji": "houshasen touka shiken (aarutei)",
     "idn": "tes radiografik (RT)",
-    "kategori": "Inspeksi",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2179,8 +1592,6 @@
     "jp": "ふらっくす",
     "romaji": "furakkusu",
     "idn": "bahan pelumer",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2188,8 +1599,6 @@
     "jp": "ひょうじゅんえん",
     "romaji": "hyoujun-en",
     "idn": "nyala api standar",
-    "kategori": "Pengelasan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2197,8 +1606,6 @@
     "jp": "ひゅーむしょうがい",
     "romaji": "hyuumu shougai",
     "idn": "gangguan asap las (fume)",
-    "kategori": "K3 / Kesehatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2206,8 +1613,6 @@
     "jp": "いちじがわけーぶる",
     "romaji": "ichijigawa keeburu",
     "idn": "kabel primer",
-    "kategori": "Listrik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2215,8 +1620,6 @@
     "jp": "いんか",
     "romaji": "inka",
     "idn": "penyalaan",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2224,8 +1627,6 @@
     "jp": "じどうでんげきぼうしそうち",
     "romaji": "jidou dengeki boushi souchi",
     "idn": "instalasi pencegah kejutan listrik otomatis",
-    "kategori": "Listrik / K3",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2233,8 +1634,6 @@
     "jp": "じどうがすせつだんき",
     "romaji": "jidou gasu setsudanki",
     "idn": "mesin pemotong gas otomatis",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2242,8 +1641,6 @@
     "jp": "じどうようせつき",
     "romaji": "jidou yousetsuki",
     "idn": "mesin las otomatik",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2251,8 +1648,6 @@
     "jp": "じふんたんしょうしけん (えむてい)",
     "romaji": "jifun tanshou shiken (emutei)",
     "idn": "tes partikel magnetis (MT)",
-    "kategori": "Inspeksi",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2260,8 +1655,6 @@
     "jp": "じんぱい",
     "romaji": "jinpai",
     "idn": "peradangan kronis dari paru-paru",
-    "kategori": "K3 / Kesehatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2269,8 +1662,6 @@
     "jp": "かえんちょうせい",
     "romaji": "kaen chousei",
     "idn": "penyesuaian nyala api",
-    "kategori": "Pengelasan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2278,8 +1669,6 @@
     "jp": "かいさきかこう",
     "romaji": "kaisaki kakou",
     "idn": "pengerjaan pinggir",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2287,8 +1676,6 @@
     "jp": "かいさきかくど",
     "romaji": "kaisaki kakudo",
     "idn": "sudut pinggiran miring",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2296,8 +1683,6 @@
     "jp": "かくにん",
     "romaji": "kakunin",
     "idn": "penegasan",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2305,8 +1690,6 @@
     "jp": "かんでん",
     "romaji": "kanden",
     "idn": "kena listrik",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2314,8 +1697,6 @@
     "jp": "かねんせいぶっしつ",
     "romaji": "kanensei busshitsu",
     "idn": "benda yang dapat dibakar",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2323,8 +1704,6 @@
     "jp": "かねんせいがす",
     "romaji": "kanensei gasu",
     "idn": "gas mudah nyala",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2332,8 +1711,6 @@
     "jp": "かんき",
     "romaji": "kanki",
     "idn": "ventilasi",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2341,8 +1718,6 @@
     "jp": "かんしきあんぜんき",
     "romaji": "kanshiki anzenki",
     "idn": "alat pengaman kering",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2350,8 +1725,6 @@
     "jp": "かんそう",
     "romaji": "kansou",
     "idn": "kering",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2359,8 +1732,6 @@
     "jp": "からーちぇっく",
     "romaji": "karaa chekku",
     "idn": "pengecekan warna",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2368,8 +1739,6 @@
     "jp": "かりつけ",
     "romaji": "karitsuke",
     "idn": "las sementara (tack welding)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2377,8 +1746,6 @@
     "jp": "かさい",
     "romaji": "kasai",
     "idn": "kebakaran",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2386,8 +1753,6 @@
     "jp": "かたさしけん",
     "romaji": "katasa shiken",
     "idn": "uji kekerasan",
-    "kategori": "Inspeksi",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2395,8 +1760,6 @@
     "jp": "かわてぶくろ",
     "romaji": "kawatebukuro",
     "idn": "sarung tangan kulit",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2404,8 +1767,6 @@
     "jp": "けっかん",
     "romaji": "kekkan",
     "idn": "kekurangan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2413,8 +1774,6 @@
     "jp": "けんすいまど",
     "romaji": "kensuimado",
     "idn": "jendela pemeriksaan air",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2422,8 +1781,6 @@
     "jp": "こんごうがす",
     "romaji": "kongou gasu",
     "idn": "alat pengukur tekanan rekanan rendah gas campuran",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2431,8 +1788,6 @@
     "jp": "こんたくとちっぷ",
     "romaji": "kontakuto chippu",
     "idn": "chip kontak",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2440,8 +1795,6 @@
     "jp": "こうあつあつりょくけい (げーじ)",
     "romaji": "kouatsu atsuryokukei (geeji)",
     "idn": "alat pengukur tekanan tinggi",
-    "kategori": "Alat Ukur",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2449,8 +1802,6 @@
     "jp": "こうちょうりょくこう",
     "romaji": "kouchouryokukou",
     "idn": "baja tegangan tinggi",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2458,8 +1809,6 @@
     "jp": "こうかん (ぱいぷ)",
     "romaji": "koukan (paipu)",
     "idn": "pipa baja (pipa)",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2467,8 +1816,6 @@
     "jp": "こうりゅうようせつき",
     "romaji": "kouryuu yousetsuki",
     "idn": "mesin las arus bolak balik",
-    "kategori": "Pengelasan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2476,8 +1823,6 @@
     "jp": "こうたんそこう",
     "romaji": "koutansokou",
     "idn": "baja karbon tinggi",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2485,8 +1830,6 @@
     "jp": "くれーたーしょり",
     "romaji": "kureetaa shori",
     "idn": "proses crater",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2494,8 +1837,6 @@
     "jp": "きゃくちょう",
     "romaji": "kyachou",
     "idn": "leg",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2503,8 +1844,6 @@
     "jp": "せつだんめん (切断面)",
     "romaji": "setsudanmen",
     "idn": "permukaan potongan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2512,8 +1851,6 @@
     "jp": "せつだんさんそばるぶ (切断酸素バルブ)",
     "romaji": "setsudan sanso barubu",
     "idn": "katup oksigen potong",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2521,8 +1858,6 @@
     "jp": "せつだんそくど (切断速度)",
     "romaji": "setsudan sokudo",
     "idn": "kecepatan potong",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2530,8 +1865,6 @@
     "jp": "せつだんすいかん (とーち) (切断吹管 (トーチ))",
     "romaji": "setsudan suikan (toochi)",
     "idn": "pipa-hembus potong",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2539,8 +1872,6 @@
     "jp": "せつぞくぶのてんけん (接続部の点検)",
     "romaji": "setsuzokubu no tenken",
     "idn": "inspeksi bagian sambungan",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2548,8 +1879,6 @@
     "jp": "しゃこうがらす (遮光ガラス)",
     "romaji": "shakou garasu",
     "idn": "kaca penghalang sinar",
-    "kategori": "K3 / Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2557,8 +1886,6 @@
     "jp": "しーがたこう (しーちゃん) (C形鋼 (Cチャン))",
     "romaji": "shiigata kou (shii-chan)",
     "idn": "baja kanal C",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2566,8 +1893,6 @@
     "jp": "しーるどがす (シールドガス)",
     "romaji": "shiirudo gasu",
     "idn": "gas pelindung",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2575,8 +1900,6 @@
     "jp": "しがいせん (紫外線)",
     "romaji": "shigaisen",
     "idn": "sinar ultra-ungu",
-    "kategori": "Fisika / K3",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2584,8 +1907,6 @@
     "jp": "しまこうはん (ちぇっかーぷれーと) (縞鋼板 (チェッカープレート))",
     "romaji": "shimakouhan (chekkaapureeto)",
     "idn": "plat baja barik",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2593,8 +1914,6 @@
     "jp": "しんせん (心線)",
     "romaji": "shinsen",
     "idn": "kawat inti",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2602,8 +1921,6 @@
     "jp": "しんとうたんしょうしけん (ぴーてい) (浸透探傷試験 (PT))",
     "romaji": "shintou tanshou shiken (piitei)",
     "idn": "tes penetrasi zat cair (PT)",
-    "kategori": "Inspeksi",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2611,8 +1928,6 @@
     "jp": "しつめい (失明)",
     "romaji": "shitsumei",
     "idn": "kehilangan penglihatan",
-    "kategori": "K3 / Kesehatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2620,8 +1935,6 @@
     "jp": "しょくぎょうびょうけんしん (職業病検診)",
     "romaji": "shokugyoubyou kenshin",
     "idn": "pemeriksaan penyakit akibat kerja",
-    "kategori": "K3 / Kesehatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2629,8 +1942,6 @@
     "jp": "そうじぼう (掃除針)",
     "romaji": "soujibau",
     "idn": "jarum pembersih",
-    "kategori": "Alat Bantu",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2638,8 +1949,6 @@
     "jp": "すいへいすみあにようせつ (水平スミ肉溶接)",
     "romaji": "suihei suminiku yousetsu",
     "idn": "pengelasan sudut horizontal",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2647,8 +1956,6 @@
     "jp": "すいいのてんけん (水位の点検)",
     "romaji": "suii no tenken",
     "idn": "inspeksi permukaan air",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2656,8 +1963,6 @@
     "jp": "すいかん (とーち) (吹管 (トーチ))",
     "romaji": "suikan (toochi)",
     "idn": "pipa-hembus",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2665,8 +1970,6 @@
     "jp": "すきまげーじ (すきまゲージ)",
     "romaji": "sukima geeji",
     "idn": "pengukur celah",
-    "kategori": "Alat Ukur",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2674,8 +1977,6 @@
     "jp": "すらぐ (スラグ)",
     "romaji": "suragu",
     "idn": "terak",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2683,8 +1984,6 @@
     "jp": "すらぐまきこみ (スラグ巻き込み)",
     "romaji": "suragu makikomi",
     "idn": "pengotoran terak-logam",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2692,8 +1991,6 @@
     "jp": "すてんれすこう (ステンレス鋼)",
     "romaji": "sutenresukou",
     "idn": "baja tahan karat",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2701,8 +1998,6 @@
     "jp": "すとりんぐびーと (ストリングビート)",
     "romaji": "sutoringu biito",
     "idn": "manik urat las deret",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2710,8 +2005,6 @@
     "jp": "しょうかき (消火器)",
     "romaji": "shoukaki",
     "idn": "alat-alat pemadam kebakaran",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2719,8 +2012,6 @@
     "jp": "ワイヤブラシ",
     "romaji": "waiyaburashi",
     "idn": "sikat kawat",
-    "kategori": "Alat Bantu",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2728,8 +2019,6 @@
     "jp": "溶接吹管 (トーチ)",
     "romaji": "yousetsu suikan (toochi)",
     "idn": "pipa-hembus las",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2737,8 +2026,6 @@
     "jp": "摩耗",
     "romaji": "mamou",
     "idn": "abrasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2746,8 +2033,6 @@
     "jp": "切断吹管",
     "romaji": "setsudan suikan",
     "idn": "pipa hembus potong (torch)",
-    "kategori": "Alat Utama",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2755,8 +2040,6 @@
     "jp": "溶接歪み",
     "romaji": "yousetsu hizumi",
     "idn": "deformasi / distorsi las",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2764,8 +2047,6 @@
     "jp": "安全靴",
     "romaji": "anzen gutsu",
     "idn": "sepatu pengaman (safety shoes)",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2773,8 +2054,6 @@
     "jp": "溶融池",
     "romaji": "youyuuchi",
     "idn": "kubangan las (molten pool)",
-    "kategori": "Pengelasan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2782,8 +2061,6 @@
     "jp": "ブランク",
     "romaji": "buranku",
     "idn": "bahan asal",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2791,8 +2068,6 @@
     "jp": "コイル材",
     "romaji": "koiruzai",
     "idn": "bahan kumparan",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2800,8 +2075,6 @@
     "jp": "加工材料",
     "romaji": "kakou zairyou",
     "idn": "bahan olahan",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2809,8 +2082,6 @@
     "jp": "シート材",
     "romaji": "shiitozai",
     "idn": "bahan pelat",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2818,8 +2089,6 @@
     "jp": "ストリップ材",
     "romaji": "sutorippuzai",
     "idn": "bahan stripper",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2827,8 +2096,6 @@
     "jp": "ステンレス鋼板",
     "romaji": "sutenresu kouhan",
     "idn": "baja tahan karat",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2836,8 +2103,6 @@
     "jp": "スクラップ",
     "romaji": "sukurappu",
     "idn": "besi tua",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2845,8 +2110,6 @@
     "jp": "危険限界",
     "romaji": "kiken genkai",
     "idn": "batas bahaya",
-    "kategori": "K3 / Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2854,8 +2117,6 @@
     "jp": "ボルト",
     "romaji": "boruto",
     "idn": "baut",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2863,8 +2124,6 @@
     "jp": "荷重",
     "romaji": "kajuu",
     "idn": "beban",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2872,8 +2131,6 @@
     "jp": "位置ずれ",
     "romaji": "ichizure",
     "idn": "bergesernya posisi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2881,8 +2138,6 @@
     "jp": "心ずれ",
     "romaji": "shinzure",
     "idn": "bergesernya sumbu",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2890,8 +2145,6 @@
     "jp": "有効",
     "romaji": "yuukou",
     "idn": "berlaku",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2899,8 +2152,6 @@
     "jp": "スライド",
     "romaji": "suraido",
     "idn": "blok luncur",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2908,8 +2159,6 @@
     "jp": "安全ブロック",
     "romaji": "anzen burokku",
     "idn": "blok pengaman",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2917,8 +2166,6 @@
     "jp": "傷",
     "romaji": "kizu",
     "idn": "cacat",
-    "kategori": "Qc",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2926,8 +2173,6 @@
     "jp": "取り扱い方法",
     "romaji": "toriatsukai houhou",
     "idn": "cara perlakuan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -2935,8 +2180,6 @@
     "jp": "金型",
     "romaji": "kanagata",
     "idn": "cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2944,8 +2187,6 @@
     "jp": "ダイ",
     "romaji": "dai",
     "idn": "cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2953,8 +2194,6 @@
     "jp": "上型",
     "romaji": "uwagata",
     "idn": "cetakan atas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2962,8 +2201,6 @@
     "jp": "下型",
     "romaji": "shitagata",
     "idn": "cetakan bawah",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2971,8 +2208,6 @@
     "jp": "曲げ型",
     "romaji": "magegata",
     "idn": "cetakan bengkok",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2980,8 +2215,6 @@
     "jp": "打ち抜き型",
     "romaji": "uchinukigata",
     "idn": "cetakan bor",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2989,8 +2222,6 @@
     "jp": "絞り型",
     "romaji": "shiborigata",
     "idn": "cetakan cekik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -2998,8 +2229,6 @@
     "jp": "塑性加工",
     "romaji": "sosei kakou",
     "idn": "cetakan plastik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3007,8 +2236,6 @@
     "jp": "ワッシャー",
     "romaji": "wasshaa",
     "idn": "cincin tutup",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3016,8 +2243,6 @@
     "jp": "作業能率",
     "romaji": "sagyou nouritsu",
     "idn": "efisiensi kerja",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3025,8 +2250,6 @@
     "jp": "排出",
     "romaji": "haishutsu",
     "idn": "emisi",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3034,8 +2257,6 @@
     "jp": "四面",
     "romaji": "shimen",
     "idn": "empat sisi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3043,8 +2264,6 @@
     "jp": "フランジ",
     "romaji": "furanji",
     "idn": "flens",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3052,8 +2271,6 @@
     "jp": "金切りばさみ",
     "romaji": "kanakiribasami",
     "idn": "gunting memotong logam",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3061,8 +2278,6 @@
     "jp": "ノギス",
     "romaji": "nogisu",
     "idn": "jangka sorong",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3070,8 +2285,6 @@
     "jp": "転倒",
     "romaji": "tentou",
     "idn": "jatuh terempas",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3079,8 +2292,6 @@
     "jp": "ゲージ窓",
     "romaji": "geejimado",
     "idn": "jendela alat ukur",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3088,8 +2299,6 @@
     "jp": "かぎ棒",
     "romaji": "kagibou",
     "idn": "kait",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3097,8 +2306,6 @@
     "jp": "真空カップ",
     "romaji": "shinkuukappu",
     "idn": "kap vakum",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3106,8 +2313,6 @@
     "jp": "プレス能力",
     "romaji": "puresu nouryoku",
     "idn": "kapasitas pres",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3115,8 +2320,6 @@
     "jp": "錆",
     "romaji": "sabi",
     "idn": "karat",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3124,8 +2327,6 @@
     "jp": "油漏れ",
     "romaji": "aburamore",
     "idn": "kebocoran minyak",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3133,8 +2334,6 @@
     "jp": "エア漏れ",
     "romaji": "eamore",
     "idn": "kebocoran udara",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3142,8 +2341,6 @@
     "jp": "速度",
     "romaji": "sokudo",
     "idn": "kecepatan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3151,8 +2348,6 @@
     "jp": "不注意",
     "romaji": "fuchuui",
     "idn": "kelalaian",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3160,8 +2355,6 @@
     "jp": "試し打ち",
     "romaji": "tameshiuchi",
     "idn": "kempaan percobaan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3169,8 +2362,6 @@
     "jp": "上昇",
     "romaji": "joushou",
     "idn": "kenaikan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3178,8 +2369,6 @@
     "jp": "運搬車",
     "romaji": "unpansha",
     "idn": "kendaraan pengangkutan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3187,8 +2376,6 @@
     "jp": "緩み",
     "romaji": "yurumi",
     "idn": "kendor",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3196,8 +2383,6 @@
     "jp": "せん断加工",
     "romaji": "sendankakou",
     "idn": "kerja geser",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3205,8 +2390,6 @@
     "jp": "破損",
     "romaji": "hason",
     "idn": "kerusakan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3214,8 +2397,6 @@
     "jp": "精度",
     "romaji": "seido",
     "idn": "ketelitian",
-    "kategori": "Qc",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3223,8 +2404,6 @@
     "jp": "ムラ",
     "romaji": "mura",
     "idn": "ketidak-merataan",
-    "kategori": "Qc",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3232,8 +2411,6 @@
     "jp": "ヤスリ",
     "romaji": "yasuri",
     "idn": "kikir",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3241,8 +2418,6 @@
     "jp": "ストローク数調整つまみ",
     "romaji": "sutorookusuu chousei tsumami",
     "idn": "knop pengatur langkah",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3250,8 +2425,6 @@
     "jp": "クラッチ",
     "romaji": "kuratchi",
     "idn": "kopeling",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3259,8 +2432,6 @@
     "jp": "品質",
     "romaji": "hinshitsu",
     "idn": "kualitas",
-    "kategori": "Qc",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3268,8 +2439,6 @@
     "jp": "スパナ",
     "romaji": "supana",
     "idn": "kunci mur",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3277,8 +2446,6 @@
     "jp": "型囲い",
     "romaji": "katakakoi",
     "idn": "kurungan cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3286,8 +2453,6 @@
     "jp": "安全囲い",
     "romaji": "anzenkakoi",
     "idn": "kurungan pengaman",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3295,8 +2460,6 @@
     "jp": "最大停止時間",
     "romaji": "saidai teishi jikan",
     "idn": "lamanya perhentian maksimum",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3304,8 +2467,6 @@
     "jp": "モニタランプ",
     "romaji": "monitaranpu",
     "idn": "lampu monitor",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3313,8 +2474,6 @@
     "jp": "ストローク",
     "romaji": "sutorooku",
     "idn": "langkah",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3322,8 +2481,6 @@
     "jp": "ストローク長さ",
     "romaji": "sutorooku nagasa",
     "idn": "langkah slide",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3331,8 +2488,6 @@
     "jp": "抜け",
     "romaji": "nuke",
     "idn": "melepaskan cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3340,8 +2495,6 @@
     "jp": "掃除",
     "romaji": "souji",
     "idn": "membersihkan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3349,8 +2502,6 @@
     "jp": "けがく",
     "romaji": "kegaku",
     "idn": "menggores",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3358,8 +2509,6 @@
     "jp": "後かたづけ",
     "romaji": "atokataduke",
     "idn": "menyusun kembali",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3367,8 +2516,6 @@
     "jp": "プレス機械",
     "romaji": "puresu kikai",
     "idn": "mesin kempa",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3376,8 +2523,6 @@
     "jp": "メートル",
     "romaji": "meetoru",
     "idn": "meter",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3385,8 +2530,6 @@
     "jp": "マイクロメータ",
     "romaji": "maikuromeeta",
     "idn": "mikrometer",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3394,8 +2537,6 @@
     "jp": "ミリメートル",
     "romaji": "mirimeetoru",
     "idn": "milimeter",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3403,8 +2544,6 @@
     "jp": "油",
     "romaji": "abura",
     "idn": "minyak",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3412,8 +2551,6 @@
     "jp": "モータ",
     "romaji": "moota",
     "idn": "motor",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3421,8 +2558,6 @@
     "jp": "ナット",
     "romaji": "natto",
     "idn": "mur",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3430,8 +2565,6 @@
     "jp": "作動",
     "romaji": "sadou",
     "idn": "operasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3439,8 +2572,6 @@
     "jp": "自動化",
     "romaji": "jidouka",
     "idn": "otomatisasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3448,8 +2579,6 @@
     "jp": "安全柵",
     "romaji": "anzensaku",
     "idn": "pagar pengaman",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3457,8 +2586,6 @@
     "jp": "服装",
     "romaji": "fukusou",
     "idn": "pakaian",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3466,8 +2593,6 @@
     "jp": "ハンマ",
     "romaji": "hanma",
     "idn": "palu",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3475,8 +2600,6 @@
     "jp": "表示板",
     "romaji": "hyoujiban",
     "idn": "papan petunjuk",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3484,8 +2607,6 @@
     "jp": "割れ",
     "romaji": "ware",
     "idn": "pecahan",
-    "kategori": "Qc",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3493,8 +2614,6 @@
     "jp": "フートペダル",
     "romaji": "fuutopedaru",
     "idn": "pedal kaki",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3502,8 +2621,6 @@
     "jp": "アルミニウム板",
     "romaji": "aruminiumu ban",
     "idn": "pelat aluminium",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3511,8 +2628,6 @@
     "jp": "高張力鋼板",
     "romaji": "kouchouryoku kouhan",
     "idn": "pelat baja mutu-tinggi",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3520,8 +2635,6 @@
     "jp": "冷間圧延鋼板 (SPCC)",
     "romaji": "reikan atsue kouhan (SPCC)",
     "idn": "pelat baja pengerolan dingin (SPCC)",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3529,8 +2642,6 @@
     "jp": "熱間圧延鋼板 (SPHC)",
     "romaji": "netsukan atsue kouhan (SPHC)",
     "idn": "pelat baja pengerolan panas (SPHC)",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3538,8 +2649,6 @@
     "jp": "表面処理鋼板",
     "romaji": "hyoumenshori kouhan",
     "idn": "pelat baja perlakuan permukaan",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3547,8 +2656,6 @@
     "jp": "けい素鋼板",
     "romaji": "keiso kouhan",
     "idn": "pelat baja silikon",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3556,8 +2663,6 @@
     "jp": "パンチプレート",
     "romaji": "panchpureeto",
     "idn": "pelat penembus",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3565,8 +2670,6 @@
     "jp": "銅板",
     "romaji": "douban",
     "idn": "pelat tembaga",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3574,8 +2677,6 @@
     "jp": "位置決めプレート",
     "romaji": "ichizime pureeto",
     "idn": "pelat untuk menentukan posisi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3583,8 +2684,6 @@
     "jp": "取り外し",
     "romaji": "torihazushi",
     "idn": "pelepasan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3592,8 +2691,6 @@
     "jp": "取り付け",
     "romaji": "toritsuke",
     "idn": "pemasangan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3601,8 +2698,6 @@
     "jp": "停止",
     "romaji": "teishi",
     "idn": "pemberhentian",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3610,8 +2705,6 @@
     "jp": "ダイホルダ",
     "romaji": "dai horuda",
     "idn": "pemegang cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3619,8 +2712,6 @@
     "jp": "パンチホルダ",
     "romaji": "panchi horuda",
     "idn": "pemegang penembus",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3628,8 +2719,6 @@
     "jp": "裁断",
     "romaji": "saidan",
     "idn": "pemotongan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3637,8 +2726,6 @@
     "jp": "ダウェルピン",
     "romaji": "daweru pin",
     "idn": "pena kayu",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3646,8 +2733,6 @@
     "jp": "責任者",
     "romaji": "sekininsha",
     "idn": "penanggung-jawab",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3655,8 +2740,6 @@
     "jp": "災害防止",
     "romaji": "saigai boushi",
     "idn": "pencegahan kecelakaan kerja",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3664,8 +2747,6 @@
     "jp": "パンチ",
     "romaji": "panchi",
     "idn": "penembus",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3673,8 +2754,6 @@
     "jp": "設定",
     "romaji": "settei",
     "idn": "penetapan",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3682,8 +2761,6 @@
     "jp": "位置決め",
     "romaji": "ichizime",
     "idn": "penetapan posisi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3691,8 +2768,6 @@
     "jp": "板取り",
     "romaji": "itadori",
     "idn": "pengambilan pelat",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3700,8 +2775,6 @@
     "jp": "塗装",
     "romaji": "tosou",
     "idn": "pengecatan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3709,8 +2782,6 @@
     "jp": "始業前点検",
     "romaji": "shigyou mae tenken",
     "idn": "pengecekan sebelum kerja",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3718,8 +2789,6 @@
     "jp": "日常点検",
     "romaji": "nichijou tenken",
     "idn": "pengecekan sehari-hari",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3727,8 +2796,6 @@
     "jp": "油量点検",
     "romaji": "yuryou tenken",
     "idn": "pengecekan volume minyak",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3736,8 +2803,6 @@
     "jp": "加工硬化",
     "romaji": "kakou kouka",
     "idn": "pengerasan pengolahan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3745,8 +2810,6 @@
     "jp": "自動停止",
     "romaji": "jidou teishi",
     "idn": "penghentian otomatis",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3754,8 +2817,6 @@
     "jp": "送給",
     "romaji": "soukyuu",
     "idn": "pengisian",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3763,8 +2824,6 @@
     "jp": "曲げ加工",
     "romaji": "mage kakou",
     "idn": "pengolahan bengkok",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3772,8 +2831,6 @@
     "jp": "ノーハンドインダイ加工",
     "romaji": "noo hando in dai kakou",
     "idn": "pengolahan cetakan dengan tangan (tanpa tangan masuk)",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3781,8 +2838,6 @@
     "jp": "ハンドインダイ加工",
     "romaji": "hando in dai kakou",
     "idn": "pengolahan cetakan dengan tangan (tangan masuk)",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3790,8 +2845,6 @@
     "jp": "切り落とし加工",
     "romaji": "kiriotoshi kakou",
     "idn": "pengolahan potong",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3799,8 +2852,6 @@
     "jp": "圧縮加工",
     "romaji": "asshuku kakou",
     "idn": "pengolahan tekan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3808,8 +2859,6 @@
     "jp": "操作",
     "romaji": "sousa",
     "idn": "pengoperasian",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3817,8 +2866,6 @@
     "jp": "寸動運転（インチング）",
     "romaji": "sundou unten (inching)",
     "idn": "pengoperasian (inching)",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3826,8 +2873,6 @@
     "jp": "連続運転",
     "romaji": "renzoku unten",
     "idn": "pengoperasian kontinu",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3835,8 +2880,6 @@
     "jp": "始動",
     "romaji": "shidou",
     "idn": "pengstarteran",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3844,8 +2887,6 @@
     "jp": "ダイヤルゲージ",
     "romaji": "daiyaru geeji",
     "idn": "pengukur jarum",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3853,8 +2894,6 @@
     "jp": "空気圧計",
     "romaji": "kuukiatsukei",
     "idn": "pengukur tekanan udara",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3862,8 +2901,6 @@
     "jp": "ハイトゲージ",
     "romaji": "haito geeji",
     "idn": "pengukur tinggi",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3871,8 +2908,6 @@
     "jp": "下降",
     "romaji": "kakou",
     "idn": "penurunan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3880,8 +2915,6 @@
     "jp": "締め付け",
     "romaji": "shimetsuke",
     "idn": "penyekerupan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3889,8 +2922,6 @@
     "jp": "絞り",
     "romaji": "shibori",
     "idn": "penyempitan luas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3898,8 +2929,6 @@
     "jp": "老化",
     "romaji": "rouka",
     "idn": "penyepuhan",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3907,8 +2936,6 @@
     "jp": "調整",
     "romaji": "chousei",
     "idn": "penyetelan",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3916,8 +2943,6 @@
     "jp": "耳栓",
     "romaji": "mimisen",
     "idn": "penyumbat telinga",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3925,8 +2950,6 @@
     "jp": "保守",
     "romaji": "hoshu",
     "idn": "perawatan",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3934,8 +2957,6 @@
     "jp": "修理",
     "romaji": "shuuri",
     "idn": "perbaikan",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3943,8 +2964,6 @@
     "jp": "マグネット工具",
     "romaji": "magunetto kougu",
     "idn": "perkakas magnet",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3952,8 +2971,6 @@
     "jp": "手工具",
     "romaji": "shukougu",
     "idn": "perkakas tangan",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3961,8 +2978,6 @@
     "jp": "熱処理",
     "romaji": "netsu shori",
     "idn": "perlakuan panas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3970,8 +2985,6 @@
     "jp": "交換",
     "romaji": "koukan",
     "idn": "pertukaran",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -3979,8 +2992,6 @@
     "jp": "ベルトコンベア",
     "romaji": "beruto konbea",
     "idn": "pita transpor",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3988,8 +2999,6 @@
     "jp": "シャフト",
     "romaji": "shafuto",
     "idn": "poros",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -3997,8 +3006,6 @@
     "jp": "作業姿勢",
     "romaji": "sagyou shisei",
     "idn": "posisi kerja",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4006,8 +3013,6 @@
     "jp": "クランクプレス",
     "romaji": "kuranku puresu",
     "idn": "pres engkol",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4015,8 +3020,6 @@
     "jp": "油圧式プレス",
     "romaji": "yuatsushiki puresu",
     "idn": "pres sistem hidrolik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4024,8 +3027,6 @@
     "jp": "機械式プレス",
     "romaji": "kikaishiki puresu",
     "idn": "pres sistem mekanik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4033,8 +3034,6 @@
     "jp": "密着",
     "romaji": "micchaku",
     "idn": "rapat melekat",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4042,8 +3041,6 @@
     "jp": "歪み",
     "romaji": "hizumi",
     "idn": "regangan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4051,8 +3048,6 @@
     "jp": "ブレーキ",
     "romaji": "bureeki",
     "idn": "rem",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4060,8 +3055,6 @@
     "jp": "ひび",
     "romaji": "hibi",
     "idn": "retakan",
-    "kategori": "Qc",
-    "level": "Industri",
     "": "",
     "__1": 1
   },
@@ -4069,8 +3062,6 @@
     "jp": "ロボット",
     "romaji": "robotto",
     "idn": "robot",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4078,8 +3069,6 @@
     "jp": "フライホイール",
     "romaji": "furai hoiiru",
     "idn": "rodagaya",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4087,8 +3076,6 @@
     "jp": "メインギヤ",
     "romaji": "mein giya",
     "idn": "rodagigi utama",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4096,8 +3083,6 @@
     "jp": "クリアランス",
     "romaji": "kuriaransu",
     "idn": "ruang-rugi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4105,8 +3090,6 @@
     "jp": "操作切り替えスイッチ",
     "romaji": "sousa kirikae suicchi",
     "idn": "sakelar pilih operasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4114,8 +3097,6 @@
     "jp": "安全装置スイッチ",
     "romaji": "anzen souchi suicchi",
     "idn": "sakelar untuk aparatus pengaman",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4123,8 +3104,6 @@
     "jp": "供給装置（フィーダ）",
     "romaji": "kyoukyuu souchi (fiida)",
     "idn": "saluran pengisian (alat pegisian)",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4132,8 +3111,6 @@
     "jp": "ウエス",
     "romaji": "uesu",
     "idn": "sampah, kain bekas",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4141,8 +3118,6 @@
     "jp": "手袋",
     "romaji": "tebukuro",
     "idn": "sarung tangan",
-    "kategori": "Safety",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4150,8 +3125,6 @@
     "jp": "安全一工程",
     "romaji": "anzen ichi koutei",
     "idn": "satu proses keselamatan",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4159,8 +3132,6 @@
     "jp": "コネクティングスクリュー",
     "romaji": "konekutingu sukuryuu",
     "idn": "sekerup hubung",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4168,8 +3139,6 @@
     "jp": "センチメートル",
     "romaji": "senchimeetoru",
     "idn": "sentimeter",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4177,8 +3146,6 @@
     "jp": "スケール",
     "romaji": "sukeeru",
     "idn": "skala",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4186,8 +3153,6 @@
     "jp": "作業基準",
     "romaji": "sagyou kijun",
     "idn": "standar kerja",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4195,8 +3160,6 @@
     "jp": "ストリッパ",
     "romaji": "sutorippa",
     "idn": "stripper",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4204,8 +3167,6 @@
     "jp": "異常音",
     "romaji": "ijouon",
     "idn": "suara abnormal",
-    "kategori": "Qc",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4213,8 +3174,6 @@
     "jp": "騒音",
     "romaji": "souon",
     "idn": "suara bising",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4222,8 +3181,6 @@
     "jp": "角度",
     "romaji": "kakudo",
     "idn": "sudut",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4231,8 +3188,6 @@
     "jp": "クランク角度",
     "romaji": "kuranku kakudo",
     "idn": "sudut engkol",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4240,8 +3195,6 @@
     "jp": "安全プラグ",
     "romaji": "anzen puragu",
     "idn": "sumbat pengaman",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4249,8 +3202,6 @@
     "jp": "電源",
     "romaji": "dengen",
     "idn": "sumber tenaga listrik",
-    "kategori": "Teknik",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4258,8 +3209,6 @@
     "jp": "プライヤ",
     "romaji": "puraiya",
     "idn": "tang pembengkok",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4267,8 +3216,6 @@
     "jp": "ペンチ",
     "romaji": "penchi",
     "idn": "tang pemotong",
-    "kategori": "Peralatan",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4276,8 +3223,6 @@
     "jp": "シャンク",
     "romaji": "shanku",
     "idn": "tangkai",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4285,8 +3230,6 @@
     "jp": "整理整頓",
     "romaji": "seiri seiton",
     "idn": "teratur",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4294,8 +3237,6 @@
     "jp": "ガイドポスト",
     "romaji": "gaido posuto",
     "idn": "tiang-antar",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4303,8 +3244,6 @@
     "jp": "無効",
     "romaji": "mukou",
     "idn": "tidak berlaku",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4312,8 +3251,6 @@
     "jp": "ダイハイト",
     "romaji": "dai haito",
     "idn": "tingginya die",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4321,8 +3258,6 @@
     "jp": "上死点",
     "romaji": "joushiten",
     "idn": "titik mati atas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4330,8 +3265,6 @@
     "jp": "下死点",
     "romaji": "kashiten",
     "idn": "titik mati bawah",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4339,8 +3272,6 @@
     "jp": "非常停止ボタン",
     "romaji": "hijou teishi botan",
     "idn": "tombol penghentian darurat",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4348,8 +3279,6 @@
     "jp": "モータ停止ボタン",
     "romaji": "moota teishi botan",
     "idn": "tombol penghentian motor",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4357,8 +3286,6 @@
     "jp": "両手操作式押しボタン",
     "romaji": "ryoute sousashiki oshibotan",
     "idn": "tombol tekan dioperasikan kedua tangan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4366,8 +3293,6 @@
     "jp": "運転押しボタン",
     "romaji": "unten oshibotan",
     "idn": "tombol tekan operasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4375,8 +3300,6 @@
     "jp": "ペンダント操作盤",
     "romaji": "pendanto sousaban",
     "idn": "tombol tekan senur gantungan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4384,8 +3307,6 @@
     "jp": "モータ起動ボタン",
     "romaji": "moota kidou botan",
     "idn": "tombol-penjalan motor",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4393,8 +3314,6 @@
     "jp": "寸法",
     "romaji": "sunpou",
     "idn": "ukuran",
-    "kategori": "Umum",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4402,8 +3321,6 @@
     "jp": "アンコイラ",
     "romaji": "ankoira",
     "idn": "alat melepas gulungan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4411,8 +3328,6 @@
     "jp": "安全囲い",
     "romaji": "anzen kakoi",
     "idn": "kurungan pengaman",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4420,8 +3335,6 @@
     "jp": "安全柵",
     "romaji": "anzen saku",
     "idn": "pagar pengaman",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4429,8 +3342,6 @@
     "jp": "アルミニウム板",
     "romaji": "aruminiumuban",
     "idn": "pelat aluminium",
-    "kategori": "Material",
-    "level": "Dasar",
     "": "",
     "__1": ""
   },
@@ -4438,8 +3349,6 @@
     "jp": "ベルトコンベア",
     "romaji": "berutokonbea",
     "idn": "pita transpor",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4447,8 +3356,6 @@
     "jp": "ボルスタ",
     "romaji": "borusuta",
     "idn": "bantalan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4456,8 +3363,6 @@
     "jp": "ダイハイト",
     "romaji": "daihaito",
     "idn": "tingginya die",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4465,8 +3370,6 @@
     "jp": "ダイホルダ",
     "romaji": "daihoruda",
     "idn": "pemegang cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4474,8 +3377,6 @@
     "jp": "ダイクッション",
     "romaji": "daikusshon",
     "idn": "bantalan cetakan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4483,8 +3384,6 @@
     "jp": "ダイヤルゲージ",
     "romaji": "daiyarugeeji",
     "idn": "pengukur jarum",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4492,8 +3391,6 @@
     "jp": "ダウェルピン",
     "romaji": "dawerupin",
     "idn": "pena kayu",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4501,8 +3398,6 @@
     "jp": "ガード式安全装置",
     "romaji": "gaadoshiki anzensouchi",
     "idn": "aparat pengaman sistem penjagaan",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4510,8 +3405,6 @@
     "jp": "ガイドポスト",
     "romaji": "gaidoposuto",
     "idn": "tiang-antar",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4519,8 +3412,6 @@
     "jp": "ハイトゲージ",
     "romaji": "haitogeeji",
     "idn": "pengukur tinggi",
-    "kategori": "Peralatan",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4528,8 +3419,6 @@
     "jp": "ハンドインダイ加工",
     "romaji": "handoindaikakou",
     "idn": "pengolahan cetakan dengan tangan",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4537,8 +3426,6 @@
     "jp": "保護具（安全具）",
     "romaji": "hogogu (anzengu)",
     "idn": "alat pelindung (alat pengaman)",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4546,8 +3433,6 @@
     "jp": "フライホイール",
     "romaji": "furaihoiiru",
     "idn": "rodagaya",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4555,8 +3440,6 @@
     "jp": "過負荷安全装置",
     "romaji": "kafuka anzen souchi",
     "idn": "aparat pengaman beban lebih",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4564,8 +3447,6 @@
     "jp": "荷重",
     "romaji": "kajyuu",
     "idn": "beban",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4573,8 +3454,6 @@
     "jp": "危険限界",
     "romaji": "kigen genkai",
     "idn": "batas bahaya",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4582,8 +3461,6 @@
     "jp": "コンロッド",
     "romaji": "konroddo",
     "idn": "batang hubung",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4591,8 +3468,6 @@
     "jp": "光線式安全装置",
     "romaji": "kousenshiki anzen souchi",
     "idn": "aparat pengaman sistem sinar",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4600,8 +3475,6 @@
     "jp": "駆動軸",
     "romaji": "kudoujiku",
     "idn": "aksel poros",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4609,8 +3482,6 @@
     "jp": "クラッチ",
     "romaji": "kuracchi",
     "idn": "kopeling",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4618,8 +3489,6 @@
     "jp": "曲げ加工",
     "romaji": "magekakou",
     "idn": "pengolahan bengkok",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4627,8 +3496,6 @@
     "jp": "摩擦",
     "romaji": "mamou",
     "idn": "abrasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4636,8 +3503,6 @@
     "jp": "ノックアウト装置",
     "romaji": "nokkuauto souchi",
     "idn": "aparat untuk memukul sampai lepas",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4645,8 +3510,6 @@
     "jp": "送り装置",
     "romaji": "okuri souchi",
     "idn": "aparat pengisian",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4654,8 +3517,6 @@
     "jp": "パンチプレート",
     "romaji": "panchi pureeto",
     "idn": "pelat penembus",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4663,8 +3524,6 @@
     "jp": "プレス作業主任者",
     "romaji": "puresu sagyou shuuninsha",
     "idn": "ahli teknik pekerjaan pres",
-    "kategori": "Umum",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4672,8 +3531,6 @@
     "jp": "ロールフィーダ",
     "romaji": "rooru fiida",
     "idn": "alat pengisian rol",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4681,8 +3538,6 @@
     "jp": "両手操作式安全装置",
     "romaji": "ryoute sousashiki anzen souchi",
     "idn": "alat pengaman operasi kedua tangan",
-    "kategori": "Safety",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4690,8 +3545,6 @@
     "jp": "塑性加工",
     "romaji": "soseikakou",
     "idn": "cetakan plastik",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4699,8 +3552,6 @@
     "jp": "操作切り替えスイッチ",
     "romaji": "sousakirikaesuicchi",
     "idn": "sakelar pilih operasi",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4708,8 +3559,6 @@
     "jp": "寸動運転（インチング）",
     "romaji": "sundouunten (inchingu)",
     "idn": "pengoperasian (inching)",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4717,8 +3566,6 @@
     "jp": "ステンレス鋼板",
     "romaji": "sutenrensukouhan",
     "idn": "baja tahan karat",
-    "kategori": "Material",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4726,8 +3573,6 @@
     "jp": "ストローク長さ",
     "romaji": "sutorookunagasa",
     "idn": "langkah slide",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4735,8 +3580,6 @@
     "jp": "ストローク数",
     "romaji": "sutorookusuu",
     "idn": "banyaknya langkah per menit",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4744,8 +3587,6 @@
     "jp": "ストローク数調整つまみ",
     "romaji": "sutorookusuuchouseitsumami",
     "idn": "knop pengatur langkah",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
@@ -4753,8 +3594,6 @@
     "jp": "トランスファーフィーダ",
     "romaji": "toransufaa fiida",
     "idn": "alat pengisian transfer",
-    "kategori": "Teknik",
-    "level": "Industri",
     "": "",
     "__1": ""
   },
