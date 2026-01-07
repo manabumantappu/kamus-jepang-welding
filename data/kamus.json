@@ -3,65 +3,47 @@
     "jp": "溶接",
     "romaji": "yousetsu",
     "idn": "pengelasan",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "半自動溶接",
     "romaji": "hanjidou yousetsu",
     "idn": "las semi otomatis",
-    "": "",
-    "__1": ""
-  },
+   },
   {
     "jp": "検査",
     "romaji": "kensa",
     "idn": "inspeksi",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "水没検査",
     "romaji": "suibotsu kensa",
     "idn": "tes rendam",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "安全",
     "romaji": "anzen",
     "idn": "keselamatan",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "保護具",
     "romaji": "hogogu",
     "idn": "alat pelindung diri",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "中圧式安全器",
     "romaji": "chuuatsushiki anzenki",
     "idn": "alat pengaman antara",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "乾式安全器",
     "romaji": "kanshiki anzenki",
     "idn": "alat pengaman kering",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "混合ガス",
     "romaji": "kongoogasu",
     "idn": "alat pengukur tekanan rekanan rendah gas campuran",
-    "": "",
-    "__1": ""
-  },
+   },
   {
     "jp": "低圧圧力計 (ゲージ)",
     "romaji": "teiatsu atsuryokukei (geeji)",
@@ -73,44 +55,32 @@
     "jp": "高圧圧力計 (ゲージ)",
     "romaji": "kouatsu atsuryokukei (geeji)",
     "idn": "alat pengukur tekanan tinggi",
-    "": "",
-    "__1": ""
-  },
+   },
   {
     "jp": "消火器",
     "romaji": "shoukaki",
     "idn": "alat-alat pemadam kebakaran",
-    "": "",
-    "__1": ""
-  },
+   },
   {
     "jp": "アルミニウム",
     "romaji": "aruminiumu",
     "idn": "aluminium",
-    "": "",
-    "__1": ""
-  },
+    },
   {
     "jp": "電流計 (クランプメータ)",
     "romaji": "denryuukei (kurampumeeta)",
     "idn": "ammeter",
-    "": "",
-    "__1": ""
-  },
+     },
   {
     "jp": "ワイヤ送給装置",
     "romaji": "waiya soukyuu souchi",
     "idn": "aparatus pengisian kawat",
-    "": "",
-    "__1": ""
-  },
+     },
   {
     "jp": "アセチレン圧力調整器",
     "romaji": "asechiren atsuryoku chouseiki",
     "idn": "aparatus penyetel tekanan asetilin",
-    "": "",
-    "__1": ""
-  },
+   },
   {
     "jp": "前掛け",
     "romaji": "maekake",
@@ -3596,5 +3566,5 @@
     "idn": "alat pengisian transfer",
     "": "",
     "__1": ""
-  },
+  }
 ]
