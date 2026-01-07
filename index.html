@@ -127,6 +127,22 @@ footer {
   font-size: 13px;
   color: var(--muted);
 }
+ /* Badge warna per kategori */
+.badge.welding {
+  background: #e0e7ff;
+  color: #1e3a8a;
+}
+
+.badge.qc {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge.safety {
+  background: #ffedd5;
+  color: #9a3412;
+}
+ 
 </style>
 </head>
 
@@ -184,8 +200,9 @@ function tampilkan(data) {
         <div class="jp">${item.jp}</div>
         <div class="romaji">${item.romaji}</div>
         <div class="arti">${item.idn}</div>
-        <div class="badge">${item.kategori}</div>
-      </div>
+        <div class="badge ${item.kategori}">
+  ${capitalize(item.kategori)}
+</div>
     `;
   });
 }
@@ -212,6 +229,16 @@ function filterData(kategori) {
 document.getElementById('search').addEventListener('input', () => {
   filterData('all');
 });
+function capitalize(text) {
+  if (!text) return '';
+
+  // khusus singkatan
+  if (text.toLowerCase() === 'qc') return 'QC';
+
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+let kamus = [];  
 </script>
 
 </body>
