@@ -2,46 +2,6567 @@
   {
     "jp": "溶接",
     "romaji": "yousetsu",
-    "idn": "pengelasan",
-    },
+    "idn": "pengelasan"
+  },
   {
     "jp": "半自動溶接",
     "romaji": "hanjidou yousetsu",
-    "idn": "las semi otomatis",
-   },
+    "idn": "las semi otomatis"
+  },
   {
     "jp": "検査",
     "romaji": "kensa",
-    "idn": "inspeksi",
-    },
+    "idn": "inspeksi"
+  },
   {
     "jp": "水没検査",
     "romaji": "suibotsu kensa",
-    "idn": "tes rendam",
-    },
+    "idn": "tes rendam"
+  },
   {
     "jp": "安全",
     "romaji": "anzen",
-    "idn": "keselamatan",
-    },
+    "idn": "keselamatan"
+  },
   {
     "jp": "保護具",
     "romaji": "hogogu",
-    "idn": "alat pelindung diri",
-    },
+    "idn": "alat pelindung diri"
+  },
   {
     "jp": "中圧式安全器",
     "romaji": "chuuatsushiki anzenki",
-    "idn": "alat pengaman antara",
-    },
+    "idn": "alat pengaman antara"
+  },
   {
     "jp": "乾式安全器",
     "romaji": "kanshiki anzenki",
-    "idn": "alat pengaman kering",
-    },
+    "idn": "alat pengaman kering"
+  },
   {
     "jp": "混合ガス",
     "romaji": "kongoogasu",
-    "idn": "alat pengukur tekanan rekanan rendah gas campuran",
-   }
+    "idn": "alat pengukur tekanan rekanan rendah gas campuran"
+  },
+  {
+    "jp": "低圧圧力計 (ゲージ)",
+    "romaji": "teiatsu atsuryokukei (geeji)",
+    "idn": "alat pengukur tekanan rendah"
+  },
+  {
+    "jp": "高圧圧力計 (ゲージ)",
+    "romaji": "kouatsu atsuryokukei (geeji)",
+    "idn": "alat pengukur tekanan tinggi"
+  },
+  {
+    "jp": "消火器",
+    "romaji": "shoukaki",
+    "idn": "alat-alat pemadam kebakaran"
+  },
+  {
+    "jp": "アルミニウム",
+    "romaji": "aruminiumu",
+    "idn": "aluminium"
+  },
+  {
+    "jp": "電流計 (クランプメータ)",
+    "romaji": "denryuukei (kurampumeeta)",
+    "idn": "ammeter"
+  },
+  {
+    "jp": "ワイヤ送給装置",
+    "romaji": "waiya soukyuu souchi",
+    "idn": "aparatus pengisian kawat"
+  },
+  {
+    "jp": "アセチレン圧力調整器",
+    "romaji": "asechiren atsuryoku chouseiki",
+    "idn": "aparatus penyetel tekanan asetilin"
+  },
+  {
+    "jp": "前掛け",
+    "romaji": "maekake",
+    "idn": "apron"
+  },
+  {
+    "jp": "短絡電流",
+    "romaji": "tanraku denryuu",
+    "idn": "arus hubungan pendek"
+  },
+  {
+    "jp": "溶接電流",
+    "romaji": "yousetsu denryuu",
+    "idn": "arus listrik las"
+  },
+  {
+    "jp": "フラックス",
+    "romaji": "furakkusu",
+    "idn": "bahan pelumer"
+  },
+  {
+    "jp": "H形鋼 (H鋼)",
+    "romaji": "ecchigata kou (ecchikou)",
+    "idn": "baja berbentuk H"
+  },
+  {
+    "jp": "C形鋼 (Cチャン)",
+    "romaji": "C-gata kou (C-chan)",
+    "idn": "baja kanal C"
+  },
+  {
+    "jp": "高炭素鋼",
+    "romaji": "koutansokou",
+    "idn": "baja karbon tinggi"
+  },
+  {
+    "jp": "低合金鋼",
+    "romaji": "teigou kinkou",
+    "idn": "baja paduan rendah"
+  },
+  {
+    "jp": "ステンレス鋼",
+    "romaji": "sutenresukou",
+    "idn": "baja tahan karat"
+  },
+  {
+    "jp": "高張力鋼",
+    "romaji": "kouchouryokukou",
+    "idn": "baja tegangan tinggi"
+  },
+  {
+    "jp": "多層盛り",
+    "romaji": "tasoumori",
+    "idn": "barang isi lapisan ganda"
+  },
+  {
+    "jp": "丸鋼 (丸棒)",
+    "romaji": "marukou (marubou)",
+    "idn": "batang bulat"
+  },
+  {
+    "jp": "溶加棒",
+    "romaji": "youkabou",
+    "idn": "batang pengisi"
+  },
+  {
+    "jp": "可燃性物質",
+    "romaji": "kanensei busshitsu",
+    "idn": "benda yang dapat dibakar"
+  },
+  {
+    "jp": "オーバーラップ",
+    "romaji": "oobaarappu",
+    "idn": "berimpitan"
+  },
+  {
+    "jp": "鋳鉄",
+    "romaji": "chuutetsu",
+    "idn": "besi cor"
+  },
+  {
+    "jp": "平鋼 (フラットバー)",
+    "romaji": "hirakou (furattobaa)",
+    "idn": "besi picak"
+  },
+  {
+    "jp": "山形鋼 (アングル)",
+    "romaji": "yamagatakou (anguru)",
+    "idn": "besi siku"
+  },
+  {
+    "jp": "アーク",
+    "romaji": "aaku",
+    "idn": "busur lingkaran"
+  },
+  {
+    "jp": "アーク光",
+    "romaji": "aakukou",
+    "idn": "cahaya busur api"
+  },
+  {
+    "jp": "C形鋼 (C チャン)",
+    "romaji": "C-gata kou (C chan)",
+    "idn": "baja kanal C"
+  },
+  {
+    "jp": "低合金鋼",
+    "romaji": "teigoukinkou",
+    "idn": "baja paduan rendah"
+  },
+  {
+    "jp": "可燃性物質",
+    "romaji": "kanenseibushitsu",
+    "idn": "benda yang dapat dibakar"
+  },
+  {
+    "jp": "ビードの重ね方",
+    "romaji": "biido no kasanekata",
+    "idn": "cara sambung manik"
+  },
+  {
+    "jp": "コンタクトチップ",
+    "romaji": "kontakuto chippu",
+    "idn": "chip kontak"
+  },
+  {
+    "jp": "溶接棒",
+    "romaji": "yousetsubou",
+    "idn": "elektroda"
+  },
+  {
+    "jp": "タングステン電極",
+    "romaji": "tangusuten denkyoku",
+    "idn": "elektroda tungsten"
+  },
+  {
+    "jp": "バルブハンドル",
+    "romaji": "barubu handoru",
+    "idn": "gagang katup"
+  },
+  {
+    "jp": "電流調整ハンドル",
+    "romaji": "denryuu chousei handoru",
+    "idn": "gagang penyetel arus listrik"
+  },
+  {
+    "jp": "圧力調整ハンドル",
+    "romaji": "atsuryoku chousei handoru",
+    "idn": "gagang penyetel tekanan"
+  },
+  {
+    "jp": "ヒューム障害",
+    "romaji": "hyuumu shougai",
+    "idn": "gangguan pipa beton"
+  },
+  {
+    "jp": "アルゴンガス",
+    "romaji": "arugon gasu",
+    "idn": "gas argon"
+  },
+  {
+    "jp": "アセチレンガス",
+    "romaji": "asechiren gasu",
+    "idn": "gas asetilin"
+  },
+  {
+    "jp": "有害ガス",
+    "romaji": "yuugai gasu",
+    "idn": "gas beracun"
+  },
+  {
+    "jp": "炭酸ガス",
+    "romaji": "tansan gasu",
+    "idn": "gas karbon dioksida"
+  },
+  {
+    "jp": "バックシールドガス",
+    "romaji": "bakkushiirudo gasu",
+    "idn": "gas kena angin sebelah belakang"
+  },
+  {
+    "jp": "可燃性ガス",
+    "romaji": "kanensei gasu",
+    "idn": "gas mudah nyala"
+  },
+  {
+    "jp": "窒素ガス",
+    "romaji": "chisso gasu",
+    "idn": "gas nitrogen"
+  },
+  {
+    "jp": "シールドガス",
+    "romaji": "shiirudogasu",
+    "idn": "gas pelindung"
+  },
+  {
+    "jp": "裏当金",
+    "romaji": "uraategane",
+    "idn": "gelang belakang"
+  },
+  {
+    "jp": "ブローホール",
+    "romaji": "buroo hooru",
+    "idn": "gelembung buih"
+  },
+  {
+    "jp": "波形",
+    "romaji": "hakei",
+    "idn": "gelombang"
+  },
+  {
+    "jp": "ヘルメット",
+    "romaji": "herumetto",
+    "idn": "helm"
+  },
+  {
+    "jp": "接地 (アース)",
+    "romaji": "secchi (aasu)",
+    "idn": "hubungan ke bumi"
+  },
+  {
+    "jp": "点検",
+    "romaji": "tenken",
+    "idn": "inspeksi"
+  },
+  {
+    "jp": "保護具の点検",
+    "romaji": "hogogu no tenken",
+    "idn": "inspeksi alat pelindung"
+  },
+  {
+    "jp": "接続部の点検",
+    "romaji": "setsuzokubu no tenken",
+    "idn": "inspeksi bagian sambungan"
+  },
+  {
+    "jp": "ガス漏れ点検",
+    "romaji": "gasumore tenken",
+    "idn": "inspeksi kebocoran gas"
+  },
+  {
+    "jp": "水位の点検",
+    "romaji": "suii no tenken",
+    "idn": "inspeksi permukaan air"
+  },
+  {
+    "jp": "自動電撃防止装置",
+    "romaji": "jidou dengeki boushi souchi",
+    "idn": "instalasi pencegah kejutan"
+  },
+  {
+    "jp": "ガス集合装置",
+    "romaji": "gasu shuugou souchi",
+    "idn": "instalasi pengumpul gas"
+  },
+  {
+    "jp": "酸素圧力調整器",
+    "romaji": "sanso atsuryoku chouseiki",
+    "idn": "instalasi penyetel tekanan oksigen"
+  },
+  {
+    "jp": "掃除針",
+    "romaji": "soujibari",
+    "idn": "jarum pembersih"
+  },
+  {
+    "jp": "墜落",
+    "romaji": "tsuiraku",
+    "idn": "jatuh"
+  },
+  {
+    "jp": "検水窓",
+    "romaji": "kensuimado",
+    "idn": "jendela pemeriksaan air"
+  },
+  {
+    "jp": "一次側ケーブル",
+    "romaji": "ichijigawa keeburu",
+    "idn": "kabel primer"
+  },
+  {
+    "jp": "二次側ケーブル",
+    "romaji": "nijigawa keeburu",
+    "idn": "kabel sekunder"
+  },
+  {
+    "jp": "遮光ガラス",
+    "romaji": "shakou garasu",
+    "idn": "kaca penghalang sinar"
+  },
+  {
+    "jp": "保護めがね (遮光めがね)",
+    "romaji": "hogomegane (shakoumegane)",
+    "idn": "kacamata pelindung mata"
+  },
+  {
+    "jp": "ガスバルブ",
+    "romaji": "gasu barubu",
+    "idn": "katup gas"
+  },
+  {
+    "jp": "酸素バルブ",
+    "romaji": "sanso barubu",
+    "idn": "katup oksigen"
+  },
+  {
+    "jp": "切断酸素バルブ",
+    "romaji": "setsudan sanso barubu",
+    "idn": "katup oksigen potong"
+  },
+  {
+    "jp": "予熱酸素バルブ",
+    "romaji": "yonetsu sanso barubu",
+    "idn": "katup oksigen prapemanasan"
+  },
+  {
+    "jp": "安全弁",
+    "romaji": "anzenben",
+    "idn": "katup pengaman"
+  },
+  {
+    "jp": "アセチレン調整バルブ",
+    "romaji": "asechiren chousei barubu",
+    "idn": "katup penyetel asetilin"
+  },
+  {
+    "jp": "心線",
+    "romaji": "shinsen",
+    "idn": "kawat inti"
+  },
+  {
+    "jp": "溶接ワイヤ",
+    "romaji": "yousetsu waiya",
+    "idn": "kawat las"
+  },
+  {
+    "jp": "火災",
+    "romaji": "kasai",
+    "idn": "kebakaran"
+  },
+  {
+    "jp": "ガス漏れ",
+    "romaji": "gasu more",
+    "idn": "kebocoran gas"
+  },
+  {
+    "jp": "溶け込み不良",
+    "romaji": "tokekomi furyou",
+    "idn": "keburukan peleburan"
+  },
+  {
+    "jp": "融合不良",
+    "romaji": "yuugou furyou",
+    "idn": "keburukan pemaduan"
+  },
+  {
+    "jp": "運棒速度",
+    "romaji": "unbou sokudo",
+    "idn": "kecepatan manipulasi"
+  },
+  {
+    "jp": "溶接速度",
+    "romaji": "yousetsu sokudo",
+    "idn": "kecepatan mengelas"
+  },
+  {
+    "jp": "切断速度",
+    "romaji": "setsudan sokudo",
+    "idn": "kecepatan potong"
+  },
+  {
+    "jp": "失明",
+    "romaji": "shitsumei",
+    "idn": "kehilangan penglihatan"
+  },
+  {
+    "jp": "欠陥",
+    "romaji": "kekkan",
+    "idn": "kekurangan"
+  },
+  {
+    "jp": "のど厚不足",
+    "romaji": "nodoatsu busoku",
+    "idn": "kekurangan tebal sempitan"
+  },
+  {
+    "jp": "ピッチ",
+    "romaji": "picchi",
+    "idn": "kemiringan"
+  },
+  {
+    "jp": "感電",
+    "romaji": "kanden",
+    "idn": "kena listrik"
+  },
+  {
+    "jp": "トーチヘッド",
+    "romaji": "toochi heddo",
+    "idn": "kepala obor"
+  },
+  {
+    "jp": "中毒",
+    "romaji": "chuudoku",
+    "idn": "keracunan"
+  },
+  {
+    "jp": "乾燥",
+    "romaji": "kansou",
+    "idn": "kering"
+  },
+  {
+    "jp": "アースクランプ",
+    "romaji": "aasu kuranpu",
+    "idn": "klem-tanah"
+  },
+  {
+    "jp": "溶融池 (プール)",
+    "romaji": "youyuuchi (puuru)",
+    "idn": "kubangan lelah (kolam)"
+  },
+  {
+    "jp": "ガス溶接",
+    "romaji": "gasu yousetsu",
+    "idn": "las gas"
+  },
+  {
+    "jp": "仮付け",
+    "romaji": "karitsuke",
+    "idn": "las sementara (tack welding)"
+  },
+  {
+    "jp": "ビード幅",
+    "romaji": "biido haba",
+    "idn": "lebar manik"
+  },
+  {
+    "jp": "爆発",
+    "romaji": "bakuhatsu",
+    "idn": "ledakan"
+  },
+  {
+    "jp": "脚長",
+    "romaji": "kyachou",
+    "idn": "leg"
+  },
+  {
+    "jp": "母材",
+    "romaji": "bozai",
+    "idn": "logam dasar"
+  },
+  {
+    "jp": "ピット",
+    "romaji": "pitto",
+    "idn": "lubang"
+  },
+  {
+    "jp": "火傷",
+    "romaji": "yakedo",
+    "idn": "luka terbakar"
+  },
+  {
+    "jp": "裏波ビード",
+    "romaji": "uranami biido",
+    "idn": "manik-balik"
+  },
+  {
+    "jp": "ビード外観",
+    "romaji": "biido gaikan",
+    "idn": "manik-las luar"
+  },
+  {
+    "jp": "ウィービングビード",
+    "romaji": "wiibingu biido",
+    "idn": "manik manipulasi elektroda"
+  },
+  {
+    "jp": "ストリンガビード",
+    "romaji": "sutoringabiido",
+    "idn": "manik urat las deret"
+  },
+  {
+    "jp": "交流溶接機",
+    "romaji": "kouryuu yousetsuki",
+    "idn": "mesin las arus bolak balik"
+  },
+  {
+    "jp": "直流溶接機",
+    "romaji": "chokuryuu yousetsuki",
+    "idn": "mesin las arus langsung"
+  },
+  {
+    "jp": "自動溶接機",
+    "romaji": "jidou yousetsuki",
+    "idn": "mesin las otomatik"
+  },
+  {
+    "jp": "半自動溶接機",
+    "romaji": "hanjidou yousetsuki",
+    "idn": "mesin las semi-otomatik"
+  },
+  {
+    "jp": "面取機",
+    "romaji": "mentoriki",
+    "idn": "mesin pembuangan segi"
+  },
+  {
+    "jp": "自動ガス切断機",
+    "romaji": "jidou gasu setsudanki",
+    "idn": "mesin pemotong gas otomatis"
+  },
+  {
+    "jp": "溶接棒乾燥機",
+    "romaji": "yousetsubou kansouki",
+    "idn": "mesin pengering elektroda"
+  },
+  {
+    "jp": "ブラッシング法",
+    "romaji": "burasshingu hou",
+    "idn": "metode menyikat"
+  },
+  {
+    "jp": "タッピング法",
+    "romaji": "tappingu hou",
+    "idn": "metode tapping"
+  },
+  {
+    "jp": "被破壊試験",
+    "romaji": "hihakai shiken",
+    "idn": "metode uji tanpa merusak"
+  },
+  {
+    "jp": "ガス運搬車",
+    "romaji": "gasu unpansha",
+    "idn": "mobil pengangkut gas"
+  },
+  {
+    "jp": "火口 (ノズル)",
+    "romaji": "higuchi (nozuru)",
+    "idn": "nosel"
+  },
+  {
+    "jp": "標準炎",
+    "romaji": "hyoujun-en",
+    "idn": "nyala api standar"
+  },
+  {
+    "jp": "逆火",
+    "romaji": "gyakka",
+    "idn": "nyala-balik"
+  },
+  {
+    "jp": "酸化炎",
+    "romaji": "sanka-en",
+    "idn": "nyala pengoksidasi"
+  },
+  {
+    "jp": "酸素",
+    "romaji": "sanso",
+    "idn": "oksigen"
+  },
+  {
+    "jp": "チッピングハンマ (スラグハンマ)",
+    "romaji": "chippingu hanma (suragu hanma)",
+    "idn": "palu pengikis (palu terak)"
+  },
+  {
+    "jp": "アークの長さ",
+    "romaji": "aaku no nagasa",
+    "idn": "panjangnya busur api"
+  },
+  {
+    "jp": "パス",
+    "romaji": "pasu",
+    "idn": "pass, run"
+  },
+  {
+    "jp": "運棒",
+    "romaji": "unbou",
+    "idn": "pegangan"
+  },
+  {
+    "jp": "軟鋼板",
+    "romaji": "nankouban",
+    "idn": "pelat baja lunak"
+  },
+  {
+    "jp": "溶け落ち",
+    "romaji": "tokeochi",
+    "idn": "peleburan"
+  },
+  {
+    "jp": "足カバー",
+    "romaji": "ashikabaa",
+    "idn": "pelindung kaki"
+  },
+  {
+    "jp": "ハンドシールド",
+    "romaji": "handoshiirudo",
+    "idn": "pelindung kemudi"
+  },
+  {
+    "jp": "腕カバー",
+    "romaji": "udekabaa",
+    "idn": "pelindung lengan"
+  },
+  {
+    "jp": "保護面",
+    "romaji": "hogomen",
+    "idn": "pelindung muka"
+  },
+  {
+    "jp": "点火ライタ",
+    "romaji": "tenka raita",
+    "idn": "pemantik api penyalaan"
+  },
+  {
+    "jp": "ルート間隔",
+    "romaji": "ruuto kankaku",
+    "idn": "pembukaan akar"
+  },
+  {
+    "jp": "溶接棒ホルダ",
+    "romaji": "yousetsubou horuda",
+    "idn": "pemegang batang las"
+  },
+  {
+    "jp": "職業病検診",
+    "romaji": "shokugyoubyou kenshin",
+    "idn": "pemeriksaan penyakit akibat"
+  },
+  {
+    "jp": "外観検査",
+    "romaji": "gaikankensa",
+    "idn": "pemeriksaan visual"
+  },
+  {
+    "jp": "アンダーカット",
+    "romaji": "andaakatto",
+    "idn": "pemotongan bawah"
+  },
+  {
+    "jp": "ガス切断",
+    "romaji": "gasu setsudan",
+    "idn": "pemotongan gas"
+  },
+  {
+    "jp": "電撃防止",
+    "romaji": "dengeki boushi",
+    "idn": "pencegahan kejutan listrik"
+  },
+  {
+    "jp": "冷却",
+    "romaji": "reikyaku",
+    "idn": "pendinginan"
+  },
+  {
+    "jp": "確認",
+    "romaji": "kakunin",
+    "idn": "penegasan"
+  },
+  {
+    "jp": "カラーチェック",
+    "romaji": "karaa chekku",
+    "idn": "pengecekan warna"
+  },
+  {
+    "jp": "半自動アーク溶接",
+    "romaji": "hanjidou aaku yousetsu",
+    "idn": "pengelasan busur api semi-otomatis"
+  },
+  {
+    "jp": "被覆アーク溶接",
+    "romaji": "hifuku aaku yousetsu",
+    "idn": "pengelasan busur api terbungkus"
+  },
+  {
+    "jp": "ティグ溶接",
+    "romaji": "tigu yousetsu",
+    "idn": "pengelasan busur wolfram"
+  },
+  {
+    "jp": "水平スミ肉溶接",
+    "romaji": "suihei suminiku yousetsu",
+    "idn": "pengelasan sudut horizontal"
+  },
+  {
+    "jp": "突き合わせ溶接",
+    "romaji": "tsukiawase yousetsu",
+    "idn": "pengelasan temu"
+  },
+  {
+    "jp": "開先加工",
+    "romaji": "kaisaki kakou",
+    "idn": "pengerjaan pinggir"
+  },
+  {
+    "jp": "スラグ巻き込み",
+    "romaji": "suragu makikomi",
+    "idn": "pengotoran terak-logam"
+  },
+  {
+    "jp": "ガス流量調整器",
+    "romaji": "gasu ryuuryou chouseiki",
+    "idn": "pengukur aliran gas"
+  },
+  {
+    "jp": "すきまゲージ",
+    "romaji": "sukima geeji",
+    "idn": "pengukur celah"
+  },
+  {
+    "jp": "引火",
+    "romaji": "inka",
+    "idn": "penyalaan"
+  },
+  {
+    "jp": "ビード継ぎ",
+    "romaji": "biidotsugi",
+    "idn": "penyambungan manik"
+  },
+  {
+    "jp": "火炎調整",
+    "romaji": "kaenchousei",
+    "idn": "penyesuaian nyala api"
+  },
+  {
+    "jp": "圧力調整",
+    "romaji": "atsuryokuchousei",
+    "idn": "penyesuaian tekanan"
+  },
+  {
+    "jp": "じん肺",
+    "romaji": "jinpai",
+    "idn": "peradangan kronis dari paru-paru"
+  },
+  {
+    "jp": "切断面",
+    "romaji": "setsudanmen",
+    "idn": "permukaan potongan"
+  },
+  {
+    "jp": "鋼管 (パイプ)",
+    "romaji": "koukan (paipu)",
+    "idn": "pipa baja (pipa)"
+  },
+  {
+    "jp": "導管",
+    "romaji": "doukan",
+    "idn": "pipa saluran"
+  },
+  {
+    "jp": "吹管 (トーチ)",
+    "romaji": "suikan (toochi)",
+    "idn": "pipa-hembus"
+  },
+  {
+    "jp": "溶接吹管 (トーチ)",
+    "romaji": "yousetsusuikan (toochi)",
+    "idn": "pipa-hembus las"
+  },
+  {
+    "jp": "切断吹管 (トーチ)",
+    "romaji": "setsudansuikan (toochi)",
+    "idn": "pipa-hembus potong"
+  },
+  {
+    "jp": "縞鋼板 (チェッカープレート)",
+    "romaji": "shimakouhan (chekkaapureeto)",
+    "idn": "plat baja barik"
+  },
+  {
+    "jp": "ビード置き",
+    "romaji": "biidooki",
+    "idn": "posisi manik"
+  },
+  {
+    "jp": "ねらい位置",
+    "romaji": "neraiichi",
+    "idn": "posisi sasaran"
+  },
+  {
+    "jp": "クレーター処理",
+    "romaji": "kureetaashori",
+    "idn": "proses crater"
+  },
+  {
+    "jp": "逆ひずみ",
+    "romaji": "gyaku hizumi",
+    "idn": "regandan-balik"
+  },
+  {
+    "jp": "溶接歪み (変形)",
+    "romaji": "yousetsu hizumi (henkei)",
+    "idn": "regangan las (deformasi)"
+  },
+  {
+    "jp": "ビード割れ",
+    "romaji": "biido ware",
+    "idn": "retak urat-las"
+  },
+  {
+    "jp": "電源スイッチ",
+    "romaji": "dengen suicchi",
+    "idn": "sakelar sumber listrik"
+  },
+  {
+    "jp": "アース接続",
+    "romaji": "aasu setsuzoku",
+    "idn": "sambungan alat listrik dengan bumi"
+  },
+  {
+    "jp": "ホース継手",
+    "romaji": "hoosu tsugite",
+    "idn": "sambungan slang"
+  },
+  {
+    "jp": "革手袋",
+    "romaji": "kawatebukuro",
+    "idn": "sarung tangan kulit"
+  },
+  {
+    "jp": "安全靴",
+    "romaji": "anzen-gutsu",
+    "idn": "sepatu pengaman"
+  },
+  {
+    "jp": "ワイヤブラシ",
+    "romaji": "waiya burashi",
+    "idn": "sikat kawat"
+  },
+  {
+    "jp": "容器弁",
+    "romaji": "youkiben",
+    "idn": "silinder gas"
+  },
+  {
+    "jp": "赤外線",
+    "romaji": "sekigaisen",
+    "idn": "sinar infra-merah"
+  },
+  {
+    "jp": "紫外線",
+    "romaji": "shigaisen",
+    "idn": "sinar ultra-ungu"
+  },
+  {
+    "jp": "バリ",
+    "romaji": "bari",
+    "idn": "sirip"
+  },
+  {
+    "jp": "アセチレン用ゴムホース (赤)",
+    "romaji": "asechiren-you gomu hoosu (aka)",
+    "idn": "slang karet asetilin (merah)"
+  },
+  {
+    "jp": "酸素用ゴムホース (黒)",
+    "romaji": "sanso-you gomu hoosu (kuro)",
+    "idn": "slang karet oksigen (hitam)"
+  },
+  {
+    "jp": "トーチ角度",
+    "romaji": "toochi kakudo",
+    "idn": "sudut obor"
+  },
+  {
+    "jp": "保持角度",
+    "romaji": "hoji kakudo",
+    "idn": "sudut penahan"
+  },
+  {
+    "jp": "開先角度",
+    "romaji": "kaisaki kakudo",
+    "idn": "sudut pinggiran miring"
+  },
+  {
+    "jp": "点火源",
+    "romaji": "tenkagen",
+    "idn": "sumber penyalaan"
+  },
+  {
+    "jp": "アセチレン容器 (ボンベ)",
+    "romaji": "asechiren youki (bonbe)",
+    "idn": "tabung asetilin"
+  },
+  {
+    "jp": "酸素容器 (ボンベ)",
+    "romaji": "sanso youki (bonbe)",
+    "idn": "tabung oksigen"
+  },
+  {
+    "jp": "残留応力",
+    "romaji": "zanryuu ouryoku",
+    "idn": "tekanan sisa"
+  },
+  {
+    "jp": "スラグ",
+    "romaji": "suragu",
+    "idn": "terak"
+  },
+  {
+    "jp": "超音波探傷試験 (UT)",
+    "romaji": "chouonba tanshou shiken",
+    "idn": "tes deteksi patah ultrasonik"
+  },
+  {
+    "jp": "磁粉探傷試験 (MT)",
+    "romaji": "jifun tanshou shiken",
+    "idn": "tes partikel magnetis"
+  },
+  {
+    "jp": "浸透探傷試験 (PT)",
+    "romaji": "shintou tanshou shiken",
+    "idn": "tes penetrasi zat cair"
+  },
+  {
+    "jp": "放射線透過試験 (RT)",
+    "romaji": "houshasen touka shiken",
+    "idn": "tes radiografik"
+  },
+  {
+    "jp": "余盛り高さ",
+    "romaji": "yamori takasa",
+    "idn": "tinggi logam lebih"
+  },
+  {
+    "jp": "曲げ試験",
+    "romaji": "mage shiken",
+    "idn": "uji bengkok"
+  },
+  {
+    "jp": "漏れ試験",
+    "romaji": "more shiken",
+    "idn": "uji kebocoran"
+  },
+  {
+    "jp": "硬さ試験",
+    "romaji": "katasa shiken",
+    "idn": "uji kekerasan"
+  },
+  {
+    "jp": "耐圧試験",
+    "romaji": "taiatsu shiken",
+    "idn": "uji ketahanan tekan"
+  },
+  {
+    "jp": "破壊試験",
+    "romaji": "hakai shiken",
+    "idn": "uji merusak"
+  },
+  {
+    "jp": "引っ張り試験",
+    "romaji": "hippari shiken",
+    "idn": "uji tarik"
+  },
+  {
+    "jp": "サイズ",
+    "romaji": "saizu",
+    "idn": "ukuran"
+  },
+  {
+    "jp": "換気",
+    "romaji": "kanki",
+    "idn": "ventilasi"
+  },
+  {
+    "jp": "圧力調整",
+    "romaji": "atsuryoku chousei",
+    "idn": "penyesuaian tekanan"
+  },
+  {
+    "jp": "バックシールドガス",
+    "romaji": "bakku shiirudo gasu",
+    "idn": "gas kena angin sebelah belakang"
+  },
+  {
+    "jp": "ビード置き",
+    "romaji": "biido oki",
+    "idn": "posisi manik"
+  },
+  {
+    "jp": "ビード継ぎ",
+    "romaji": "biido tsugi",
+    "idn": "penyambungan manik"
+  },
+  {
+    "jp": "電流計 (クランプメータ)",
+    "romaji": "denryuukei (kurampu meeta)",
+    "idn": "ammeter"
+  },
+  {
+    "jp": "ガス漏れ点検",
+    "romaji": "gasu more tenken",
+    "idn": "inspeksi kebocoran gas"
+  },
+  {
+    "jp": "へるめっと (ヘルメット)",
+    "romaji": "herumetto",
+    "idn": "helm"
+  },
+  {
+    "jp": "ひぐち (のずる)",
+    "romaji": "higuchi (nozuru)",
+    "idn": "nosel"
+  },
+  {
+    "jp": "ひはかいしけん",
+    "romaji": "hihakai shiken",
+    "idn": "metode uji tanpa merusak"
+  },
+  {
+    "jp": "ひふくあーくようせつ",
+    "romaji": "hifuku aaku yousetsu",
+    "idn": "pengelasan busur api terbungkus"
+  },
+  {
+    "jp": "ひっぱりしけん",
+    "romaji": "hippari shiken",
+    "idn": "uji tarik"
+  },
+  {
+    "jp": "ひらこう (ふらっとばー)",
+    "romaji": "hirakou (furattobaa)",
+    "idn": "besi picak"
+  },
+  {
+    "jp": "ほーすつぎて",
+    "romaji": "hoosu tsugite",
+    "idn": "sambungan slang"
+  },
+  {
+    "jp": "ほごぐのてんけん",
+    "romaji": "hogogu no tenken",
+    "idn": "inspeksi alat pelindung"
+  },
+  {
+    "jp": "ほごめがね (しゃこうめがね)",
+    "romaji": "hogomegane (shakoumegane)",
+    "idn": "kacamata pelindung mata"
+  },
+  {
+    "jp": "ほごめん",
+    "romaji": "hogomen",
+    "idn": "pelindung muka"
+  },
+  {
+    "jp": "ほじかくど",
+    "romaji": "hojikakudo",
+    "idn": "sudut penahan"
+  },
+  {
+    "jp": "ほうしゃせんとうかしけん (あーるてい)",
+    "romaji": "houshasen touka shiken (aarutei)",
+    "idn": "tes radiografik (RT)"
+  },
+  {
+    "jp": "ふらっくす",
+    "romaji": "furakkusu",
+    "idn": "bahan pelumer"
+  },
+  {
+    "jp": "ひょうじゅんえん",
+    "romaji": "hyoujun-en",
+    "idn": "nyala api standar"
+  },
+  {
+    "jp": "ひゅーむしょうがい",
+    "romaji": "hyuumu shougai",
+    "idn": "gangguan asap las (fume)"
+  },
+  {
+    "jp": "いちじがわけーぶる",
+    "romaji": "ichijigawa keeburu",
+    "idn": "kabel primer"
+  },
+  {
+    "jp": "いんか",
+    "romaji": "inka",
+    "idn": "penyalaan"
+  },
+  {
+    "jp": "じどうでんげきぼうしそうち",
+    "romaji": "jidou dengeki boushi souchi",
+    "idn": "instalasi pencegah kejutan listrik otomatis"
+  },
+  {
+    "jp": "じどうがすせつだんき",
+    "romaji": "jidou gasu setsudanki",
+    "idn": "mesin pemotong gas otomatis"
+  },
+  {
+    "jp": "じどうようせつき",
+    "romaji": "jidou yousetsuki",
+    "idn": "mesin las otomatik"
+  },
+  {
+    "jp": "じふんたんしょうしけん (えむてい)",
+    "romaji": "jifun tanshou shiken (emutei)",
+    "idn": "tes partikel magnetis (MT)"
+  },
+  {
+    "jp": "じんぱい",
+    "romaji": "jinpai",
+    "idn": "peradangan kronis dari paru-paru"
+  },
+  {
+    "jp": "かえんちょうせい",
+    "romaji": "kaen chousei",
+    "idn": "penyesuaian nyala api"
+  },
+  {
+    "jp": "かいさきかこう",
+    "romaji": "kaisaki kakou",
+    "idn": "pengerjaan pinggir"
+  },
+  {
+    "jp": "かいさきかくど",
+    "romaji": "kaisaki kakudo",
+    "idn": "sudut pinggiran miring"
+  },
+  {
+    "jp": "かくにん",
+    "romaji": "kakunin",
+    "idn": "penegasan"
+  },
+  {
+    "jp": "かんでん",
+    "romaji": "kanden",
+    "idn": "kena listrik"
+  },
+  {
+    "jp": "かねんせいぶっしつ",
+    "romaji": "kanensei busshitsu",
+    "idn": "benda yang dapat dibakar"
+  },
+  {
+    "jp": "かねんせいがす",
+    "romaji": "kanensei gasu",
+    "idn": "gas mudah nyala"
+  },
+  {
+    "jp": "かんき",
+    "romaji": "kanki",
+    "idn": "ventilasi"
+  },
+  {
+    "jp": "かんしきあんぜんき",
+    "romaji": "kanshiki anzenki",
+    "idn": "alat pengaman kering"
+  },
+  {
+    "jp": "かんそう",
+    "romaji": "kansou",
+    "idn": "kering"
+  },
+  {
+    "jp": "からーちぇっく",
+    "romaji": "karaa chekku",
+    "idn": "pengecekan warna"
+  },
+  {
+    "jp": "かりつけ",
+    "romaji": "karitsuke",
+    "idn": "las sementara (tack welding)"
+  },
+  {
+    "jp": "かさい",
+    "romaji": "kasai",
+    "idn": "kebakaran"
+  },
+  {
+    "jp": "かたさしけん",
+    "romaji": "katasa shiken",
+    "idn": "uji kekerasan"
+  },
+  {
+    "jp": "かわてぶくろ",
+    "romaji": "kawatebukuro",
+    "idn": "sarung tangan kulit"
+  },
+  {
+    "jp": "けっかん",
+    "romaji": "kekkan",
+    "idn": "kekurangan"
+  },
+  {
+    "jp": "けんすいまど",
+    "romaji": "kensuimado",
+    "idn": "jendela pemeriksaan air"
+  },
+  {
+    "jp": "こんごうがす",
+    "romaji": "kongou gasu",
+    "idn": "alat pengukur tekanan rekanan rendah gas campuran"
+  },
+  {
+    "jp": "こんたくとちっぷ",
+    "romaji": "kontakuto chippu",
+    "idn": "chip kontak"
+  },
+  {
+    "jp": "こうあつあつりょくけい (げーじ)",
+    "romaji": "kouatsu atsuryokukei (geeji)",
+    "idn": "alat pengukur tekanan tinggi"
+  },
+  {
+    "jp": "こうちょうりょくこう",
+    "romaji": "kouchouryokukou",
+    "idn": "baja tegangan tinggi"
+  },
+  {
+    "jp": "こうかん (ぱいぷ)",
+    "romaji": "koukan (paipu)",
+    "idn": "pipa baja (pipa)"
+  },
+  {
+    "jp": "こうりゅうようせつき",
+    "romaji": "kouryuu yousetsuki",
+    "idn": "mesin las arus bolak balik"
+  },
+  {
+    "jp": "こうたんそこう",
+    "romaji": "koutansokou",
+    "idn": "baja karbon tinggi"
+  },
+  {
+    "jp": "くれーたーしょり",
+    "romaji": "kureetaa shori",
+    "idn": "proses crater"
+  },
+  {
+    "jp": "きゃくちょう",
+    "romaji": "kyachou",
+    "idn": "leg"
+  },
+  {
+    "jp": "せつだんめん (切断面)",
+    "romaji": "setsudanmen",
+    "idn": "permukaan potongan"
+  },
+  {
+    "jp": "せつだんさんそばるぶ (切断酸素バルブ)",
+    "romaji": "setsudan sanso barubu",
+    "idn": "katup oksigen potong"
+  },
+  {
+    "jp": "せつだんそくど (切断速度)",
+    "romaji": "setsudan sokudo",
+    "idn": "kecepatan potong"
+  },
+  {
+    "jp": "せつだんすいかん (とーち) (切断吹管 (トーチ))",
+    "romaji": "setsudan suikan (toochi)",
+    "idn": "pipa-hembus potong"
+  },
+  {
+    "jp": "せつぞくぶのてんけん (接続部の点検)",
+    "romaji": "setsuzokubu no tenken",
+    "idn": "inspeksi bagian sambungan"
+  },
+  {
+    "jp": "しゃこうがらす (遮光ガラス)",
+    "romaji": "shakou garasu",
+    "idn": "kaca penghalang sinar"
+  },
+  {
+    "jp": "しーがたこう (しーちゃん) (C形鋼 (Cチャン))",
+    "romaji": "shiigata kou (shii-chan)",
+    "idn": "baja kanal C"
+  },
+  {
+    "jp": "しーるどがす (シールドガス)",
+    "romaji": "shiirudo gasu",
+    "idn": "gas pelindung"
+  },
+  {
+    "jp": "しがいせん (紫外線)",
+    "romaji": "shigaisen",
+    "idn": "sinar ultra-ungu"
+  },
+  {
+    "jp": "しまこうはん (ちぇっかーぷれーと) (縞鋼板 (チェッカープレート))",
+    "romaji": "shimakouhan (chekkaapureeto)",
+    "idn": "plat baja barik"
+  },
+  {
+    "jp": "しんせん (心線)",
+    "romaji": "shinsen",
+    "idn": "kawat inti"
+  },
+  {
+    "jp": "しんとうたんしょうしけん (ぴーてい) (浸透探傷試験 (PT))",
+    "romaji": "shintou tanshou shiken (piitei)",
+    "idn": "tes penetrasi zat cair (PT)"
+  },
+  {
+    "jp": "しつめい (失明)",
+    "romaji": "shitsumei",
+    "idn": "kehilangan penglihatan"
+  },
+  {
+    "jp": "しょくぎょうびょうけんしん (職業病検診)",
+    "romaji": "shokugyoubyou kenshin",
+    "idn": "pemeriksaan penyakit akibat kerja"
+  },
+  {
+    "jp": "そうじぼう (掃除針)",
+    "romaji": "soujibau",
+    "idn": "jarum pembersih"
+  },
+  {
+    "jp": "すいへいすみあにようせつ (水平スミ肉溶接)",
+    "romaji": "suihei suminiku yousetsu",
+    "idn": "pengelasan sudut horizontal"
+  },
+  {
+    "jp": "すいいのてんけん (水位の点検)",
+    "romaji": "suii no tenken",
+    "idn": "inspeksi permukaan air"
+  },
+  {
+    "jp": "すいかん (とーち) (吹管 (トーチ))",
+    "romaji": "suikan (toochi)",
+    "idn": "pipa-hembus"
+  },
+  {
+    "jp": "すきまげーじ (すきまゲージ)",
+    "romaji": "sukima geeji",
+    "idn": "pengukur celah"
+  },
+  {
+    "jp": "すらぐ (スラグ)",
+    "romaji": "suragu",
+    "idn": "terak"
+  },
+  {
+    "jp": "すらぐまきこみ (スラグ巻き込み)",
+    "romaji": "suragu makikomi",
+    "idn": "pengotoran terak-logam"
+  },
+  {
+    "jp": "すてんれすこう (ステンレス鋼)",
+    "romaji": "sutenresukou",
+    "idn": "baja tahan karat"
+  },
+  {
+    "jp": "すとりんぐびーと (ストリングビート)",
+    "romaji": "sutoringu biito",
+    "idn": "manik urat las deret"
+  },
+  {
+    "jp": "しょうかき (消火器)",
+    "romaji": "shoukaki",
+    "idn": "alat-alat pemadam kebakaran"
+  },
+  {
+    "jp": "ワイヤブラシ",
+    "romaji": "waiyaburashi",
+    "idn": "sikat kawat"
+  },
+  {
+    "jp": "溶接吹管 (トーチ)",
+    "romaji": "yousetsu suikan (toochi)",
+    "idn": "pipa-hembus las"
+  },
+  {
+    "jp": "摩耗",
+    "romaji": "mamou",
+    "idn": "abrasi"
+  },
+  {
+    "jp": "切断吹管",
+    "romaji": "setsudan suikan",
+    "idn": "pipa hembus potong (torch)"
+  },
+  {
+    "jp": "溶接歪み",
+    "romaji": "yousetsu hizumi",
+    "idn": "deformasi / distorsi las"
+  },
+  {
+    "jp": "安全靴",
+    "romaji": "anzen gutsu",
+    "idn": "sepatu pengaman (safety shoes)"
+  },
+  {
+    "jp": "溶融池",
+    "romaji": "youyuuchi",
+    "idn": "kubangan las (molten pool)"
+  },
+  {
+    "jp": "ブランク",
+    "romaji": "buranku",
+    "idn": "bahan asal"
+  },
+  {
+    "jp": "コイル材",
+    "romaji": "koiruzai",
+    "idn": "bahan kumparan"
+  },
+  {
+    "jp": "加工材料",
+    "romaji": "kakou zairyou",
+    "idn": "bahan olahan"
+  },
+  {
+    "jp": "シート材",
+    "romaji": "shiitozai",
+    "idn": "bahan pelat"
+  },
+  {
+    "jp": "ストリップ材",
+    "romaji": "sutorippuzai",
+    "idn": "bahan stripper"
+  },
+  {
+    "jp": "ステンレス鋼板",
+    "romaji": "sutenresu kouhan",
+    "idn": "baja tahan karat"
+  },
+  {
+    "jp": "スクラップ",
+    "romaji": "sukurappu",
+    "idn": "besi tua"
+  },
+  {
+    "jp": "危険限界",
+    "romaji": "kiken genkai",
+    "idn": "batas bahaya"
+  },
+  {
+    "jp": "ボルト",
+    "romaji": "boruto",
+    "idn": "baut"
+  },
+  {
+    "jp": "荷重",
+    "romaji": "kajuu",
+    "idn": "beban"
+  },
+  {
+    "jp": "位置ずれ",
+    "romaji": "ichizure",
+    "idn": "bergesernya posisi"
+  },
+  {
+    "jp": "心ずれ",
+    "romaji": "shinzure",
+    "idn": "bergesernya sumbu"
+  },
+  {
+    "jp": "有効",
+    "romaji": "yuukou",
+    "idn": "berlaku"
+  },
+  {
+    "jp": "スライド",
+    "romaji": "suraido",
+    "idn": "blok luncur"
+  },
+  {
+    "jp": "安全ブロック",
+    "romaji": "anzen burokku",
+    "idn": "blok pengaman"
+  },
+  {
+    "jp": "傷",
+    "romaji": "kizu",
+    "idn": "cacat"
+  },
+  {
+    "jp": "取り扱い方法",
+    "romaji": "toriatsukai houhou",
+    "idn": "cara perlakuan"
+  },
+  {
+    "jp": "金型",
+    "romaji": "kanagata",
+    "idn": "cetakan"
+  },
+  {
+    "jp": "ダイ",
+    "romaji": "dai",
+    "idn": "cetakan"
+  },
+  {
+    "jp": "上型",
+    "romaji": "uwagata",
+    "idn": "cetakan atas"
+  },
+  {
+    "jp": "下型",
+    "romaji": "shitagata",
+    "idn": "cetakan bawah"
+  },
+  {
+    "jp": "曲げ型",
+    "romaji": "magegata",
+    "idn": "cetakan bengkok"
+  },
+  {
+    "jp": "打ち抜き型",
+    "romaji": "uchinukigata",
+    "idn": "cetakan bor"
+  },
+  {
+    "jp": "絞り型",
+    "romaji": "shiborigata",
+    "idn": "cetakan cekik"
+  },
+  {
+    "jp": "塑性加工",
+    "romaji": "sosei kakou",
+    "idn": "cetakan plastik"
+  },
+  {
+    "jp": "ワッシャー",
+    "romaji": "wasshaa",
+    "idn": "cincin tutup"
+  },
+  {
+    "jp": "作業能率",
+    "romaji": "sagyou nouritsu",
+    "idn": "efisiensi kerja"
+  },
+  {
+    "jp": "排出",
+    "romaji": "haishutsu",
+    "idn": "emisi"
+  },
+  {
+    "jp": "四面",
+    "romaji": "shimen",
+    "idn": "empat sisi"
+  },
+  {
+    "jp": "フランジ",
+    "romaji": "furanji",
+    "idn": "flens"
+  },
+  {
+    "jp": "金切りばさみ",
+    "romaji": "kanakiribasami",
+    "idn": "gunting memotong logam"
+  },
+  {
+    "jp": "ノギス",
+    "romaji": "nogisu",
+    "idn": "jangka sorong"
+  },
+  {
+    "jp": "転倒",
+    "romaji": "tentou",
+    "idn": "jatuh terempas"
+  },
+  {
+    "jp": "ゲージ窓",
+    "romaji": "geejimado",
+    "idn": "jendela alat ukur"
+  },
+  {
+    "jp": "かぎ棒",
+    "romaji": "kagibou",
+    "idn": "kait"
+  },
+  {
+    "jp": "真空カップ",
+    "romaji": "shinkuukappu",
+    "idn": "kap vakum"
+  },
+  {
+    "jp": "プレス能力",
+    "romaji": "puresu nouryoku",
+    "idn": "kapasitas pres"
+  },
+  {
+    "jp": "錆",
+    "romaji": "sabi",
+    "idn": "karat"
+  },
+  {
+    "jp": "油漏れ",
+    "romaji": "aburamore",
+    "idn": "kebocoran minyak"
+  },
+  {
+    "jp": "エア漏れ",
+    "romaji": "eamore",
+    "idn": "kebocoran udara"
+  },
+  {
+    "jp": "速度",
+    "romaji": "sokudo",
+    "idn": "kecepatan"
+  },
+  {
+    "jp": "不注意",
+    "romaji": "fuchuui",
+    "idn": "kelalaian"
+  },
+  {
+    "jp": "試し打ち",
+    "romaji": "tameshiuchi",
+    "idn": "kempaan percobaan"
+  },
+  {
+    "jp": "上昇",
+    "romaji": "joushou",
+    "idn": "kenaikan"
+  },
+  {
+    "jp": "運搬車",
+    "romaji": "unpansha",
+    "idn": "kendaraan pengangkutan"
+  },
+  {
+    "jp": "緩み",
+    "romaji": "yurumi",
+    "idn": "kendor"
+  },
+  {
+    "jp": "せん断加工",
+    "romaji": "sendankakou",
+    "idn": "kerja geser"
+  },
+  {
+    "jp": "破損",
+    "romaji": "hason",
+    "idn": "kerusakan"
+  },
+  {
+    "jp": "精度",
+    "romaji": "seido",
+    "idn": "ketelitian"
+  },
+  {
+    "jp": "ムラ",
+    "romaji": "mura",
+    "idn": "ketidak-merataan"
+  },
+  {
+    "jp": "ヤスリ",
+    "romaji": "yasuri",
+    "idn": "kikir"
+  },
+  {
+    "jp": "ストローク数調整つまみ",
+    "romaji": "sutorookusuu chousei tsumami",
+    "idn": "knop pengatur langkah"
+  },
+  {
+    "jp": "クラッチ",
+    "romaji": "kuratchi",
+    "idn": "kopeling"
+  },
+  {
+    "jp": "品質",
+    "romaji": "hinshitsu",
+    "idn": "kualitas"
+  },
+  {
+    "jp": "スパナ",
+    "romaji": "supana",
+    "idn": "kunci mur"
+  },
+  {
+    "jp": "型囲い",
+    "romaji": "katakakoi",
+    "idn": "kurungan cetakan"
+  },
+  {
+    "jp": "安全囲い",
+    "romaji": "anzenkakoi",
+    "idn": "kurungan pengaman"
+  },
+  {
+    "jp": "最大停止時間",
+    "romaji": "saidai teishi jikan",
+    "idn": "lamanya perhentian maksimum"
+  },
+  {
+    "jp": "モニタランプ",
+    "romaji": "monitaranpu",
+    "idn": "lampu monitor"
+  },
+  {
+    "jp": "ストローク",
+    "romaji": "sutorooku",
+    "idn": "langkah"
+  },
+  {
+    "jp": "ストローク長さ",
+    "romaji": "sutorooku nagasa",
+    "idn": "langkah slide"
+  },
+  {
+    "jp": "抜け",
+    "romaji": "nuke",
+    "idn": "melepaskan cetakan"
+  },
+  {
+    "jp": "掃除",
+    "romaji": "souji",
+    "idn": "membersihkan"
+  },
+  {
+    "jp": "けがく",
+    "romaji": "kegaku",
+    "idn": "menggores"
+  },
+  {
+    "jp": "後かたづけ",
+    "romaji": "atokataduke",
+    "idn": "menyusun kembali"
+  },
+  {
+    "jp": "プレス機械",
+    "romaji": "puresu kikai",
+    "idn": "mesin kempa"
+  },
+  {
+    "jp": "メートル",
+    "romaji": "meetoru",
+    "idn": "meter"
+  },
+  {
+    "jp": "マイクロメータ",
+    "romaji": "maikuromeeta",
+    "idn": "mikrometer"
+  },
+  {
+    "jp": "ミリメートル",
+    "romaji": "mirimeetoru",
+    "idn": "milimeter"
+  },
+  {
+    "jp": "油",
+    "romaji": "abura",
+    "idn": "minyak"
+  },
+  {
+    "jp": "モータ",
+    "romaji": "moota",
+    "idn": "motor"
+  },
+  {
+    "jp": "ナット",
+    "romaji": "natto",
+    "idn": "mur"
+  },
+  {
+    "jp": "作動",
+    "romaji": "sadou",
+    "idn": "operasi"
+  },
+  {
+    "jp": "自動化",
+    "romaji": "jidouka",
+    "idn": "otomatisasi"
+  },
+  {
+    "jp": "安全柵",
+    "romaji": "anzensaku",
+    "idn": "pagar pengaman"
+  },
+  {
+    "jp": "服装",
+    "romaji": "fukusou",
+    "idn": "pakaian"
+  },
+  {
+    "jp": "ハンマ",
+    "romaji": "hanma",
+    "idn": "palu"
+  },
+  {
+    "jp": "表示板",
+    "romaji": "hyoujiban",
+    "idn": "papan petunjuk"
+  },
+  {
+    "jp": "割れ",
+    "romaji": "ware",
+    "idn": "pecahan"
+  },
+  {
+    "jp": "フートペダル",
+    "romaji": "fuutopedaru",
+    "idn": "pedal kaki"
+  },
+  {
+    "jp": "アルミニウム板",
+    "romaji": "aruminiumu ban",
+    "idn": "pelat aluminium"
+  },
+  {
+    "jp": "高張力鋼板",
+    "romaji": "kouchouryoku kouhan",
+    "idn": "pelat baja mutu-tinggi"
+  },
+  {
+    "jp": "冷間圧延鋼板 (SPCC)",
+    "romaji": "reikan atsue kouhan (SPCC)",
+    "idn": "pelat baja pengerolan dingin (SPCC)"
+  },
+  {
+    "jp": "熱間圧延鋼板 (SPHC)",
+    "romaji": "netsukan atsue kouhan (SPHC)",
+    "idn": "pelat baja pengerolan panas (SPHC)"
+  },
+  {
+    "jp": "表面処理鋼板",
+    "romaji": "hyoumenshori kouhan",
+    "idn": "pelat baja perlakuan permukaan"
+  },
+  {
+    "jp": "けい素鋼板",
+    "romaji": "keiso kouhan",
+    "idn": "pelat baja silikon"
+  },
+  {
+    "jp": "パンチプレート",
+    "romaji": "panchpureeto",
+    "idn": "pelat penembus"
+  },
+  {
+    "jp": "銅板",
+    "romaji": "douban",
+    "idn": "pelat tembaga"
+  },
+  {
+    "jp": "位置決めプレート",
+    "romaji": "ichizime pureeto",
+    "idn": "pelat untuk menentukan posisi"
+  },
+  {
+    "jp": "取り外し",
+    "romaji": "torihazushi",
+    "idn": "pelepasan"
+  },
+  {
+    "jp": "取り付け",
+    "romaji": "toritsuke",
+    "idn": "pemasangan"
+  },
+  {
+    "jp": "停止",
+    "romaji": "teishi",
+    "idn": "pemberhentian"
+  },
+  {
+    "jp": "ダイホルダ",
+    "romaji": "dai horuda",
+    "idn": "pemegang cetakan"
+  },
+  {
+    "jp": "パンチホルダ",
+    "romaji": "panchi horuda",
+    "idn": "pemegang penembus"
+  },
+  {
+    "jp": "裁断",
+    "romaji": "saidan",
+    "idn": "pemotongan"
+  },
+  {
+    "jp": "ダウェルピン",
+    "romaji": "daweru pin",
+    "idn": "pena kayu"
+  },
+  {
+    "jp": "責任者",
+    "romaji": "sekininsha",
+    "idn": "penanggung-jawab"
+  },
+  {
+    "jp": "災害防止",
+    "romaji": "saigai boushi",
+    "idn": "pencegahan kecelakaan kerja"
+  },
+  {
+    "jp": "パンチ",
+    "romaji": "panchi",
+    "idn": "penembus"
+  },
+  {
+    "jp": "設定",
+    "romaji": "settei",
+    "idn": "penetapan"
+  },
+  {
+    "jp": "位置決め",
+    "romaji": "ichizime",
+    "idn": "penetapan posisi"
+  },
+  {
+    "jp": "板取り",
+    "romaji": "itadori",
+    "idn": "pengambilan pelat"
+  },
+  {
+    "jp": "塗装",
+    "romaji": "tosou",
+    "idn": "pengecatan"
+  },
+  {
+    "jp": "始業前点検",
+    "romaji": "shigyou mae tenken",
+    "idn": "pengecekan sebelum kerja"
+  },
+  {
+    "jp": "日常点検",
+    "romaji": "nichijou tenken",
+    "idn": "pengecekan sehari-hari"
+  },
+  {
+    "jp": "油量点検",
+    "romaji": "yuryou tenken",
+    "idn": "pengecekan volume minyak"
+  },
+  {
+    "jp": "加工硬化",
+    "romaji": "kakou kouka",
+    "idn": "pengerasan pengolahan"
+  },
+  {
+    "jp": "自動停止",
+    "romaji": "jidou teishi",
+    "idn": "penghentian otomatis"
+  },
+  {
+    "jp": "送給",
+    "romaji": "soukyuu",
+    "idn": "pengisian"
+  },
+  {
+    "jp": "曲げ加工",
+    "romaji": "mage kakou",
+    "idn": "pengolahan bengkok"
+  },
+  {
+    "jp": "ノーハンドインダイ加工",
+    "romaji": "noo hando in dai kakou",
+    "idn": "pengolahan cetakan dengan tangan (tanpa tangan masuk)"
+  },
+  {
+    "jp": "ハンドインダイ加工",
+    "romaji": "hando in dai kakou",
+    "idn": "pengolahan cetakan dengan tangan (tangan masuk)"
+  },
+  {
+    "jp": "切り落とし加工",
+    "romaji": "kiriotoshi kakou",
+    "idn": "pengolahan potong"
+  },
+  {
+    "jp": "圧縮加工",
+    "romaji": "asshuku kakou",
+    "idn": "pengolahan tekan"
+  },
+  {
+    "jp": "操作",
+    "romaji": "sousa",
+    "idn": "pengoperasian"
+  },
+  {
+    "jp": "寸動運転（インチング）",
+    "romaji": "sundou unten (inching)",
+    "idn": "pengoperasian (inching)"
+  },
+  {
+    "jp": "連続運転",
+    "romaji": "renzoku unten",
+    "idn": "pengoperasian kontinu"
+  },
+  {
+    "jp": "始動",
+    "romaji": "shidou",
+    "idn": "pengstarteran"
+  },
+  {
+    "jp": "ダイヤルゲージ",
+    "romaji": "daiyaru geeji",
+    "idn": "pengukur jarum"
+  },
+  {
+    "jp": "空気圧計",
+    "romaji": "kuukiatsukei",
+    "idn": "pengukur tekanan udara"
+  },
+  {
+    "jp": "ハイトゲージ",
+    "romaji": "haito geeji",
+    "idn": "pengukur tinggi"
+  },
+  {
+    "jp": "下降",
+    "romaji": "kakou",
+    "idn": "penurunan"
+  },
+  {
+    "jp": "締め付け",
+    "romaji": "shimetsuke",
+    "idn": "penyekerupan"
+  },
+  {
+    "jp": "絞り",
+    "romaji": "shibori",
+    "idn": "penyempitan luas"
+  },
+  {
+    "jp": "老化",
+    "romaji": "rouka",
+    "idn": "penyepuhan"
+  },
+  {
+    "jp": "調整",
+    "romaji": "chousei",
+    "idn": "penyetelan"
+  },
+  {
+    "jp": "耳栓",
+    "romaji": "mimisen",
+    "idn": "penyumbat telinga"
+  },
+  {
+    "jp": "保守",
+    "romaji": "hoshu",
+    "idn": "perawatan"
+  },
+  {
+    "jp": "修理",
+    "romaji": "shuuri",
+    "idn": "perbaikan"
+  },
+  {
+    "jp": "マグネット工具",
+    "romaji": "magunetto kougu",
+    "idn": "perkakas magnet"
+  },
+  {
+    "jp": "手工具",
+    "romaji": "shukougu",
+    "idn": "perkakas tangan"
+  },
+  {
+    "jp": "熱処理",
+    "romaji": "netsu shori",
+    "idn": "perlakuan panas"
+  },
+  {
+    "jp": "交換",
+    "romaji": "koukan",
+    "idn": "pertukaran"
+  },
+  {
+    "jp": "ベルトコンベア",
+    "romaji": "beruto konbea",
+    "idn": "pita transpor"
+  },
+  {
+    "jp": "シャフト",
+    "romaji": "shafuto",
+    "idn": "poros"
+  },
+  {
+    "jp": "作業姿勢",
+    "romaji": "sagyou shisei",
+    "idn": "posisi kerja"
+  },
+  {
+    "jp": "クランクプレス",
+    "romaji": "kuranku puresu",
+    "idn": "pres engkol"
+  },
+  {
+    "jp": "油圧式プレス",
+    "romaji": "yuatsushiki puresu",
+    "idn": "pres sistem hidrolik"
+  },
+  {
+    "jp": "機械式プレス",
+    "romaji": "kikaishiki puresu",
+    "idn": "pres sistem mekanik"
+  },
+  {
+    "jp": "密着",
+    "romaji": "micchaku",
+    "idn": "rapat melekat"
+  },
+  {
+    "jp": "歪み",
+    "romaji": "hizumi",
+    "idn": "regangan"
+  },
+  {
+    "jp": "ブレーキ",
+    "romaji": "bureeki",
+    "idn": "rem"
+  },
+  {
+    "jp": "ひび",
+    "romaji": "hibi",
+    "idn": "retakan"
+  },
+  {
+    "jp": "ロボット",
+    "romaji": "robotto",
+    "idn": "robot"
+  },
+  {
+    "jp": "フライホイール",
+    "romaji": "furai hoiiru",
+    "idn": "rodagaya"
+  },
+  {
+    "jp": "メインギヤ",
+    "romaji": "mein giya",
+    "idn": "rodagigi utama"
+  },
+  {
+    "jp": "クリアランス",
+    "romaji": "kuriaransu",
+    "idn": "ruang-rugi"
+  },
+  {
+    "jp": "操作切り替えスイッチ",
+    "romaji": "sousa kirikae suicchi",
+    "idn": "sakelar pilih operasi"
+  },
+  {
+    "jp": "安全装置スイッチ",
+    "romaji": "anzen souchi suicchi",
+    "idn": "sakelar untuk aparatus pengaman"
+  },
+  {
+    "jp": "供給装置（フィーダ）",
+    "romaji": "kyoukyuu souchi (fiida)",
+    "idn": "saluran pengisian (alat pegisian)"
+  },
+  {
+    "jp": "ウエス",
+    "romaji": "uesu",
+    "idn": "sampah, kain bekas"
+  },
+  {
+    "jp": "手袋",
+    "romaji": "tebukuro",
+    "idn": "sarung tangan"
+  },
+  {
+    "jp": "安全一工程",
+    "romaji": "anzen ichi koutei",
+    "idn": "satu proses keselamatan"
+  },
+  {
+    "jp": "コネクティングスクリュー",
+    "romaji": "konekutingu sukuryuu",
+    "idn": "sekerup hubung"
+  },
+  {
+    "jp": "センチメートル",
+    "romaji": "senchimeetoru",
+    "idn": "sentimeter"
+  },
+  {
+    "jp": "スケール",
+    "romaji": "sukeeru",
+    "idn": "skala"
+  },
+  {
+    "jp": "作業基準",
+    "romaji": "sagyou kijun",
+    "idn": "standar kerja"
+  },
+  {
+    "jp": "ストリッパ",
+    "romaji": "sutorippa",
+    "idn": "stripper"
+  },
+  {
+    "jp": "異常音",
+    "romaji": "ijouon",
+    "idn": "suara abnormal"
+  },
+  {
+    "jp": "騒音",
+    "romaji": "souon",
+    "idn": "suara bising"
+  },
+  {
+    "jp": "角度",
+    "romaji": "kakudo",
+    "idn": "sudut"
+  },
+  {
+    "jp": "クランク角度",
+    "romaji": "kuranku kakudo",
+    "idn": "sudut engkol"
+  },
+  {
+    "jp": "安全プラグ",
+    "romaji": "anzen puragu",
+    "idn": "sumbat pengaman"
+  },
+  {
+    "jp": "電源",
+    "romaji": "dengen",
+    "idn": "sumber tenaga listrik"
+  },
+  {
+    "jp": "プライヤ",
+    "romaji": "puraiya",
+    "idn": "tang pembengkok"
+  },
+  {
+    "jp": "ペンチ",
+    "romaji": "penchi",
+    "idn": "tang pemotong"
+  },
+  {
+    "jp": "シャンク",
+    "romaji": "shanku",
+    "idn": "tangkai"
+  },
+  {
+    "jp": "整理整頓",
+    "romaji": "seiri seiton",
+    "idn": "teratur"
+  },
+  {
+    "jp": "ガイドポスト",
+    "romaji": "gaido posuto",
+    "idn": "tiang-antar"
+  },
+  {
+    "jp": "無効",
+    "romaji": "mukou",
+    "idn": "tidak berlaku"
+  },
+  {
+    "jp": "ダイハイト",
+    "romaji": "dai haito",
+    "idn": "tingginya die"
+  },
+  {
+    "jp": "上死点",
+    "romaji": "joushiten",
+    "idn": "titik mati atas"
+  },
+  {
+    "jp": "下死点",
+    "romaji": "kashiten",
+    "idn": "titik mati bawah"
+  },
+  {
+    "jp": "非常停止ボタン",
+    "romaji": "hijou teishi botan",
+    "idn": "tombol penghentian darurat"
+  },
+  {
+    "jp": "モータ停止ボタン",
+    "romaji": "moota teishi botan",
+    "idn": "tombol penghentian motor"
+  },
+  {
+    "jp": "両手操作式押しボタン",
+    "romaji": "ryoute sousashiki oshibotan",
+    "idn": "tombol tekan dioperasikan kedua tangan"
+  },
+  {
+    "jp": "運転押しボタン",
+    "romaji": "unten oshibotan",
+    "idn": "tombol tekan operasi"
+  },
+  {
+    "jp": "ペンダント操作盤",
+    "romaji": "pendanto sousaban",
+    "idn": "tombol tekan senur gantungan"
+  },
+  {
+    "jp": "モータ起動ボタン",
+    "romaji": "moota kidou botan",
+    "idn": "tombol-penjalan motor"
+  },
+  {
+    "jp": "寸法",
+    "romaji": "sunpou",
+    "idn": "ukuran"
+  },
+  {
+    "jp": "アンコイラ",
+    "romaji": "ankoira",
+    "idn": "alat melepas gulungan"
+  },
+  {
+    "jp": "安全囲い",
+    "romaji": "anzen kakoi",
+    "idn": "kurungan pengaman"
+  },
+  {
+    "jp": "安全柵",
+    "romaji": "anzen saku",
+    "idn": "pagar pengaman"
+  },
+  {
+    "jp": "アルミニウム板",
+    "romaji": "aruminiumuban",
+    "idn": "pelat aluminium"
+  },
+  {
+    "jp": "ベルトコンベア",
+    "romaji": "berutokonbea",
+    "idn": "pita transpor"
+  },
+  {
+    "jp": "ボルスタ",
+    "romaji": "borusuta",
+    "idn": "bantalan"
+  },
+  {
+    "jp": "ダイハイト",
+    "romaji": "daihaito",
+    "idn": "tingginya die"
+  },
+  {
+    "jp": "ダイホルダ",
+    "romaji": "daihoruda",
+    "idn": "pemegang cetakan"
+  },
+  {
+    "jp": "ダイクッション",
+    "romaji": "daikusshon",
+    "idn": "bantalan cetakan"
+  },
+  {
+    "jp": "ダイヤルゲージ",
+    "romaji": "daiyarugeeji",
+    "idn": "pengukur jarum"
+  },
+  {
+    "jp": "ダウェルピン",
+    "romaji": "dawerupin",
+    "idn": "pena kayu"
+  },
+  {
+    "jp": "ガード式安全装置",
+    "romaji": "gaadoshiki anzensouchi",
+    "idn": "aparat pengaman sistem penjagaan"
+  },
+  {
+    "jp": "ガイドポスト",
+    "romaji": "gaidoposuto",
+    "idn": "tiang-antar"
+  },
+  {
+    "jp": "ハイトゲージ",
+    "romaji": "haitogeeji",
+    "idn": "pengukur tinggi"
+  },
+  {
+    "jp": "ハンドインダイ加工",
+    "romaji": "handoindaikakou",
+    "idn": "pengolahan cetakan dengan tangan"
+  },
+  {
+    "jp": "保護具（安全具）",
+    "romaji": "hogogu (anzengu)",
+    "idn": "alat pelindung (alat pengaman)"
+  },
+  {
+    "jp": "フライホイール",
+    "romaji": "furaihoiiru",
+    "idn": "rodagaya"
+  },
+  {
+    "jp": "過負荷安全装置",
+    "romaji": "kafuka anzen souchi",
+    "idn": "aparat pengaman beban lebih"
+  },
+  {
+    "jp": "荷重",
+    "romaji": "kajyuu",
+    "idn": "beban"
+  },
+  {
+    "jp": "危険限界",
+    "romaji": "kigen genkai",
+    "idn": "batas bahaya"
+  },
+  {
+    "jp": "コンロッド",
+    "romaji": "konroddo",
+    "idn": "batang hubung"
+  },
+  {
+    "jp": "光線式安全装置",
+    "romaji": "kousenshiki anzen souchi",
+    "idn": "aparat pengaman sistem sinar"
+  },
+  {
+    "jp": "駆動軸",
+    "romaji": "kudoujiku",
+    "idn": "aksel poros"
+  },
+  {
+    "jp": "クラッチ",
+    "romaji": "kuracchi",
+    "idn": "kopeling"
+  },
+  {
+    "jp": "曲げ加工",
+    "romaji": "magekakou",
+    "idn": "pengolahan bengkok"
+  },
+  {
+    "jp": "摩擦",
+    "romaji": "mamou",
+    "idn": "abrasi"
+  },
+  {
+    "jp": "ノックアウト装置",
+    "romaji": "nokkuauto souchi",
+    "idn": "aparat untuk memukul sampai lepas"
+  },
+  {
+    "jp": "送り装置",
+    "romaji": "okuri souchi",
+    "idn": "aparat pengisian"
+  },
+  {
+    "jp": "パンチプレート",
+    "romaji": "panchi pureeto",
+    "idn": "pelat penembus"
+  },
+  {
+    "jp": "プレス作業主任者",
+    "romaji": "puresu sagyou shuuninsha",
+    "idn": "ahli teknik pekerjaan pres"
+  },
+  {
+    "jp": "ロールフィーダ",
+    "romaji": "rooru fiida",
+    "idn": "alat pengisian rol"
+  },
+  {
+    "jp": "両手操作式安全装置",
+    "romaji": "ryoute sousashiki anzen souchi",
+    "idn": "alat pengaman operasi kedua tangan"
+  },
+  {
+    "jp": "塑性加工",
+    "romaji": "soseikakou",
+    "idn": "cetakan plastik"
+  },
+  {
+    "jp": "操作切り替えスイッチ",
+    "romaji": "sousakirikaesuicchi",
+    "idn": "sakelar pilih operasi"
+  },
+  {
+    "jp": "寸動運転（インチング）",
+    "romaji": "sundouunten (inchingu)",
+    "idn": "pengoperasian (inching)"
+  },
+  {
+    "jp": "ステンレス鋼板",
+    "romaji": "sutenrensukouhan",
+    "idn": "baja tahan karat"
+  },
+  {
+    "jp": "ストローク長さ",
+    "romaji": "sutorookunagasa",
+    "idn": "langkah slide"
+  },
+  {
+    "jp": "ストローク数",
+    "romaji": "sutorookusuu",
+    "idn": "banyaknya langkah per menit"
+  },
+  {
+    "jp": "ストローク数調整つまみ",
+    "romaji": "sutorookusuuchouseitsumami",
+    "idn": "knop pengatur langkah"
+  },
+  {
+    "jp": "トランスファーフィーダ",
+    "romaji": "toransufaa fiida",
+    "idn": "alat pengisian transfer"
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  },
+  {
+    "jp": "",
+    "romaji": "",
+    "idn": ""
+  }
+]
   ]
