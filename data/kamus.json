@@ -152,7 +152,7 @@
   {
     "jp": "オーバーラップ",
     "romaji": "oobaarappu",
-    "idn": "berimpitan"
+    "idn": "overlap"
   },
   {
     "jp": "鋳鉄",
@@ -197,7 +197,7 @@
   {
     "jp": "ビードの重ね方",
     "romaji": "biido no kasanekata",
-    "idn": "cara sambung manik"
+    "idn": "cara sambung bead"
   },
   {
     "jp": "コンタクトチップ",
@@ -217,7 +217,7 @@
   {
     "jp": "バルブハンドル",
     "romaji": "barubu handoru",
-    "idn": "gagang katup"
+    "idn": "gagang katup/valve handle"
   },
   {
     "jp": "電流調整ハンドル",
@@ -282,7 +282,7 @@
   {
     "jp": "ブローホール",
     "romaji": "buroo hooru",
-    "idn": "gelembung buih"
+    "idn": "blowhole"
   },
   {
     "jp": "波形",
@@ -477,7 +477,7 @@
   {
     "jp": "トーチヘッド",
     "romaji": "toochi heddo",
-    "idn": "kepala obor"
+    "idn": "torch head"
   },
   {
     "jp": "中毒",
@@ -512,7 +512,7 @@
   {
     "jp": "ビード幅",
     "romaji": "biido haba",
-    "idn": "lebar manik"
+    "idn": "lebar bead"
   },
   {
     "jp": "爆発",
@@ -521,8 +521,8 @@
   },
   {
     "jp": "脚長",
-    "romaji": "kyachou",
-    "idn": "leg"
+    "romaji": "kyakuchou",
+    "idn": "bead"
   },
   {
     "jp": "母材",
@@ -542,17 +542,17 @@
   {
     "jp": "裏波ビード",
     "romaji": "uranami biido",
-    "idn": "manik-balik"
+    "idn": "bead-balik"
   },
   {
     "jp": "ビード外観",
     "romaji": "biido gaikan",
-    "idn": "manik-las luar"
+    "idn": "bead-las luar"
   },
   {
     "jp": "ウィービングビード",
     "romaji": "wiibingu biido",
-    "idn": "manik manipulasi elektroda"
+    "idn": "weaving bead"
   },
   {
     "jp": "ストリンガビード",
@@ -597,7 +597,7 @@
   {
     "jp": "ブラッシング法",
     "romaji": "burasshingu hou",
-    "idn": "metode menyikat"
+    "idn": "metode brushing"
   },
   {
     "jp": "タッピング法",
@@ -677,7 +677,7 @@
   {
     "jp": "ハンドシールド",
     "romaji": "handoshiirudo",
-    "idn": "pelindung kemudi"
+    "idn": "hand shield"
   },
   {
     "jp": "腕カバー",
@@ -717,7 +717,7 @@
   {
     "jp": "アンダーカット",
     "romaji": "andaakatto",
-    "idn": "pemotongan bawah"
+    "idn": "undercut"
   },
   {
     "jp": "ガス切断",
@@ -737,12 +737,12 @@
   {
     "jp": "確認",
     "romaji": "kakunin",
-    "idn": "penegasan"
+    "idn": "penegasan/konfirmasi/cek"
   },
   {
     "jp": "カラーチェック",
     "romaji": "karaa chekku",
-    "idn": "pengecekan warna"
+    "idn": "pengecekan warna/colour check"
   },
   {
     "jp": "半自動アーク溶接",
@@ -757,7 +757,7 @@
   {
     "jp": "ティグ溶接",
     "romaji": "tigu yousetsu",
-    "idn": "pengelasan busur wolfram"
+    "idn": "pengelasan busur wolfram/las TIG"
   },
   {
     "jp": "水平スミ肉溶接",
@@ -772,7 +772,7 @@
   {
     "jp": "開先加工",
     "romaji": "kaisaki kakou",
-    "idn": "pengerjaan pinggir"
+    "idn": "pengerjaan chamfer"
   },
   {
     "jp": "スラグ巻き込み",
@@ -787,7 +787,7 @@
   {
     "jp": "すきまゲージ",
     "romaji": "sukima geeji",
-    "idn": "pengukur celah"
+    "idn": "pengukur celah/gap gauge"
   },
   {
     "jp": "引火",
@@ -847,12 +847,12 @@
   {
     "jp": "縞鋼板 (チェッカープレート)",
     "romaji": "shimakouhan (chekkaapureeto)",
-    "idn": "plat baja barik"
+    "idn": "checker plate"
   },
   {
     "jp": "ビード置き",
     "romaji": "biidooki",
-    "idn": "posisi manik"
+    "idn": "posisi bead"
   },
   {
     "jp": "ねらい位置",
@@ -877,7 +877,7 @@
   {
     "jp": "ビード割れ",
     "romaji": "biido ware",
-    "idn": "retak urat-las"
+    "idn": "retak urat-las/crack"
   },
   {
     "jp": "電源スイッチ",
@@ -902,7 +902,7 @@
   {
     "jp": "安全靴",
     "romaji": "anzen-gutsu",
-    "idn": "sepatu pengaman"
+    "idn": "sepatu safety"
   },
   {
     "jp": "ワイヤブラシ",
@@ -927,7 +927,7 @@
   {
     "jp": "バリ",
     "romaji": "bari",
-    "idn": "sirip"
+    "idn": "sirip/burry"
   },
   {
     "jp": "アセチレン用ゴムホース (赤)",
@@ -1012,7 +1012,7 @@
   {
     "jp": "漏れ試験",
     "romaji": "more shiken",
-    "idn": "uji kebocoran"
+    "idn": "uji kebocoran/leaktest"
   },
   {
     "jp": "硬さ試験",
@@ -1057,12 +1057,12 @@
   {
     "jp": "ビード置き",
     "romaji": "biido oki",
-    "idn": "posisi manik"
+    "idn": "posisi bead"
   },
   {
     "jp": "ビード継ぎ",
     "romaji": "biido tsugi",
-    "idn": "penyambungan manik"
+    "idn": "penyambungan bead"
   },
   {
     "jp": "電流計 (クランプメータ)",
@@ -1137,7 +1137,7 @@
   {
     "jp": "ふらっくす",
     "romaji": "furakkusu",
-    "idn": "bahan pelumer"
+    "idn": "bahan pelumer/flux"
   },
   {
     "jp": "ひょうじゅんえん",
