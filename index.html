@@ -6,14 +6,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+/* =====================
+   THEME VARIABLES
+===================== */
 :root{
-  --bg:#f4f5f7;
+  --bg:#f1f5f9;
+  --bg-soft:#e2e8f0;
   --card:#ffffff;
-  --primary:#111827;
+  --card-border:#dbeafe;
+  --text:#0f172a;
+  --muted:#475569;
   --accent:#2563eb;
-  --muted:#6b7280;
-  --border:#e5e7eb;
+  --accent-soft:#dbeafe;
   --highlight:#fde68a;
+}
+
+body.dark{
+  --bg:#0f172a;
+  --bg-soft:#020617;
+  --card:#020617;
+  --card-border:#1e293b;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+  --accent:#38bdf8;
+  --accent-soft:#0c4a6e;
+  --highlight:#facc15;
 }
 
 *{box-sizing:border-box}
@@ -21,17 +38,19 @@
 body{
   margin:0;
   font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-  background:var(--bg);
-  color:var(--primary);
+  background:linear-gradient(180deg,var(--bg),var(--bg-soft));
+  color:var(--text);
 }
 
+/* =====================
+   LAYOUT
+===================== */
 .container{
-  max-width:820px;
+  max-width:860px;
   margin:auto;
   padding:24px 16px 40px;
 }
 
-/* ===== HEADER ===== */
 header{
   text-align:center;
   margin-bottom:24px;
@@ -39,7 +58,7 @@ header{
 
 header h1{
   margin:0;
-  font-size:28px;
+  font-size:30px;
   font-weight:800;
 }
 
@@ -49,12 +68,16 @@ header p{
   font-size:14px;
 }
 
-/* ===== SEARCH ===== */
+/* =====================
+   SEARCH
+===================== */
 #search{
   width:100%;
   padding:14px 18px;
-  border-radius:14px;
-  border:1px solid var(--border);
+  border-radius:16px;
+  border:1px solid var(--card-border);
+  background:var(--card);
+  color:var(--text);
   font-size:16px;
   outline:none;
   margin-bottom:14px;
@@ -64,21 +87,23 @@ header p{
   border-color:var(--accent);
 }
 
-/* ===== CONTROLS ===== */
+/* =====================
+   CONTROLS
+===================== */
 .controls{
   display:flex;
-  gap:8px;
+  gap:10px;
   flex-wrap:wrap;
   justify-content:center;
-  margin-bottom:18px;
+  margin-bottom:22px;
 }
 
 button{
-  padding:8px 16px;
+  padding:8px 18px;
   border-radius:999px;
-  border:1px solid var(--border);
-  background:#fff;
-  color:#111;
+  border:1px solid var(--card-border);
+  background:var(--card);
+  color:var(--text);
   font-weight:600;
   cursor:pointer;
 }
@@ -89,13 +114,24 @@ button.active{
   border-color:var(--accent);
 }
 
-/* ===== CARD ===== */
+.toggle{
+  margin-left:auto;
+}
+
+/* =====================
+   CARD
+===================== */
 .card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:14px;
-  padding:16px;
-  margin-bottom:12px;
+  background:linear-gradient(
+    135deg,
+    var(--card),
+    var(--accent-soft)
+  );
+  border:1px solid var(--card-border);
+  border-radius:18px;
+  padding:18px 20px;
+  margin-bottom:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
 .jp{
@@ -106,23 +142,29 @@ button.active{
 .romaji{
   font-size:13px;
   color:var(--muted);
-  margin-top:2px;
+  margin-top:4px;
 }
 
 .idn{
-  margin-top:8px;
+  margin-top:10px;
   font-size:15px;
 }
 
+/* =====================
+   HIGHLIGHT
+===================== */
 mark{
   background:var(--highlight);
-  padding:0 2px;
+  padding:0 3px;
+  border-radius:4px;
 }
 
-/* ===== FOOTER ===== */
+/* =====================
+   FOOTER
+===================== */
 footer{
   text-align:center;
-  margin-top:32px;
+  margin-top:36px;
   font-size:13px;
   color:var(--muted);
 }
@@ -142,6 +184,7 @@ footer{
 <div class="controls">
   <button id="sortAZ" class="active">A–Z</button>
   <button id="sortJP">JP</button>
+  <button id="toggleDark" class="toggle">🌙</button>
 </div>
 
 <div id="list"></div>
@@ -154,19 +197,19 @@ footer{
 let kamus = [];
 let currentSort = 'az';
 
-/* ===== FETCH DATA ===== */
+/* ===== FETCH ===== */
 fetch('data/kamus.json')
   .then(r => r.json())
   .then(data => {
     kamus = data;
     render();
   })
-  .catch(() => {
+  .catch(()=>{
     document.getElementById('list').innerHTML =
       '<p style="text-align:center;color:#999">Gagal memuat data</p>';
   });
 
-/* ===== SORTING ===== */
+/* ===== SORT ===== */
 function sortData(data){
   if(currentSort === 'jp'){
     return [...data].sort((a,b)=>a.jp.localeCompare(b.jp,'ja'));
@@ -175,9 +218,9 @@ function sortData(data){
 }
 
 /* ===== HIGHLIGHT ===== */
-function highlight(text, keyword){
-  if(!keyword) return text;
-  const reg = new RegExp(`(${keyword})`,'gi');
+function highlight(text,q){
+  if(!q) return text;
+  const reg = new RegExp(`(${q})`,'gi');
   return text.replace(reg,'<mark>$1</mark>');
 }
 
@@ -195,8 +238,8 @@ function render(){
   hasil = sortData(hasil);
   list.innerHTML = '';
 
-  if(hasil.length === 0){
-    list.innerHTML = '<p style="text-align:center;color:#999">Data tidak ditemukan</p>';
+  if(!hasil.length){
+    list.innerHTML='<p style="text-align:center;color:#999">Data tidak ditemukan</p>';
     return;
   }
 
@@ -214,16 +257,20 @@ function render(){
 /* ===== EVENTS ===== */
 document.getElementById('search').addEventListener('input',render);
 
-document.getElementById('sortAZ').onclick = ()=>{
+document.getElementById('sortAZ').onclick=()=>{
   currentSort='az';
   setActive('sortAZ');
   render();
 };
 
-document.getElementById('sortJP').onclick = ()=>{
+document.getElementById('sortJP').onclick=()=>{
   currentSort='jp';
   setActive('sortJP');
   render();
+};
+
+document.getElementById('toggleDark').onclick=()=>{
+  document.body.classList.toggle('dark');
 };
 
 function setActive(id){
